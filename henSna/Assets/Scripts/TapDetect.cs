@@ -15,6 +15,8 @@ public class TapDetect : MonoBehaviour {
 	int downID;
 	int upID;
 
+	public bool upAndDown;
+
 
 	// Use this for initialization
 	void Start () {
@@ -22,8 +24,11 @@ public class TapDetect : MonoBehaviour {
 		isUpTouch = false;
 		downMove = Vector2.zero;
 		upMove = Vector2.zero;
+
+		upAndDown = true;
 	}
-	
+
+
 	// Update is called once per frame
 	void Update () {
 
@@ -31,11 +36,13 @@ public class TapDetect : MonoBehaviour {
 			foreach(Touch touch in Input.touches){
 				switch(touch.phase){
 				case TouchPhase.Began:
-					if(!isDownTouch && touch.position.y <= Screen.height/2){
+					if(!isDownTouch && !IsInUpperArea(touch.position)){
+					//if(!isDownTouch && touch.position.y <= Screen.height / 2){
 						isDownTouch = true;
 						downStartPos = touch.position;
 						downID = touch.fingerId;
-					}else if(!isUpTouch && touch.position.y > Screen.height/2){
+					}else if(!isUpTouch && IsInUpperArea(touch.position)){
+					//}else if(!isUpTouch && touch.position.y > Screen.height / 2){
 						isUpTouch = true;
 						upStartPos = touch.position;
 						upID = touch.fingerId;
@@ -58,17 +65,13 @@ public class TapDetect : MonoBehaviour {
 					}
 					break;
 				case TouchPhase.Canceled:
-					break;
-					if (isDownTouch && touch.fingerId==downID){
 						downMove = Vector2.zero;
 						isDownTouch = false;
 						downID = -1;
-					}
-					else if (isUpTouch && touch.fingerId==upID){
 						upMove = Vector2.zero;
 						isUpTouch = false;
 						upID = -1;
-					}
+					break;
 				}
 			}
 		}
@@ -76,8 +79,14 @@ public class TapDetect : MonoBehaviour {
 	}
 
 
+	//return TRUE if tap_position is UP or RIGHT
+	bool IsInUpperArea(Vector2 _pos){
+		if (upAndDown)	return _pos.y > Screen.height / 2;
+		else			return _pos.x > Screen.width / 2;
+	}
 
-	//Get drag movement in upper area
+
+	//Get drag movement in UPPER or RIGHT area
 	public Vector2 UpDrag(){
 		float resx = upMove.x/(Screen.height/2);
 		if (Mathf.Abs (resx) > 1)
@@ -88,7 +97,8 @@ public class TapDetect : MonoBehaviour {
 		return new Vector2(resx,resy);
 	}
 
-	//Get drag movement in lower area
+
+	//Get drag movement in LOWER or LEFT area
 	public Vector2 DownDrag(){
 		float resx = downMove.x/(Screen.height/2);
 		if (Mathf.Abs (resx) > 1)

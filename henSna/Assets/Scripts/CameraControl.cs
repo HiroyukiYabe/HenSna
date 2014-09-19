@@ -4,11 +4,12 @@
 using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(CharacterController))]
 public class CameraControl : MonoBehaviour {
 
 	public float MoveSpeed = 5.0f;
-	public float RotSpeed = 20.0f;
-	public float LimitRotX = 60.0f;
+	public float RotSpeed = 50.0f;
+	public float LimitRotX = 70.0f;
 	TapDetect tapDetect;
 	CharacterController charCon;
 	//GameObject player;
@@ -28,7 +29,8 @@ public class CameraControl : MonoBehaviour {
 		//スワイプ量を元に前後左右に移動
 		Vector3 nowForward = new Vector3(transform.forward.x,0,transform.forward.z).normalized;
 		Vector3 nowRight = new Vector3(transform.right.x,0,transform.right.z).normalized;
-		charCon.Move( (nowRight*move.x + nowForward*move.y) * MoveSpeed*Time.deltaTime);
+		Vector3 _move = (nowRight * move.x + nowForward * move.y) * MoveSpeed * Time.deltaTime + Physics.gravity * Time.deltaTime;
+		charCon.Move(_move);
 
 		//スワイプ量を元に回転
 		float _rotX = transform.eulerAngles.x - rot.y * RotSpeed *Time.deltaTime;
