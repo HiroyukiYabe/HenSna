@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: UIButton Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 1fdde88f4714d4aa2939b17c1c4ec58a, type: 2}
+  sprites:
+  - name: soundButton
+    outer:
+      serializedVersion: 2
+      x: 234
+      y: 67
+      width: 64
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 234
+      y: 67
+      width: 64
+      height: 63
+    rotated: 0
+    paddingLeft: .28125
+    paddingRight: .28125
+    paddingTop: .285714298
+    paddingBottom: .301587313
+  - name: settingButton2
+    outer:
+      serializedVersion: 2
+      x: 234
+      y: 3
+      width: 64
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 234
+      y: 3
+      width: 64
+      height: 63
+    rotated: 0
+    paddingLeft: .28125
+    paddingRight: .28125
+    paddingTop: .285714298
+    paddingBottom: .301587313
+  - name: selectCollectionButton
+    outer:
+      serializedVersion: 2
+      x: 299
+      y: 67
+      width: 64
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 299
+      y: 67
+      width: 64
+      height: 63
+    rotated: 0
+    paddingLeft: .28125
+    paddingRight: .28125
+    paddingTop: .285714298
+    paddingBottom: .301587313
+  - name: doctor
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 34
+      width: 233
+      height: 222
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 34
+      width: 233
+      height: 222
+    rotated: 0
+    paddingLeft: .0171673819
+    paddingRight: .0128755365
+    paddingTop: .0810810775
+    paddingBottom: 0
+  - name: itemButton
+    outer:
+      serializedVersion: 2
+      x: 299
+      y: 3
+      width: 64
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 299
+      y: 3
+      width: 64
+      height: 63
+    rotated: 0
+    paddingLeft: .28125
+    paddingRight: .28125
+    paddingTop: .285714298
+    paddingBottom: .301587313
+  - name: selectDungeonButton 1
+    outer:
+      serializedVersion: 2
+      x: 364
+      y: 67
+      width: 64
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 364
+      y: 67
+      width: 64
+      height: 63
+    rotated: 0
+    paddingLeft: .28125
+    paddingRight: .28125
+    paddingTop: .285714298
+    paddingBottom: .301587313
+  - name: hukidashi
+    outer:
+      serializedVersion: 2
+      x: 234
+      y: 131
+      width: 254
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 234
+      y: 131
+      width: 254
+      height: 125
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coin
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 97
+      width: 32
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 97
+      width: 32
+      height: 33
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: plusButton
+    outer:
+      serializedVersion: 2
+      x: 364
+      y: 3
+      width: 64
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 364
+      y: 3
+      width: 64
+      height: 63
+    rotated: 0
+    paddingLeft: .28125
+    paddingRight: .28125
+    paddingTop: .285714298
+    paddingBottom: .301587313
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

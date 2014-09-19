@@ -140,7 +140,7 @@ public class UIRoot : MonoBehaviour
 	void Start ()
 	{
 		UIOrthoCamera oc = GetComponentInChildren<UIOrthoCamera>();
-
+		Camera.main.backgroundColor = new Color(1.0f, 1.0f, 1.0f, 1.0f);
 		if (oc != null)
 		{
 			Debug.LogWarning("UIRoot should not be active at the same time as UIOrthoCamera. Disabling UIOrthoCamera.", oc);
