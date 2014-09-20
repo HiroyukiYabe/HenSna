@@ -5494,8 +5494,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2ce0979729774ef885bec3d51b0b848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ThisScore: 1000
   OffSet: .850000024
+  ThisScore: 1000
+  Near: 3
+  Far: 10
 --- !u!1001 &178468950
 Prefab:
   m_ObjectHideFlags: 0
@@ -14826,8 +14828,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2ce0979729774ef885bec3d51b0b848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ThisScore: 1000
   OffSet: .850000024
+  ThisScore: 1000
+  Near: 3
+  Far: 10
 --- !u!1 &406744504
 GameObject:
   m_ObjectHideFlags: 0
@@ -26393,8 +26397,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2ce0979729774ef885bec3d51b0b848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ThisScore: 1000
   OffSet: .850000024
+  ThisScore: 1000
+  Near: 3
+  Far: 10
 --- !u!1 &756099140
 GameObject:
   m_ObjectHideFlags: 0
@@ -37158,8 +37164,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2ce0979729774ef885bec3d51b0b848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ThisScore: 1000
   OffSet: .850000024
+  ThisScore: 1000
+  Near: 3
+  Far: 10
 --- !u!1 &1064414558
 GameObject:
   m_ObjectHideFlags: 0
@@ -43088,8 +43096,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2ce0979729774ef885bec3d51b0b848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ThisScore: 1000
   OffSet: .850000024
+  ThisScore: 1000
+  Near: 3
+  Far: 10
 --- !u!1001 &1279214951
 Prefab:
   m_ObjectHideFlags: 0

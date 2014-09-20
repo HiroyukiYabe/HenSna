@@ -158,7 +158,7 @@ public class CharacterScore : MonoBehaviour {
 				else
 						magDis = 0.1f;
 		//切り上げ処理
-		_score = Mathf.CeilToInt(_score  * magDis);
+		_score = Mathf.CeilToInt(_score * magDir * magPos * magDis);
 		return _score;
 	}
 
