@@ -1,8 +1,9 @@
 fileFormatVersion: 2
-guid: c694d164814774e93affe435cab3dd89
+guid: e9f3425a0152b4b6d920deb2d9150b2e
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ssl
+    21300000: filmParameterImage2
+    21300002: filmParameterBase
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -18,7 +19,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: .25
     normalMapFilter: 0
-  isReadable: 1
+  isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
