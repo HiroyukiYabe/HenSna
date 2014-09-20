@@ -13,6 +13,8 @@ public class CharacterScore : MonoBehaviour {
 	Score _score;
 	//Transform player;
 	public int ThisScore;
+	public string status;
+	public string name;
 	
 
 	// Use this for initialization
@@ -40,15 +42,35 @@ public class CharacterScore : MonoBehaviour {
 			doubleTap = true;
 		}
 
-		if (doubleTap)	PictureCheck();
+		if (doubleTap) {	
+			if(IsInScreen ()){
+				_score.score+=CalculateScore();
+			}
+		}
 	}
 
 
-	void PictureCheck(){
+	bool IsInScreen(){
+		status = "Taped";
+		name = "";
 		Vector3 pos = Camera.main.WorldToViewportPoint (transform.position);
-		if (pos.x >= 0 && pos.x <= 1 && pos.y >= 0 && pos.y <= 1 && pos.z>=0) {
-			_score.score+=ThisScore;
+		if (pos.x >= 0 && pos.x <= 1 && pos.y >= 0 && pos.y <= 1 && pos.z >= 0) {
+			status = "In Screen";
+			Ray ray = Camera.main.ScreenPointToRay(Camera.main.WorldToScreenPoint(transform.position));
+			RaycastHit hit = new RaycastHit();
+			Physics.Raycast(ray, out hit);
+			name=hit.collider.gameObject.name;
+			if(hit.collider.gameObject==this.gameObject){
+				status = "Visible";
+				return true;
+			}
 		}
+		return false;
+	}
+
+
+	int CalculateScore(){
+		return ThisScore;
 	}
 
 
