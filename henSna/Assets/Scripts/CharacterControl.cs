@@ -1,13 +1,29 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent (typeof (CharacterController))] 
 public class CharacterControl : MonoBehaviour {
 
 	Animator anim;
+	CharacterController CC;
+
+	float speed = 5f;
+	float gravity = 9.8f;
+	Vector3 moveDirection;
 	
+	float maxRotSpeed = 200.0f;
+	float minTime = 0.1f;
+	float range = 2.0f;
+	float velocity = 0.0f;
+	
+	// 新しい変数をここに
+	public Transform[] _waypoint;
+	int index;
+
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
+		CC = GetComponent<CharacterController> ();
 	}
 	
 	// Update is called once per frame
@@ -47,8 +63,30 @@ public class CharacterControl : MonoBehaviour {
 
 
 
+			if((transform.position-_waypoint[index].position).sqrMagnitude >range){
+				Move(_waypoint[index]);
+				//animation.CrossFade("walk");
+			}else NextIndex(); 
+		}
 
-	}
+
+		void Move(Transform target){
+			moveDirection = transform.forward;
+			moveDirection *= speed;
+			moveDirection.y -= gravity * Time.deltaTime;
+			CC.Move(moveDirection * Time.deltaTime);
+			var newRotation = Quaternion.LookRotation(target.position - transform.position).eulerAngles;
+			var angles = transform.rotation.eulerAngles;
+			transform.rotation = Quaternion.Euler(angles.x, 
+			                                       Mathf.SmoothDampAngle(angles.y, newRotation.y,ref velocity , minTime, maxRotSpeed), angles.z);
+		}
+		//NextIndex は単にindexを増分させ配列の範囲外では0をセット
+		void NextIndex(){
+			if(++index == _waypoint.Length) index = 0;
+		}
+
+
+	
 
 
 }
