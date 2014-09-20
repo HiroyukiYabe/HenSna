@@ -11,7 +11,7 @@ public class CharacterScore : MonoBehaviour {
 
 	TakePicture pic;
 	Score _score;
-	Transform player;
+	//Transform player;
 	public int ThisScore;
 	
 
@@ -19,7 +19,7 @@ public class CharacterScore : MonoBehaviour {
 	void Start () {
 		pic = GameObject.FindWithTag ("GameController").GetComponent<TakePicture> ();
 		_score = GameObject.FindWithTag ("GameController").GetComponent<Score> ();
-		player = GameObject.FindWithTag ("MainCamera").transform;
+		//player = GameObject.FindWithTag ("Player").transform;
 	}
 
 

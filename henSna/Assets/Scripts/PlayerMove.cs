@@ -1,11 +1,11 @@
 ﻿//スワイプ量を取得し、カメラを移動・回転
-
+//Attach to Player
 
 using UnityEngine;
 using System.Collections;
 
 [RequireComponent(typeof(CharacterController))]
-public class CameraMove : MonoBehaviour {
+public class PlayerMove : MonoBehaviour {
 
 	public float MoveSpeed = 5.0f;
 	public float RotSpeed = 50.0f;
