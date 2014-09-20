@@ -1576,7 +1576,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2ce0979729774ef885bec3d51b0b848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ThisScore: 100
+  ThisScore: 1000
+  OffSet: .850000024
 --- !u!119 &11900000
 Projector:
   m_ObjectHideFlags: 1
