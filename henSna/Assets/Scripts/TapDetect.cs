@@ -1,4 +1,5 @@
-﻿// タップ位置、スワイプ量を取得
+﻿// タップ位置、スワイプ量を取得 
+//Attach to GameController
 
 
 using UnityEngine;

@@ -1,4 +1,5 @@
-﻿//ナビメッシュを利用したキャラクタ移動
+﻿//ナビメッシュを利用したキャラクタ移動 
+//Attach to Character
 
 
 using UnityEngine;

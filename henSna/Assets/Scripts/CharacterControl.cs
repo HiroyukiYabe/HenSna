@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿//単純なキャラクタ移動
+//Attach to Character
+
+
+using UnityEngine;
 using System.Collections;
 
 [RequireComponent (typeof (CharacterController))] 

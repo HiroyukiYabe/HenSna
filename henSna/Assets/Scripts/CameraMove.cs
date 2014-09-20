@@ -5,7 +5,7 @@ using UnityEngine;
 using System.Collections;
 
 [RequireComponent(typeof(CharacterController))]
-public class CameraControl : MonoBehaviour {
+public class CameraMove : MonoBehaviour {
 
 	public float MoveSpeed = 5.0f;
 	public float RotSpeed = 50.0f;
@@ -16,7 +16,7 @@ public class CameraControl : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		tapDetect = GameObject.Find ("GameController").GetComponent<TapDetect> ();
+		tapDetect = GameObject.FindWithTag ("GameController").GetComponent<TapDetect> ();
 		charCon = GetComponent<CharacterController>();
 		//player = transform.parent.gameObject;
 	}

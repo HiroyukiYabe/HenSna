@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿ 
+ //Attach to GameController
+
+
+using UnityEngine;
 using System.Collections;
 
 public class Spawner : MonoBehaviour {
