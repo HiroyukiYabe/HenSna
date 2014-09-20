@@ -1,0 +1,440 @@
+fileFormatVersion: 2
+guid: d132401b0ea3d1d4a87099487ed4db87
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: street-006
+    100002: street-008
+    100004: street-009
+    100006: street-010
+    100008: street-013
+    100010: street-014
+    100012: street-015
+    100014: street-016
+    100016: street-017
+    100018: street-018
+    100020: street-019
+    100022: street-020
+    100024: street-021
+    100026: street-022
+    100028: street-023
+    100030: street-024
+    100032: street-027
+    100034: street-028
+    100036: street-029
+    100038: street-030
+    100040: street-032
+    100042: street-033
+    100044: street-035
+    100046: street-036
+    100048: street-038
+    100050: street-039
+    100052: street-040
+    100054: street-041
+    100056: street-042
+    100058: street-043
+    100060: street-044
+    100062: street-045
+    100064: street-046
+    100066: street-047
+    100068: street-048
+    100070: street-049
+    100072: street-050
+    100074: street-051
+    100076: street-052
+    100078: street-053
+    100080: street-054
+    100082: street-055
+    100084: street-056
+    100086: street-057
+    100088: street-058
+    100090: street-059
+    100092: street-060
+    100094: street-1
+    100096: street-1 1
+    100098: street-1 10
+    100100: street-1 11
+    100102: street-1 12
+    100104: street-1 2
+    100106: street-1 3
+    100108: street-1 4
+    100110: street-1 5
+    100112: street-1 6
+    100114: street-1 7
+    100116: street-1 8
+    100118: street-1 9
+    100120: street-2
+    100122: street-3
+    100124: street-4
+    100126: //RootNode
+    400000: street-006
+    400002: street-008
+    400004: street-009
+    400006: street-010
+    400008: street-013
+    400010: street-014
+    400012: street-015
+    400014: street-016
+    400016: street-017
+    400018: street-018
+    400020: street-019
+    400022: street-020
+    400024: street-021
+    400026: street-022
+    400028: street-023
+    400030: street-024
+    400032: street-027
+    400034: street-028
+    400036: street-029
+    400038: street-030
+    400040: street-032
+    400042: street-033
+    400044: street-035
+    400046: street-036
+    400048: street-038
+    400050: street-039
+    400052: street-040
+    400054: street-041
+    400056: street-042
+    400058: street-043
+    400060: street-044
+    400062: street-045
+    400064: street-046
+    400066: street-047
+    400068: street-048
+    400070: street-049
+    400072: street-050
+    400074: street-051
+    400076: street-052
+    400078: street-053
+    400080: street-054
+    400082: street-055
+    400084: street-056
+    400086: street-057
+    400088: street-058
+    400090: street-059
+    400092: street-060
+    400094: street-1
+    400096: street-1 1
+    400098: street-1 10
+    400100: street-1 11
+    400102: street-1 12
+    400104: street-1 2
+    400106: street-1 3
+    400108: street-1 4
+    400110: street-1 5
+    400112: street-1 6
+    400114: street-1 7
+    400116: street-1 8
+    400118: street-1 9
+    400120: street-2
+    400122: street-3
+    400124: street-4
+    400126: //RootNode
+    2300000: street-006
+    2300002: street-008
+    2300004: street-009
+    2300006: street-010
+    2300008: street-013
+    2300010: street-014
+    2300012: street-015
+    2300014: street-016
+    2300016: street-017
+    2300018: street-018
+    2300020: street-019
+    2300022: street-020
+    2300024: street-021
+    2300026: street-022
+    2300028: street-023
+    2300030: street-024
+    2300032: street-027
+    2300034: street-028
+    2300036: street-029
+    2300038: street-030
+    2300040: street-032
+    2300042: street-033
+    2300044: street-035
+    2300046: street-036
+    2300048: street-038
+    2300050: street-039
+    2300052: street-040
+    2300054: street-041
+    2300056: street-042
+    2300058: street-043
+    2300060: street-044
+    2300062: street-045
+    2300064: street-046
+    2300066: street-047
+    2300068: street-048
+    2300070: street-049
+    2300072: street-050
+    2300074: street-051
+    2300076: street-052
+    2300078: street-053
+    2300080: street-054
+    2300082: street-055
+    2300084: street-056
+    2300086: street-057
+    2300088: street-058
+    2300090: street-059
+    2300092: street-060
+    2300094: street-1
+    2300096: street-1 1
+    2300098: street-1 10
+    2300100: street-1 11
+    2300102: street-1 12
+    2300104: street-1 2
+    2300106: street-1 3
+    2300108: street-1 4
+    2300110: street-1 5
+    2300112: street-1 6
+    2300114: street-1 7
+    2300116: street-1 8
+    2300118: street-1 9
+    2300120: street-2
+    2300122: street-3
+    2300124: street-4
+    3300000: street-006
+    3300002: street-008
+    3300004: street-009
+    3300006: street-010
+    3300008: street-013
+    3300010: street-014
+    3300012: street-015
+    3300014: street-016
+    3300016: street-017
+    3300018: street-018
+    3300020: street-019
+    3300022: street-020
+    3300024: street-021
+    3300026: street-022
+    3300028: street-023
+    3300030: street-024
+    3300032: street-027
+    3300034: street-028
+    3300036: street-029
+    3300038: street-030
+    3300040: street-032
+    3300042: street-033
+    3300044: street-035
+    3300046: street-036
+    3300048: street-038
+    3300050: street-039
+    3300052: street-040
+    3300054: street-041
+    3300056: street-042
+    3300058: street-043
+    3300060: street-044
+    3300062: street-045
+    3300064: street-046
+    3300066: street-047
+    3300068: street-048
+    3300070: street-049
+    3300072: street-050
+    3300074: street-051
+    3300076: street-052
+    3300078: street-053
+    3300080: street-054
+    3300082: street-055
+    3300084: street-056
+    3300086: street-057
+    3300088: street-058
+    3300090: street-059
+    3300092: street-060
+    3300094: street-1
+    3300096: street-1 1
+    3300098: street-1 10
+    3300100: street-1 11
+    3300102: street-1 12
+    3300104: street-1 2
+    3300106: street-1 3
+    3300108: street-1 4
+    3300110: street-1 5
+    3300112: street-1 6
+    3300114: street-1 7
+    3300116: street-1 8
+    3300118: street-1 9
+    3300120: street-2
+    3300122: street-3
+    3300124: street-4
+    4300000: street-1
+    4300002: street-016
+    4300004: street-017
+    4300006: street-018
+    4300008: street-1
+    4300010: street-4
+    4300012: street-1
+    4300014: street-1
+    4300016: street-058
+    4300018: street-006
+    4300020: street-056
+    4300022: street-053
+    4300024: street-021
+    4300026: street-022
+    4300028: street-052
+    4300030: street-036
+    4300032: street-057
+    4300034: street-043
+    4300036: street-044
+    4300038: street-038
+    4300040: street-046
+    4300042: street-047
+    4300044: street-048
+    4300046: street-049
+    4300048: street-050
+    4300050: street-023
+    4300052: street-020
+    4300054: street-054
+    4300056: street-055
+    4300058: street-019
+    4300060: street-045
+    4300062: street-1
+    4300064: street-060
+    4300066: street-051
+    4300068: street-042
+    4300070: street-032
+    4300072: street-033
+    4300074: street-035
+    4300076: street-039
+    4300078: street-041
+    4300080: street-028
+    4300082: street-027
+    4300084: street-059
+    4300086: street-030
+    4300088: street-029
+    4300090: street-040
+    4300092: street-024
+    4300094: street-1
+    4300096: street-2
+    4300098: street-1
+    4300100: street-1
+    4300102: street-013
+    4300104: street-014
+    4300106: street-015
+    4300108: street-1
+    4300110: street-1
+    4300112: street-1
+    4300114: street-1
+    4300116: street-1
+    4300118: street-3
+    4300120: street-008
+    4300122: street-009
+    4300124: street-010
+    6400000: street-006
+    6400002: street-008
+    6400004: street-009
+    6400006: street-010
+    6400008: street-013
+    6400010: street-014
+    6400012: street-015
+    6400014: street-016
+    6400016: street-017
+    6400018: street-018
+    6400020: street-019
+    6400022: street-020
+    6400024: street-021
+    6400026: street-022
+    6400028: street-023
+    6400030: street-024
+    6400032: street-027
+    6400034: street-028
+    6400036: street-029
+    6400038: street-030
+    6400040: street-032
+    6400042: street-033
+    6400044: street-035
+    6400046: street-036
+    6400048: street-038
+    6400050: street-039
+    6400052: street-040
+    6400054: street-041
+    6400056: street-042
+    6400058: street-043
+    6400060: street-044
+    6400062: street-045
+    6400064: street-046
+    6400066: street-047
+    6400068: street-048
+    6400070: street-049
+    6400072: street-050
+    6400074: street-051
+    6400076: street-052
+    6400078: street-053
+    6400080: street-054
+    6400082: street-055
+    6400084: street-056
+    6400086: street-057
+    6400088: street-058
+    6400090: street-059
+    6400092: street-060
+    6400094: street-1
+    6400096: street-1 1
+    6400098: street-1 10
+    6400100: street-1 11
+    6400102: street-1 12
+    6400104: street-1 2
+    6400106: street-1 3
+    6400108: street-1 4
+    6400110: street-1 5
+    6400112: street-1 6
+    6400114: street-1 7
+    6400116: street-1 8
+    6400118: street-1 9
+    6400120: street-2
+    6400122: street-3
+    6400124: street-4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 1
+  userData: 
