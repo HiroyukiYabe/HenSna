@@ -13,7 +13,7 @@ public class CharacterScore : MonoBehaviour {
 	Score _score;
 	Transform player;
 	public int ThisScore;
-
+	
 
 	// Use this for initialization
 	void Start () {
@@ -30,8 +30,14 @@ public class CharacterScore : MonoBehaviour {
 		bool doubleTap = false;
 		if (Input.touchCount > 0){
 			foreach (Touch touch in Input.touches){
-				if (touch.tapCount > 1) doubleTap = true;
+				if(touch.phase == TouchPhase.Began){
+					if (touch.tapCount>1 && touch.tapCount%2==0) doubleTap = true;
+				}
 			}
+		}
+
+		if (Input.GetKeyDown (KeyCode.Space)) {
+			doubleTap = true;
 		}
 
 		if (doubleTap)	PictureCheck();
@@ -40,7 +46,7 @@ public class CharacterScore : MonoBehaviour {
 
 	void PictureCheck(){
 		Vector3 pos = Camera.main.WorldToViewportPoint (transform.position);
-		if (pos.x >= 0 && pos.x <= 1 && pos.y >= 0 && pos.y <= 1) {
+		if (pos.x >= 0 && pos.x <= 1 && pos.y >= 0 && pos.y <= 1 && pos.z>=0) {
 			_score.score+=ThisScore;
 		}
 	}
