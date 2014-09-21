@@ -1,16 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
-public class GameController : MonoBehaviour {
-
+public class selectDungeonGameController : MonoBehaviour {
+		TimeSpan timeSpan;
 	// Use this for initialization
 	void Start () {
+				PlayerPrefs.SetInt ("test",1);
 				Debug.Log ("come start select dungeon");
 	}
 	
 	// Update is called once per frame
 	void Update () {
-				Debug.Log ("come update22");
+				Debug.Log ("come update select dungeon");
+
 	}
 
 		public void clickJapaneseDungeon(){
