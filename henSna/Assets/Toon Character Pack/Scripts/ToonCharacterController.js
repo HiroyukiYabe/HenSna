@@ -98,7 +98,7 @@ function BlinkInvoke () {
 function disableRagdoll () {
 	for (var ragdoll : Rigidbody in boneRig) {
 		if(ragdoll.collider && ragdoll.collider!=this.collider){
-		ragdoll.collider.enabled = false;
+		//ragdoll.collider.enabled = false;
 		ragdoll.isKinematic = true;
 		ragdoll.mass = 0.01;
 		}

@@ -84,6 +84,7 @@ GameObject:
   - 4: {fileID: 2263471}
   - 33: {fileID: 2263470}
   - 23: {fileID: 2263469}
+  - 64: {fileID: 2263468}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -91,6 +92,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &2263468
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1179412002}
+  m_GameObject: {fileID: 2263467}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &2263469
 Renderer:
   m_ObjectHideFlags: 0
@@ -677,6 +692,7 @@ GameObject:
   - 4: {fileID: 38681910}
   - 33: {fileID: 38681909}
   - 23: {fileID: 38681908}
+  - 64: {fileID: 38681907}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -684,6 +700,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &38681907
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1910160456}
+  m_GameObject: {fileID: 38681906}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &38681908
 Renderer:
   m_ObjectHideFlags: 0
@@ -1233,6 +1263,7 @@ GameObject:
   - 4: {fileID: 72062665}
   - 33: {fileID: 72062664}
   - 23: {fileID: 72062663}
+  - 64: {fileID: 72062662}
   m_Layer: 0
   m_Name: wall-2
   m_TagString: Untagged
@@ -1240,6 +1271,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &72062662
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: d6f97d5fcd0540a4e8f2f08ed95cda64,
+    type: 2}
+  m_PrefabInternal: {fileID: 1630405344}
+  m_GameObject: {fileID: 72062661}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: a3561add214f86140a7c5f164f674872, type: 3}
 --- !u!23 &72062663
 Renderer:
   m_ObjectHideFlags: 0
@@ -1363,6 +1408,7 @@ GameObject:
   - 4: {fileID: 73676162}
   - 33: {fileID: 73676161}
   - 23: {fileID: 73676160}
+  - 64: {fileID: 73676159}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -1370,6 +1416,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &73676159
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 669534189}
+  m_GameObject: {fileID: 73676158}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &73676160
 Renderer:
   m_ObjectHideFlags: 0
@@ -1421,6 +1481,7 @@ GameObject:
   - 4: {fileID: 75652615}
   - 33: {fileID: 75652614}
   - 23: {fileID: 75652613}
+  - 64: {fileID: 75652612}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -1428,6 +1489,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &75652612
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 346042868}
+  m_GameObject: {fileID: 75652611}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &75652613
 Renderer:
   m_ObjectHideFlags: 0
@@ -1715,6 +1790,7 @@ GameObject:
   - 4: {fileID: 82794737}
   - 33: {fileID: 82794736}
   - 23: {fileID: 82794735}
+  - 64: {fileID: 82794734}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -1722,6 +1798,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &82794734
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 170202329}
+  m_GameObject: {fileID: 82794733}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &82794735
 Renderer:
   m_ObjectHideFlags: 0
@@ -1847,6 +1937,7 @@ GameObject:
   - 4: {fileID: 86793855}
   - 33: {fileID: 86793854}
   - 23: {fileID: 86793853}
+  - 64: {fileID: 86793852}
   m_Layer: 0
   m_Name: old house-1
   m_TagString: Untagged
@@ -1854,6 +1945,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &86793852
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: e86124f624315224e9ef4cea24b9b7d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 357383136}
+  m_GameObject: {fileID: 86793851}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 8225eb972e0a9804b9301939f1b16d63, type: 3}
 --- !u!23 &86793853
 Renderer:
   m_ObjectHideFlags: 0
@@ -1905,6 +2010,7 @@ GameObject:
   - 4: {fileID: 91620188}
   - 33: {fileID: 91620187}
   - 23: {fileID: 91620186}
+  - 64: {fileID: 91620185}
   m_Layer: 0
   m_Name: modern house-2
   m_TagString: Untagged
@@ -1912,6 +2018,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &91620185
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fc6f68e70a8add540ad243903a0221c0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1045135799}
+  m_GameObject: {fileID: 91620184}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 040d3efa5f2cf474f853d99b2fe4d12f, type: 3}
 --- !u!23 &91620186
 Renderer:
   m_ObjectHideFlags: 0
@@ -2043,6 +2163,7 @@ GameObject:
   - 4: {fileID: 94021252}
   - 33: {fileID: 94021251}
   - 23: {fileID: 94021250}
+  - 64: {fileID: 94021249}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -2050,6 +2171,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &94021249
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 980313229}
+  m_GameObject: {fileID: 94021248}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &94021250
 Renderer:
   m_ObjectHideFlags: 0
@@ -2200,6 +2335,7 @@ GameObject:
   - 4: {fileID: 99254926}
   - 33: {fileID: 99254925}
   - 23: {fileID: 99254924}
+  - 64: {fileID: 99254923}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -2207,6 +2343,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &99254923
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 564040584}
+  m_GameObject: {fileID: 99254922}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &99254924
 Renderer:
   m_ObjectHideFlags: 0
@@ -2338,6 +2488,7 @@ GameObject:
   - 4: {fileID: 107047929}
   - 33: {fileID: 107047928}
   - 23: {fileID: 107047927}
+  - 64: {fileID: 107047926}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -2345,6 +2496,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &107047926
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 701276154}
+  m_GameObject: {fileID: 107047925}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &107047927
 Renderer:
   m_ObjectHideFlags: 0
@@ -2396,6 +2561,7 @@ GameObject:
   - 4: {fileID: 108337607}
   - 33: {fileID: 108337606}
   - 23: {fileID: 108337605}
+  - 64: {fileID: 108337604}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -2403,6 +2569,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &108337604
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1180116754}
+  m_GameObject: {fileID: 108337603}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &108337605
 Renderer:
   m_ObjectHideFlags: 0
@@ -2665,6 +2845,7 @@ GameObject:
   - 4: {fileID: 127863529}
   - 33: {fileID: 127863528}
   - 23: {fileID: 127863527}
+  - 64: {fileID: 127863526}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -2672,6 +2853,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &127863526
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 1080067374}
+  m_GameObject: {fileID: 127863525}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &127863527
 Renderer:
   m_ObjectHideFlags: 0
@@ -2724,6 +2919,7 @@ GameObject:
   - 4: {fileID: 129333020}
   - 33: {fileID: 129333019}
   - 23: {fileID: 129333018}
+  - 64: {fileID: 129333017}
   m_Layer: 0
   m_Name: wall-2
   m_TagString: Untagged
@@ -2731,6 +2927,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &129333017
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: d6f97d5fcd0540a4e8f2f08ed95cda64,
+    type: 2}
+  m_PrefabInternal: {fileID: 1473699282}
+  m_GameObject: {fileID: 129333016}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: a3561add214f86140a7c5f164f674872, type: 3}
 --- !u!23 &129333018
 Renderer:
   m_ObjectHideFlags: 0
@@ -2862,6 +3072,7 @@ GameObject:
   - 4: {fileID: 138308004}
   - 33: {fileID: 138308003}
   - 23: {fileID: 138308002}
+  - 64: {fileID: 138308001}
   m_Layer: 0
   m_Name: road sign-2
   m_TagString: Untagged
@@ -2869,6 +3080,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &138308001
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fa39b0af07288ea41a333a8e2755b2cb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1073650937}
+  m_GameObject: {fileID: 138308000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300002, guid: abf761b7bf1c5a049bed2c8c36a07c34, type: 3}
 --- !u!23 &138308002
 Renderer:
   m_ObjectHideFlags: 0
@@ -3018,6 +3243,7 @@ GameObject:
   - 4: {fileID: 144394054}
   - 33: {fileID: 144394053}
   - 23: {fileID: 144394052}
+  - 64: {fileID: 144394051}
   m_Layer: 0
   m_Name: street light
   m_TagString: Untagged
@@ -3025,6 +3251,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &144394051
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: bc2e6c09e57fb0b42b307b81d6b193e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1004170596}
+  m_GameObject: {fileID: 144394050}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 718d33f9c45198a4b81d7398a831ebec, type: 3}
 --- !u!23 &144394052
 Renderer:
   m_ObjectHideFlags: 0
@@ -3403,6 +3643,7 @@ GameObject:
   - 4: {fileID: 159253009}
   - 33: {fileID: 159253008}
   - 23: {fileID: 159253007}
+  - 64: {fileID: 159253006}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -3410,6 +3651,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &159253006
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 397261130}
+  m_GameObject: {fileID: 159253005}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &159253007
 Renderer:
   m_ObjectHideFlags: 0
@@ -3621,6 +3876,7 @@ GameObject:
   - 4: {fileID: 167597246}
   - 33: {fileID: 167597245}
   - 23: {fileID: 167597244}
+  - 64: {fileID: 167597243}
   m_Layer: 0
   m_Name: tree-2
   m_TagString: Untagged
@@ -3628,6 +3884,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &167597243
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: c3a35d9e0fbc992459c26d4bdde72a30,
+    type: 2}
+  m_PrefabInternal: {fileID: 1661715461}
+  m_GameObject: {fileID: 167597242}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: dd4f250322ef16c47a7457c793a0c9e6, type: 3}
 --- !u!23 &167597244
 Renderer:
   m_ObjectHideFlags: 0
@@ -4116,6 +4386,7 @@ GameObject:
   - 4: {fileID: 182435475}
   - 33: {fileID: 182435474}
   - 23: {fileID: 182435473}
+  - 64: {fileID: 182435472}
   m_Layer: 0
   m_Name: wall-2
   m_TagString: Untagged
@@ -4123,6 +4394,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &182435472
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: d6f97d5fcd0540a4e8f2f08ed95cda64,
+    type: 2}
+  m_PrefabInternal: {fileID: 356613339}
+  m_GameObject: {fileID: 182435471}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: a3561add214f86140a7c5f164f674872, type: 3}
 --- !u!23 &182435473
 Renderer:
   m_ObjectHideFlags: 0
@@ -4542,6 +4827,7 @@ GameObject:
   - 4: {fileID: 208816373}
   - 33: {fileID: 208816372}
   - 23: {fileID: 208816371}
+  - 64: {fileID: 208816370}
   m_Layer: 0
   m_Name: street light
   m_TagString: Untagged
@@ -4549,6 +4835,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &208816370
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: bc2e6c09e57fb0b42b307b81d6b193e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 556983273}
+  m_GameObject: {fileID: 208816369}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 718d33f9c45198a4b81d7398a831ebec, type: 3}
 --- !u!23 &208816371
 Renderer:
   m_ObjectHideFlags: 0
@@ -4756,6 +5056,7 @@ GameObject:
   - 4: {fileID: 215823949}
   - 33: {fileID: 215823948}
   - 23: {fileID: 215823947}
+  - 64: {fileID: 215823946}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -4763,6 +5064,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &215823946
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1568024880}
+  m_GameObject: {fileID: 215823945}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &215823947
 Renderer:
   m_ObjectHideFlags: 0
@@ -4946,6 +5261,7 @@ GameObject:
   - 4: {fileID: 218108942}
   - 33: {fileID: 218108944}
   - 23: {fileID: 218108943}
+  - 64: {fileID: 218108945}
   m_Layer: 0
   m_Name: Box348
   m_TagString: Untagged
@@ -4993,6 +5309,20 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 1527312401}
   m_GameObject: {fileID: 218108941}
+  m_Mesh: {fileID: 4300000, guid: ac98879fdbdc69f4092f20fe648d7b44, type: 3}
+--- !u!64 &218108945
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8e4fad997459a03498fe60f2183237e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1527312401}
+  m_GameObject: {fileID: 218108941}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: ac98879fdbdc69f4092f20fe648d7b44, type: 3}
 --- !u!1001 &219970014
 Prefab:
@@ -5044,6 +5374,7 @@ GameObject:
   - 4: {fileID: 222304058}
   - 33: {fileID: 222304057}
   - 23: {fileID: 222304056}
+  - 64: {fileID: 222304055}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -5051,6 +5382,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &222304055
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 281816783}
+  m_GameObject: {fileID: 222304054}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &222304056
 Renderer:
   m_ObjectHideFlags: 0
@@ -5102,6 +5447,7 @@ GameObject:
   - 4: {fileID: 222752884}
   - 33: {fileID: 222752883}
   - 23: {fileID: 222752882}
+  - 64: {fileID: 222752881}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -5109,6 +5455,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &222752881
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 944626268}
+  m_GameObject: {fileID: 222752880}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &222752882
 Renderer:
   m_ObjectHideFlags: 0
@@ -5517,6 +5877,7 @@ GameObject:
   - 4: {fileID: 235925934}
   - 33: {fileID: 235925933}
   - 23: {fileID: 235925932}
+  - 64: {fileID: 235925931}
   m_Layer: 0
   m_Name: road sign-2
   m_TagString: Untagged
@@ -5524,6 +5885,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &235925931
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fa39b0af07288ea41a333a8e2755b2cb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1533999094}
+  m_GameObject: {fileID: 235925930}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300002, guid: abf761b7bf1c5a049bed2c8c36a07c34, type: 3}
 --- !u!23 &235925932
 Renderer:
   m_ObjectHideFlags: 0
@@ -5673,6 +6048,7 @@ GameObject:
   - 4: {fileID: 244614913}
   - 33: {fileID: 244614912}
   - 23: {fileID: 244614911}
+  - 64: {fileID: 244614910}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -5680,6 +6056,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &244614910
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 853603316}
+  m_GameObject: {fileID: 244614909}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &244614911
 Renderer:
   m_ObjectHideFlags: 0
@@ -5960,6 +6350,7 @@ GameObject:
   - 4: {fileID: 253819946}
   - 33: {fileID: 253819945}
   - 23: {fileID: 253819944}
+  - 64: {fileID: 253819943}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -5967,6 +6358,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &253819943
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1171557694}
+  m_GameObject: {fileID: 253819942}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &253819944
 Renderer:
   m_ObjectHideFlags: 0
@@ -6285,6 +6690,7 @@ GameObject:
   - 4: {fileID: 270558894}
   - 33: {fileID: 270558893}
   - 23: {fileID: 270558892}
+  - 64: {fileID: 270558891}
   m_Layer: 0
   m_Name: road sign-2
   m_TagString: Untagged
@@ -6292,6 +6698,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &270558891
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fa39b0af07288ea41a333a8e2755b2cb,
+    type: 2}
+  m_PrefabInternal: {fileID: 372988404}
+  m_GameObject: {fileID: 270558890}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300002, guid: abf761b7bf1c5a049bed2c8c36a07c34, type: 3}
 --- !u!23 &270558892
 Renderer:
   m_ObjectHideFlags: 0
@@ -6383,6 +6803,7 @@ GameObject:
   - 4: {fileID: 272840728}
   - 33: {fileID: 272840727}
   - 23: {fileID: 272840726}
+  - 64: {fileID: 272840725}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -6390,6 +6811,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &272840725
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 2087245204}
+  m_GameObject: {fileID: 272840724}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &272840726
 Renderer:
   m_ObjectHideFlags: 0
@@ -6441,6 +6876,7 @@ GameObject:
   - 4: {fileID: 272969151}
   - 33: {fileID: 272969150}
   - 23: {fileID: 272969149}
+  - 64: {fileID: 272969148}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -6448,6 +6884,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &272969148
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 138041340}
+  m_GameObject: {fileID: 272969147}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &272969149
 Renderer:
   m_ObjectHideFlags: 0
@@ -6686,6 +7136,7 @@ GameObject:
   - 4: {fileID: 282808765}
   - 33: {fileID: 282808764}
   - 23: {fileID: 282808763}
+  - 64: {fileID: 282808762}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -6693,6 +7144,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &282808762
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 402014848}
+  m_GameObject: {fileID: 282808761}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &282808763
 Renderer:
   m_ObjectHideFlags: 0
@@ -6745,6 +7210,7 @@ GameObject:
   - 4: {fileID: 286986012}
   - 33: {fileID: 286986011}
   - 23: {fileID: 286986010}
+  - 64: {fileID: 286986009}
   m_Layer: 0
   m_Name: wall-1
   m_TagString: Untagged
@@ -6752,6 +7218,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &286986009
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: c4d4aa699a99c6d4981d3597c739c009,
+    type: 2}
+  m_PrefabInternal: {fileID: 1635342440}
+  m_GameObject: {fileID: 286986008}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 38bed6c53e88e6f4781e61328555e588, type: 3}
 --- !u!23 &286986010
 Renderer:
   m_ObjectHideFlags: 0
@@ -7039,6 +7519,7 @@ GameObject:
   - 4: {fileID: 312065133}
   - 33: {fileID: 312065132}
   - 23: {fileID: 312065131}
+  - 64: {fileID: 312065130}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -7046,6 +7527,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &312065130
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 61107744}
+  m_GameObject: {fileID: 312065129}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &312065131
 Renderer:
   m_ObjectHideFlags: 0
@@ -7156,6 +7651,7 @@ GameObject:
   - 4: {fileID: 314379105}
   - 33: {fileID: 314379104}
   - 23: {fileID: 314379103}
+  - 64: {fileID: 314379102}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -7163,6 +7659,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &314379102
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1442366150}
+  m_GameObject: {fileID: 314379101}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &314379103
 Renderer:
   m_ObjectHideFlags: 0
@@ -7214,6 +7724,7 @@ GameObject:
   - 4: {fileID: 318175246}
   - 33: {fileID: 318175245}
   - 23: {fileID: 318175244}
+  - 64: {fileID: 318175243}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -7221,6 +7732,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &318175243
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 700818612}
+  m_GameObject: {fileID: 318175242}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &318175244
 Renderer:
   m_ObjectHideFlags: 0
@@ -7352,6 +7877,7 @@ GameObject:
   - 4: {fileID: 324191051}
   - 33: {fileID: 324191050}
   - 23: {fileID: 324191049}
+  - 64: {fileID: 324191048}
   m_Layer: 0
   m_Name: plant-1
   m_TagString: Untagged
@@ -7359,6 +7885,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &324191048
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8efa198753b44d4408941745d52aca26,
+    type: 2}
+  m_PrefabInternal: {fileID: 1924640248}
+  m_GameObject: {fileID: 324191047}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 0fdc4be7ccef13348bd096a059b86440, type: 3}
 --- !u!23 &324191049
 Renderer:
   m_ObjectHideFlags: 0
@@ -7717,6 +8257,7 @@ GameObject:
   - 4: {fileID: 344555980}
   - 33: {fileID: 344555979}
   - 23: {fileID: 344555978}
+  - 64: {fileID: 344555977}
   m_Layer: 0
   m_Name: wall-4
   m_TagString: Untagged
@@ -7724,6 +8265,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &344555977
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: f7c6624be254d3448a88b7e1fbdf9515,
+    type: 2}
+  m_PrefabInternal: {fileID: 1176402382}
+  m_GameObject: {fileID: 344555976}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 9f2012c11036a7c419886dbff2d47559, type: 3}
 --- !u!23 &344555978
 Renderer:
   m_ObjectHideFlags: 0
@@ -7775,6 +8330,7 @@ GameObject:
   - 4: {fileID: 344946249}
   - 33: {fileID: 344946248}
   - 23: {fileID: 344946247}
+  - 64: {fileID: 344946246}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -7782,6 +8338,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &344946246
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1223707089}
+  m_GameObject: {fileID: 344946245}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &344946247
 Renderer:
   m_ObjectHideFlags: 0
@@ -7873,6 +8443,7 @@ GameObject:
   - 4: {fileID: 348531787}
   - 33: {fileID: 348531786}
   - 23: {fileID: 348531785}
+  - 64: {fileID: 348531784}
   m_Layer: 0
   m_Name: modern house-4
   m_TagString: Untagged
@@ -7880,6 +8451,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &348531784
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 2cfc62548c4cc3b47ad34deb43e45295,
+    type: 2}
+  m_PrefabInternal: {fileID: 272245281}
+  m_GameObject: {fileID: 348531783}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 407847fea8574c347ad882bb793f3ba5, type: 3}
 --- !u!23 &348531785
 Renderer:
   m_ObjectHideFlags: 0
@@ -8179,6 +8764,7 @@ GameObject:
   - 4: {fileID: 359606772}
   - 33: {fileID: 359606771}
   - 23: {fileID: 359606770}
+  - 64: {fileID: 359606769}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -8186,6 +8772,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &359606769
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 775255821}
+  m_GameObject: {fileID: 359606768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &359606770
 Renderer:
   m_ObjectHideFlags: 0
@@ -8354,6 +8954,7 @@ GameObject:
   - 4: {fileID: 360215735}
   - 33: {fileID: 360215734}
   - 23: {fileID: 360215733}
+  - 64: {fileID: 360215732}
   m_Layer: 0
   m_Name: modern house-1
   m_TagString: Untagged
@@ -8361,6 +8962,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &360215732
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 747245c5035e5364594bdac42bff49e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 495086308}
+  m_GameObject: {fileID: 360215731}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 753483c1d2a928b438a4e0590114da55, type: 3}
 --- !u!23 &360215733
 Renderer:
   m_ObjectHideFlags: 0
@@ -8623,6 +9238,7 @@ GameObject:
   - 4: {fileID: 369433171}
   - 33: {fileID: 369433170}
   - 23: {fileID: 369433169}
+  - 64: {fileID: 369433168}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -8630,6 +9246,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &369433168
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 82591350}
+  m_GameObject: {fileID: 369433167}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &369433169
 Renderer:
   m_ObjectHideFlags: 0
@@ -8682,6 +9312,7 @@ GameObject:
   - 4: {fileID: 371209682}
   - 33: {fileID: 371209681}
   - 23: {fileID: 371209680}
+  - 64: {fileID: 371209679}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -8689,6 +9320,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &371209679
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 1358284133}
+  m_GameObject: {fileID: 371209678}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &371209680
 Renderer:
   m_ObjectHideFlags: 0
@@ -8781,6 +9426,7 @@ GameObject:
   - 4: {fileID: 374633855}
   - 33: {fileID: 374633854}
   - 23: {fileID: 374633853}
+  - 64: {fileID: 374633852}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -8788,6 +9434,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &374633852
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 72443661}
+  m_GameObject: {fileID: 374633851}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &374633853
 Renderer:
   m_ObjectHideFlags: 0
@@ -8981,6 +9641,7 @@ GameObject:
   - 4: {fileID: 377135434}
   - 33: {fileID: 377135433}
   - 23: {fileID: 377135432}
+  - 64: {fileID: 377135431}
   m_Layer: 0
   m_Name: road sign-2
   m_TagString: Untagged
@@ -8988,6 +9649,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &377135431
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fa39b0af07288ea41a333a8e2755b2cb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1750825752}
+  m_GameObject: {fileID: 377135430}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300002, guid: abf761b7bf1c5a049bed2c8c36a07c34, type: 3}
 --- !u!23 &377135432
 Renderer:
   m_ObjectHideFlags: 0
@@ -9119,6 +9794,7 @@ GameObject:
   - 4: {fileID: 378867844}
   - 33: {fileID: 378867843}
   - 23: {fileID: 378867842}
+  - 64: {fileID: 378867841}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -9126,6 +9802,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &378867841
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1461492072}
+  m_GameObject: {fileID: 378867840}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &378867842
 Renderer:
   m_ObjectHideFlags: 0
@@ -9217,6 +9907,7 @@ GameObject:
   - 4: {fileID: 384423920}
   - 33: {fileID: 384423919}
   - 23: {fileID: 384423918}
+  - 64: {fileID: 384423917}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -9224,6 +9915,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &384423917
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 123800622}
+  m_GameObject: {fileID: 384423916}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &384423918
 Renderer:
   m_ObjectHideFlags: 0
@@ -9505,6 +10210,7 @@ GameObject:
   - 4: {fileID: 396317794}
   - 33: {fileID: 396317793}
   - 23: {fileID: 396317792}
+  - 64: {fileID: 396317791}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -9512,6 +10218,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &396317791
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 176548987}
+  m_GameObject: {fileID: 396317790}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &396317792
 Renderer:
   m_ObjectHideFlags: 0
@@ -10003,6 +10723,7 @@ GameObject:
   - 4: {fileID: 409394438}
   - 33: {fileID: 409394437}
   - 23: {fileID: 409394436}
+  - 64: {fileID: 409394435}
   m_Layer: 0
   m_Name: modern house-1
   m_TagString: Untagged
@@ -10010,6 +10731,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &409394435
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 747245c5035e5364594bdac42bff49e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1275031730}
+  m_GameObject: {fileID: 409394434}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 753483c1d2a928b438a4e0590114da55, type: 3}
 --- !u!23 &409394436
 Renderer:
   m_ObjectHideFlags: 0
@@ -10061,6 +10796,7 @@ GameObject:
   - 4: {fileID: 409598138}
   - 33: {fileID: 409598137}
   - 23: {fileID: 409598136}
+  - 64: {fileID: 409598135}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -10068,6 +10804,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &409598135
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 2002968241}
+  m_GameObject: {fileID: 409598134}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &409598136
 Renderer:
   m_ObjectHideFlags: 0
@@ -10120,6 +10870,7 @@ GameObject:
   - 4: {fileID: 412246568}
   - 33: {fileID: 412246567}
   - 23: {fileID: 412246566}
+  - 64: {fileID: 412246565}
   m_Layer: 0
   m_Name: plant-2
   m_TagString: Untagged
@@ -10127,6 +10878,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &412246565
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 5c1d62a9c446ff44d9a15e0c78ee4924,
+    type: 2}
+  m_PrefabInternal: {fileID: 1621825425}
+  m_GameObject: {fileID: 412246564}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 6928ec5d6e3572c448deb5c8b7f7ced9, type: 3}
 --- !u!23 &412246566
 Renderer:
   m_ObjectHideFlags: 0
@@ -10179,6 +10944,7 @@ GameObject:
   - 4: {fileID: 414159112}
   - 33: {fileID: 414159111}
   - 23: {fileID: 414159110}
+  - 64: {fileID: 414159109}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -10186,6 +10952,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &414159109
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 425900965}
+  m_GameObject: {fileID: 414159108}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &414159110
 Renderer:
   m_ObjectHideFlags: 0
@@ -10393,6 +11173,7 @@ GameObject:
   - 4: {fileID: 421179914}
   - 33: {fileID: 421179913}
   - 23: {fileID: 421179912}
+  - 64: {fileID: 421179911}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -10400,6 +11181,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &421179911
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 538522153}
+  m_GameObject: {fileID: 421179910}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &421179912
 Renderer:
   m_ObjectHideFlags: 0
@@ -10663,6 +11458,7 @@ GameObject:
   - 4: {fileID: 426248569}
   - 33: {fileID: 426248568}
   - 23: {fileID: 426248567}
+  - 64: {fileID: 426248566}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -10670,6 +11466,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &426248566
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1236974356}
+  m_GameObject: {fileID: 426248565}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &426248567
 Renderer:
   m_ObjectHideFlags: 0
@@ -11009,6 +11819,7 @@ GameObject:
   - 4: {fileID: 446133833}
   - 33: {fileID: 446133832}
   - 23: {fileID: 446133831}
+  - 64: {fileID: 446133830}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -11016,6 +11827,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &446133830
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 2016310726}
+  m_GameObject: {fileID: 446133829}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &446133831
 Renderer:
   m_ObjectHideFlags: 0
@@ -11205,6 +12030,7 @@ GameObject:
   - 4: {fileID: 458571817}
   - 33: {fileID: 458571816}
   - 23: {fileID: 458571815}
+  - 64: {fileID: 458571814}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -11212,6 +12038,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &458571814
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1626982807}
+  m_GameObject: {fileID: 458571813}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &458571815
 Renderer:
   m_ObjectHideFlags: 0
@@ -11361,6 +12201,7 @@ GameObject:
   - 4: {fileID: 461821392}
   - 33: {fileID: 461821391}
   - 23: {fileID: 461821390}
+  - 64: {fileID: 461821389}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -11368,6 +12209,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &461821389
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 2080913937}
+  m_GameObject: {fileID: 461821388}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &461821390
 Renderer:
   m_ObjectHideFlags: 0
@@ -11499,6 +12354,7 @@ GameObject:
   - 4: {fileID: 465346774}
   - 33: {fileID: 465346773}
   - 23: {fileID: 465346772}
+  - 64: {fileID: 465346771}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -11506,6 +12362,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &465346771
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 358857198}
+  m_GameObject: {fileID: 465346770}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &465346772
 Renderer:
   m_ObjectHideFlags: 0
@@ -11655,6 +12525,7 @@ GameObject:
   - 4: {fileID: 469430050}
   - 33: {fileID: 469430049}
   - 23: {fileID: 469430048}
+  - 64: {fileID: 469430047}
   m_Layer: 0
   m_Name: plant-1
   m_TagString: Untagged
@@ -11662,6 +12533,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &469430047
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8efa198753b44d4408941745d52aca26,
+    type: 2}
+  m_PrefabInternal: {fileID: 1877547701}
+  m_GameObject: {fileID: 469430046}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 0fdc4be7ccef13348bd096a059b86440, type: 3}
 --- !u!23 &469430048
 Renderer:
   m_ObjectHideFlags: 0
@@ -11714,6 +12599,7 @@ GameObject:
   - 4: {fileID: 475364033}
   - 33: {fileID: 475364032}
   - 23: {fileID: 475364031}
+  - 64: {fileID: 475364030}
   m_Layer: 0
   m_Name: street light
   m_TagString: Untagged
@@ -11721,6 +12607,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &475364030
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: bc2e6c09e57fb0b42b307b81d6b193e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1701945491}
+  m_GameObject: {fileID: 475364029}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 718d33f9c45198a4b81d7398a831ebec, type: 3}
 --- !u!23 &475364031
 Renderer:
   m_ObjectHideFlags: 0
@@ -12088,6 +12988,7 @@ GameObject:
   - 4: {fileID: 484481279}
   - 33: {fileID: 484481278}
   - 23: {fileID: 484481277}
+  - 64: {fileID: 484481276}
   m_Layer: 0
   m_Name: plant-1
   m_TagString: Untagged
@@ -12095,6 +12996,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &484481276
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8efa198753b44d4408941745d52aca26,
+    type: 2}
+  m_PrefabInternal: {fileID: 897359625}
+  m_GameObject: {fileID: 484481275}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 0fdc4be7ccef13348bd096a059b86440, type: 3}
 --- !u!23 &484481277
 Renderer:
   m_ObjectHideFlags: 0
@@ -12263,6 +13178,7 @@ GameObject:
   - 4: {fileID: 492147956}
   - 33: {fileID: 492147955}
   - 23: {fileID: 492147954}
+  - 64: {fileID: 492147953}
   m_Layer: 0
   m_Name: road sign-2
   m_TagString: Untagged
@@ -12270,6 +13186,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &492147953
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fa39b0af07288ea41a333a8e2755b2cb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1962871418}
+  m_GameObject: {fileID: 492147952}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300002, guid: abf761b7bf1c5a049bed2c8c36a07c34, type: 3}
 --- !u!23 &492147954
 Renderer:
   m_ObjectHideFlags: 0
@@ -12463,6 +13393,7 @@ GameObject:
   - 4: {fileID: 513994366}
   - 33: {fileID: 513994365}
   - 23: {fileID: 513994364}
+  - 64: {fileID: 513994363}
   m_Layer: 0
   m_Name: old house-3
   m_TagString: Untagged
@@ -12470,6 +13401,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &513994363
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 1fec6665d1196f946b5821303b70cce9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1794856501}
+  m_GameObject: {fileID: 513994362}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 0809094a7d5a8ed45af7764a798868ed, type: 3}
 --- !u!23 &513994364
 Renderer:
   m_ObjectHideFlags: 0
@@ -12521,6 +13466,7 @@ GameObject:
   - 4: {fileID: 515511763}
   - 33: {fileID: 515511762}
   - 23: {fileID: 515511761}
+  - 64: {fileID: 515511760}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -12528,6 +13474,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &515511760
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1664475215}
+  m_GameObject: {fileID: 515511759}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &515511761
 Renderer:
   m_ObjectHideFlags: 0
@@ -12619,6 +13579,7 @@ GameObject:
   - 4: {fileID: 520035565}
   - 33: {fileID: 520035564}
   - 23: {fileID: 520035563}
+  - 64: {fileID: 520035562}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -12626,6 +13587,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &520035562
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 1847803989}
+  m_GameObject: {fileID: 520035561}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &520035563
 Renderer:
   m_ObjectHideFlags: 0
@@ -12718,6 +13693,7 @@ GameObject:
   - 4: {fileID: 525053607}
   - 33: {fileID: 525053606}
   - 23: {fileID: 525053605}
+  - 64: {fileID: 525053604}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -12725,6 +13701,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &525053604
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1767380588}
+  m_GameObject: {fileID: 525053603}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &525053605
 Renderer:
   m_ObjectHideFlags: 0
@@ -13359,6 +14349,7 @@ GameObject:
   - 4: {fileID: 550285767}
   - 33: {fileID: 550285766}
   - 23: {fileID: 550285765}
+  - 64: {fileID: 550285764}
   m_Layer: 0
   m_Name: modern house-4
   m_TagString: Untagged
@@ -13366,6 +14357,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &550285764
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 2cfc62548c4cc3b47ad34deb43e45295,
+    type: 2}
+  m_PrefabInternal: {fileID: 2047504245}
+  m_GameObject: {fileID: 550285763}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 407847fea8574c347ad882bb793f3ba5, type: 3}
 --- !u!23 &550285765
 Renderer:
   m_ObjectHideFlags: 0
@@ -13944,6 +14949,7 @@ GameObject:
   - 4: {fileID: 569485108}
   - 33: {fileID: 569485107}
   - 23: {fileID: 569485106}
+  - 64: {fileID: 569485105}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -13951,6 +14957,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &569485105
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 505869512}
+  m_GameObject: {fileID: 569485104}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &569485106
 Renderer:
   m_ObjectHideFlags: 0
@@ -14140,6 +15160,7 @@ GameObject:
   - 4: {fileID: 572633168}
   - 33: {fileID: 572633167}
   - 23: {fileID: 572633166}
+  - 64: {fileID: 572633165}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -14147,6 +15168,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &572633165
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 1583304657}
+  m_GameObject: {fileID: 572633164}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &572633166
 Renderer:
   m_ObjectHideFlags: 0
@@ -14199,6 +15234,7 @@ GameObject:
   - 4: {fileID: 573883346}
   - 33: {fileID: 573883345}
   - 23: {fileID: 573883344}
+  - 64: {fileID: 573883343}
   m_Layer: 0
   m_Name: modern house-1
   m_TagString: Untagged
@@ -14206,6 +15242,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &573883343
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 747245c5035e5364594bdac42bff49e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1679195489}
+  m_GameObject: {fileID: 573883342}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 753483c1d2a928b438a4e0590114da55, type: 3}
 --- !u!23 &573883344
 Renderer:
   m_ObjectHideFlags: 0
@@ -14315,6 +15365,7 @@ GameObject:
   - 4: {fileID: 576829775}
   - 33: {fileID: 576829774}
   - 23: {fileID: 576829773}
+  - 64: {fileID: 576829772}
   m_Layer: 0
   m_Name: modern house-4
   m_TagString: Untagged
@@ -14322,6 +15373,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &576829772
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 2cfc62548c4cc3b47ad34deb43e45295,
+    type: 2}
+  m_PrefabInternal: {fileID: 570266444}
+  m_GameObject: {fileID: 576829771}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 407847fea8574c347ad882bb793f3ba5, type: 3}
 --- !u!23 &576829773
 Renderer:
   m_ObjectHideFlags: 0
@@ -14373,6 +15438,7 @@ GameObject:
   - 4: {fileID: 576903516}
   - 33: {fileID: 576903515}
   - 23: {fileID: 576903514}
+  - 64: {fileID: 576903513}
   m_Layer: 0
   m_Name: tree-2
   m_TagString: Untagged
@@ -14380,6 +15446,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &576903513
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: c3a35d9e0fbc992459c26d4bdde72a30,
+    type: 2}
+  m_PrefabInternal: {fileID: 1906940681}
+  m_GameObject: {fileID: 576903512}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: dd4f250322ef16c47a7457c793a0c9e6, type: 3}
 --- !u!23 &576903514
 Renderer:
   m_ObjectHideFlags: 0
@@ -14431,6 +15511,7 @@ GameObject:
   - 4: {fileID: 578911120}
   - 33: {fileID: 578911119}
   - 23: {fileID: 578911118}
+  - 64: {fileID: 578911117}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -14438,6 +15519,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &578911117
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 249552658}
+  m_GameObject: {fileID: 578911116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &578911118
 Renderer:
   m_ObjectHideFlags: 0
@@ -14547,6 +15642,7 @@ GameObject:
   - 4: {fileID: 580377207}
   - 33: {fileID: 580377209}
   - 23: {fileID: 580377208}
+  - 64: {fileID: 580377210}
   m_Layer: 0
   m_Name: Box348
   m_TagString: Untagged
@@ -14595,6 +15691,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 810791515}
   m_GameObject: {fileID: 580377206}
   m_Mesh: {fileID: 4300000, guid: ac98879fdbdc69f4092f20fe648d7b44, type: 3}
+--- !u!64 &580377210
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8e4fad997459a03498fe60f2183237e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 810791515}
+  m_GameObject: {fileID: 580377206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: ac98879fdbdc69f4092f20fe648d7b44, type: 3}
 --- !u!1 &580978592
 GameObject:
   m_ObjectHideFlags: 0
@@ -14605,6 +15715,7 @@ GameObject:
   - 4: {fileID: 580978596}
   - 33: {fileID: 580978595}
   - 23: {fileID: 580978594}
+  - 64: {fileID: 580978593}
   m_Layer: 0
   m_Name: street light
   m_TagString: Untagged
@@ -14612,6 +15723,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &580978593
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: bc2e6c09e57fb0b42b307b81d6b193e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1616035565}
+  m_GameObject: {fileID: 580978592}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 718d33f9c45198a4b81d7398a831ebec, type: 3}
 --- !u!23 &580978594
 Renderer:
   m_ObjectHideFlags: 0
@@ -14936,6 +16061,7 @@ GameObject:
   - 4: {fileID: 599158905}
   - 33: {fileID: 599158904}
   - 23: {fileID: 599158903}
+  - 64: {fileID: 599158902}
   m_Layer: 0
   m_Name: old house-3
   m_TagString: Untagged
@@ -14943,6 +16069,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &599158902
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 1fec6665d1196f946b5821303b70cce9,
+    type: 2}
+  m_PrefabInternal: {fileID: 543794727}
+  m_GameObject: {fileID: 599158901}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 0809094a7d5a8ed45af7764a798868ed, type: 3}
 --- !u!23 &599158903
 Renderer:
   m_ObjectHideFlags: 0
@@ -15052,6 +16192,7 @@ GameObject:
   - 4: {fileID: 600374912}
   - 33: {fileID: 600374911}
   - 23: {fileID: 600374910}
+  - 64: {fileID: 600374909}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -15059,6 +16200,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &600374909
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 462273478}
+  m_GameObject: {fileID: 600374908}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &600374910
 Renderer:
   m_ObjectHideFlags: 0
@@ -15110,6 +16265,7 @@ GameObject:
   - 4: {fileID: 602533155}
   - 33: {fileID: 602533154}
   - 23: {fileID: 602533153}
+  - 64: {fileID: 602533152}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -15117,6 +16273,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &602533152
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 1996890979}
+  m_GameObject: {fileID: 602533151}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &602533153
 Renderer:
   m_ObjectHideFlags: 0
@@ -15209,6 +16379,7 @@ GameObject:
   - 4: {fileID: 611382435}
   - 33: {fileID: 611382434}
   - 23: {fileID: 611382433}
+  - 64: {fileID: 611382432}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -15216,6 +16387,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &611382432
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1589564247}
+  m_GameObject: {fileID: 611382431}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &611382433
 Renderer:
   m_ObjectHideFlags: 0
@@ -15620,6 +16805,7 @@ GameObject:
   - 4: {fileID: 645106046}
   - 33: {fileID: 645106045}
   - 23: {fileID: 645106044}
+  - 64: {fileID: 645106043}
   m_Layer: 0
   m_Name: street light
   m_TagString: Untagged
@@ -15627,6 +16813,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &645106043
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: bc2e6c09e57fb0b42b307b81d6b193e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1426215595}
+  m_GameObject: {fileID: 645106042}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 718d33f9c45198a4b81d7398a831ebec, type: 3}
 --- !u!23 &645106044
 Renderer:
   m_ObjectHideFlags: 0
@@ -15834,6 +17034,7 @@ GameObject:
   - 4: {fileID: 658064753}
   - 33: {fileID: 658064752}
   - 23: {fileID: 658064751}
+  - 64: {fileID: 658064750}
   m_Layer: 0
   m_Name: plant-2
   m_TagString: Untagged
@@ -15841,6 +17042,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &658064750
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 5c1d62a9c446ff44d9a15e0c78ee4924,
+    type: 2}
+  m_PrefabInternal: {fileID: 1694171315}
+  m_GameObject: {fileID: 658064749}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 6928ec5d6e3572c448deb5c8b7f7ced9, type: 3}
 --- !u!23 &658064751
 Renderer:
   m_ObjectHideFlags: 0
@@ -16071,6 +17286,7 @@ GameObject:
   - 4: {fileID: 662737872}
   - 33: {fileID: 662737871}
   - 23: {fileID: 662737870}
+  - 64: {fileID: 662737869}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -16078,6 +17294,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &662737869
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1035502391}
+  m_GameObject: {fileID: 662737868}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &662737870
 Renderer:
   m_ObjectHideFlags: 0
@@ -16384,6 +17614,7 @@ GameObject:
   - 4: {fileID: 681806996}
   - 33: {fileID: 681806995}
   - 23: {fileID: 681806994}
+  - 64: {fileID: 681806993}
   m_Layer: 0
   m_Name: tree-2
   m_TagString: Untagged
@@ -16391,6 +17622,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &681806993
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: c3a35d9e0fbc992459c26d4bdde72a30,
+    type: 2}
+  m_PrefabInternal: {fileID: 610341338}
+  m_GameObject: {fileID: 681806992}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: dd4f250322ef16c47a7457c793a0c9e6, type: 3}
 --- !u!23 &681806994
 Renderer:
   m_ObjectHideFlags: 0
@@ -17435,6 +18680,7 @@ GameObject:
   - 4: {fileID: 727081061}
   - 33: {fileID: 727081060}
   - 23: {fileID: 727081059}
+  - 64: {fileID: 727081058}
   m_Layer: 0
   m_Name: road sign-2
   m_TagString: Untagged
@@ -17442,6 +18688,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &727081058
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fa39b0af07288ea41a333a8e2755b2cb,
+    type: 2}
+  m_PrefabInternal: {fileID: 891038819}
+  m_GameObject: {fileID: 727081057}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300002, guid: abf761b7bf1c5a049bed2c8c36a07c34, type: 3}
 --- !u!23 &727081059
 Renderer:
   m_ObjectHideFlags: 0
@@ -17872,6 +19132,7 @@ GameObject:
   - 4: {fileID: 739719700}
   - 33: {fileID: 739719699}
   - 23: {fileID: 739719698}
+  - 64: {fileID: 739719697}
   m_Layer: 0
   m_Name: wall-1
   m_TagString: Untagged
@@ -17879,6 +19140,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &739719697
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: c4d4aa699a99c6d4981d3597c739c009,
+    type: 2}
+  m_PrefabInternal: {fileID: 1426764005}
+  m_GameObject: {fileID: 739719696}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 38bed6c53e88e6f4781e61328555e588, type: 3}
 --- !u!23 &739719698
 Renderer:
   m_ObjectHideFlags: 0
@@ -18193,6 +19468,7 @@ GameObject:
   - 4: {fileID: 761735844}
   - 33: {fileID: 761735843}
   - 23: {fileID: 761735842}
+  - 64: {fileID: 761735841}
   m_Layer: 0
   m_Name: wall-2
   m_TagString: Untagged
@@ -18200,6 +19476,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &761735841
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: d6f97d5fcd0540a4e8f2f08ed95cda64,
+    type: 2}
+  m_PrefabInternal: {fileID: 1450882823}
+  m_GameObject: {fileID: 761735840}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: a3561add214f86140a7c5f164f674872, type: 3}
 --- !u!23 &761735842
 Renderer:
   m_ObjectHideFlags: 0
@@ -18251,6 +19541,7 @@ GameObject:
   - 4: {fileID: 765377820}
   - 33: {fileID: 765377819}
   - 23: {fileID: 765377818}
+  - 64: {fileID: 765377817}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -18258,6 +19549,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &765377817
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1641159857}
+  m_GameObject: {fileID: 765377816}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &765377818
 Renderer:
   m_ObjectHideFlags: 0
@@ -18477,6 +19782,7 @@ GameObject:
   - 4: {fileID: 769947151}
   - 33: {fileID: 769947150}
   - 23: {fileID: 769947149}
+  - 64: {fileID: 769947148}
   m_Layer: 0
   m_Name: wall-4
   m_TagString: Untagged
@@ -18484,6 +19790,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &769947148
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: f7c6624be254d3448a88b7e1fbdf9515,
+    type: 2}
+  m_PrefabInternal: {fileID: 725403323}
+  m_GameObject: {fileID: 769947147}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 9f2012c11036a7c419886dbff2d47559, type: 3}
 --- !u!23 &769947149
 Renderer:
   m_ObjectHideFlags: 0
@@ -18914,6 +20234,7 @@ GameObject:
   - 4: {fileID: 796205393}
   - 33: {fileID: 796205392}
   - 23: {fileID: 796205391}
+  - 64: {fileID: 796205390}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -18921,6 +20242,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &796205390
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 2132025936}
+  m_GameObject: {fileID: 796205389}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &796205391
 Renderer:
   m_ObjectHideFlags: 0
@@ -19103,6 +20438,7 @@ GameObject:
   - 4: {fileID: 799667128}
   - 33: {fileID: 799667127}
   - 23: {fileID: 799667126}
+  - 64: {fileID: 799667125}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -19110,6 +20446,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &799667125
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 563514316}
+  m_GameObject: {fileID: 799667124}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &799667126
 Renderer:
   m_ObjectHideFlags: 0
@@ -19162,6 +20512,7 @@ GameObject:
   - 4: {fileID: 807145852}
   - 33: {fileID: 807145851}
   - 23: {fileID: 807145850}
+  - 64: {fileID: 807145849}
   m_Layer: 0
   m_Name: old house-3
   m_TagString: Untagged
@@ -19169,6 +20520,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &807145849
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 1fec6665d1196f946b5821303b70cce9,
+    type: 2}
+  m_PrefabInternal: {fileID: 709482580}
+  m_GameObject: {fileID: 807145848}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 0809094a7d5a8ed45af7764a798868ed, type: 3}
 --- !u!23 &807145850
 Renderer:
   m_ObjectHideFlags: 0
@@ -19220,6 +20585,7 @@ GameObject:
   - 4: {fileID: 809207491}
   - 33: {fileID: 809207490}
   - 23: {fileID: 809207489}
+  - 64: {fileID: 809207488}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -19227,6 +20593,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &809207488
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 17103641}
+  m_GameObject: {fileID: 809207487}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &809207489
 Renderer:
   m_ObjectHideFlags: 0
@@ -19602,6 +20982,7 @@ GameObject:
   - 4: {fileID: 821452686}
   - 33: {fileID: 821452685}
   - 23: {fileID: 821452684}
+  - 64: {fileID: 821452683}
   m_Layer: 0
   m_Name: street light
   m_TagString: Untagged
@@ -19609,6 +20990,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &821452683
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: bc2e6c09e57fb0b42b307b81d6b193e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 854511922}
+  m_GameObject: {fileID: 821452682}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 718d33f9c45198a4b81d7398a831ebec, type: 3}
 --- !u!23 &821452684
 Renderer:
   m_ObjectHideFlags: 0
@@ -19780,6 +21175,7 @@ GameObject:
   - 4: {fileID: 824927893}
   - 33: {fileID: 824927892}
   - 23: {fileID: 824927891}
+  - 64: {fileID: 824927890}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -19787,6 +21183,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &824927890
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 480704880}
+  m_GameObject: {fileID: 824927889}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &824927891
 Renderer:
   m_ObjectHideFlags: 0
@@ -20447,6 +21857,7 @@ GameObject:
   - 4: {fileID: 844258545}
   - 33: {fileID: 844258544}
   - 23: {fileID: 844258543}
+  - 64: {fileID: 844258542}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -20454,6 +21865,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &844258542
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 12784714}
+  m_GameObject: {fileID: 844258541}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &844258543
 Renderer:
   m_ObjectHideFlags: 0
@@ -20545,6 +21970,7 @@ GameObject:
   - 4: {fileID: 851577326}
   - 33: {fileID: 851577325}
   - 23: {fileID: 851577324}
+  - 64: {fileID: 851577323}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -20552,6 +21978,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &851577323
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 842112856}
+  m_GameObject: {fileID: 851577322}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &851577324
 Renderer:
   m_ObjectHideFlags: 0
@@ -20724,6 +22164,7 @@ GameObject:
   - 4: {fileID: 857950115}
   - 33: {fileID: 857950114}
   - 23: {fileID: 857950113}
+  - 64: {fileID: 857950112}
   m_Layer: 0
   m_Name: road sign-2
   m_TagString: Untagged
@@ -20731,6 +22172,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &857950112
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fa39b0af07288ea41a333a8e2755b2cb,
+    type: 2}
+  m_PrefabInternal: {fileID: 266733963}
+  m_GameObject: {fileID: 857950111}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300002, guid: abf761b7bf1c5a049bed2c8c36a07c34, type: 3}
 --- !u!23 &857950113
 Renderer:
   m_ObjectHideFlags: 0
@@ -20920,6 +22375,7 @@ GameObject:
   - 4: {fileID: 865903927}
   - 33: {fileID: 865903926}
   - 23: {fileID: 865903925}
+  - 64: {fileID: 865903924}
   m_Layer: 0
   m_Name: street light
   m_TagString: Untagged
@@ -20927,6 +22383,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &865903924
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: bc2e6c09e57fb0b42b307b81d6b193e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 258296734}
+  m_GameObject: {fileID: 865903923}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 718d33f9c45198a4b81d7398a831ebec, type: 3}
 --- !u!23 &865903925
 Renderer:
   m_ObjectHideFlags: 0
@@ -21222,6 +22692,7 @@ GameObject:
   - 4: {fileID: 881850352}
   - 33: {fileID: 881850351}
   - 23: {fileID: 881850350}
+  - 64: {fileID: 881850349}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -21229,6 +22700,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &881850349
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 1845513378}
+  m_GameObject: {fileID: 881850348}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &881850350
 Renderer:
   m_ObjectHideFlags: 0
@@ -21321,6 +22806,7 @@ GameObject:
   - 4: {fileID: 886879625}
   - 33: {fileID: 886879624}
   - 23: {fileID: 886879623}
+  - 64: {fileID: 886879622}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -21328,6 +22814,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &886879622
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1829531216}
+  m_GameObject: {fileID: 886879621}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &886879623
 Renderer:
   m_ObjectHideFlags: 0
@@ -21477,6 +22977,7 @@ GameObject:
   - 4: {fileID: 892312234}
   - 33: {fileID: 892312233}
   - 23: {fileID: 892312232}
+  - 64: {fileID: 892312231}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -21484,6 +22985,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &892312231
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1721664021}
+  m_GameObject: {fileID: 892312230}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &892312232
 Renderer:
   m_ObjectHideFlags: 0
@@ -21536,6 +23051,7 @@ GameObject:
   - 4: {fileID: 892891015}
   - 33: {fileID: 892891014}
   - 23: {fileID: 892891013}
+  - 64: {fileID: 892891012}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -21543,6 +23059,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &892891012
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 553609106}
+  m_GameObject: {fileID: 892891011}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &892891013
 Renderer:
   m_ObjectHideFlags: 0
@@ -21635,6 +23165,7 @@ GameObject:
   - 4: {fileID: 898130436}
   - 33: {fileID: 898130435}
   - 23: {fileID: 898130434}
+  - 64: {fileID: 898130433}
   m_Layer: 0
   m_Name: modern house-4
   m_TagString: Untagged
@@ -21642,6 +23173,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &898130433
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 2cfc62548c4cc3b47ad34deb43e45295,
+    type: 2}
+  m_PrefabInternal: {fileID: 1159263717}
+  m_GameObject: {fileID: 898130432}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 407847fea8574c347ad882bb793f3ba5, type: 3}
 --- !u!23 &898130434
 Renderer:
   m_ObjectHideFlags: 0
@@ -21849,6 +23394,7 @@ GameObject:
   - 4: {fileID: 902935994}
   - 33: {fileID: 902935993}
   - 23: {fileID: 902935992}
+  - 64: {fileID: 902935991}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -21856,6 +23402,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &902935991
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 1356701263}
+  m_GameObject: {fileID: 902935990}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &902935992
 Renderer:
   m_ObjectHideFlags: 0
@@ -21908,6 +23468,7 @@ GameObject:
   - 4: {fileID: 907424238}
   - 33: {fileID: 907424237}
   - 23: {fileID: 907424236}
+  - 64: {fileID: 907424235}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -21915,6 +23476,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &907424235
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 183738488}
+  m_GameObject: {fileID: 907424234}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &907424236
 Renderer:
   m_ObjectHideFlags: 0
@@ -22187,6 +23762,7 @@ GameObject:
   - 4: {fileID: 917949281}
   - 33: {fileID: 917949280}
   - 23: {fileID: 917949279}
+  - 64: {fileID: 917949278}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -22194,6 +23770,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &917949278
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1894673432}
+  m_GameObject: {fileID: 917949277}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &917949279
 Renderer:
   m_ObjectHideFlags: 0
@@ -22362,6 +23952,7 @@ GameObject:
   - 4: {fileID: 921830469}
   - 33: {fileID: 921830468}
   - 23: {fileID: 921830467}
+  - 64: {fileID: 921830466}
   m_Layer: 0
   m_Name: street light
   m_TagString: Untagged
@@ -22369,6 +23960,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &921830466
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: bc2e6c09e57fb0b42b307b81d6b193e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 584768310}
+  m_GameObject: {fileID: 921830465}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 718d33f9c45198a4b81d7398a831ebec, type: 3}
 --- !u!23 &921830467
 Renderer:
   m_ObjectHideFlags: 0
@@ -22420,6 +24025,7 @@ GameObject:
   - 4: {fileID: 923456362}
   - 33: {fileID: 923456361}
   - 23: {fileID: 923456360}
+  - 64: {fileID: 923456359}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -22427,6 +24033,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &923456359
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 318556970}
+  m_GameObject: {fileID: 923456358}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &923456360
 Renderer:
   m_ObjectHideFlags: 0
@@ -23340,6 +24960,7 @@ GameObject:
   - 4: {fileID: 975789488}
   - 33: {fileID: 975789487}
   - 23: {fileID: 975789486}
+  - 64: {fileID: 975789485}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -23347,6 +24968,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &975789485
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1884111569}
+  m_GameObject: {fileID: 975789484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &975789486
 Renderer:
   m_ObjectHideFlags: 0
@@ -23439,6 +25074,7 @@ GameObject:
   - 4: {fileID: 983223256}
   - 33: {fileID: 983223255}
   - 23: {fileID: 983223254}
+  - 64: {fileID: 983223253}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -23446,6 +25082,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &983223253
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 937461640}
+  m_GameObject: {fileID: 983223252}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &983223254
 Renderer:
   m_ObjectHideFlags: 0
@@ -23733,6 +25383,7 @@ GameObject:
   - 4: {fileID: 996462946}
   - 33: {fileID: 996462945}
   - 23: {fileID: 996462944}
+  - 64: {fileID: 996462943}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -23740,6 +25391,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &996462943
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1746554853}
+  m_GameObject: {fileID: 996462942}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &996462944
 Renderer:
   m_ObjectHideFlags: 0
@@ -23850,6 +25515,7 @@ GameObject:
   - 4: {fileID: 998423751}
   - 33: {fileID: 998423750}
   - 23: {fileID: 998423749}
+  - 64: {fileID: 998423748}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -23857,6 +25523,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &998423748
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1502792145}
+  m_GameObject: {fileID: 998423747}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &998423749
 Renderer:
   m_ObjectHideFlags: 0
@@ -23988,6 +25668,7 @@ GameObject:
   - 4: {fileID: 1013717297}
   - 33: {fileID: 1013717296}
   - 23: {fileID: 1013717295}
+  - 64: {fileID: 1013717294}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -23995,6 +25676,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1013717294
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 1833700238}
+  m_GameObject: {fileID: 1013717293}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &1013717295
 Renderer:
   m_ObjectHideFlags: 0
@@ -24087,6 +25782,7 @@ GameObject:
   - 4: {fileID: 1031507387}
   - 33: {fileID: 1031507386}
   - 23: {fileID: 1031507385}
+  - 64: {fileID: 1031507384}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -24094,6 +25790,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1031507384
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 130704913}
+  m_GameObject: {fileID: 1031507383}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &1031507385
 Renderer:
   m_ObjectHideFlags: 0
@@ -24185,6 +25895,7 @@ GameObject:
   - 4: {fileID: 1032756765}
   - 33: {fileID: 1032756764}
   - 23: {fileID: 1032756763}
+  - 64: {fileID: 1032756762}
   m_Layer: 0
   m_Name: road sign-2
   m_TagString: Untagged
@@ -24192,6 +25903,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1032756762
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fa39b0af07288ea41a333a8e2755b2cb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1338570367}
+  m_GameObject: {fileID: 1032756761}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300002, guid: abf761b7bf1c5a049bed2c8c36a07c34, type: 3}
 --- !u!23 &1032756763
 Renderer:
   m_ObjectHideFlags: 0
@@ -24697,6 +26422,7 @@ GameObject:
   - 4: {fileID: 1064414562}
   - 33: {fileID: 1064414561}
   - 23: {fileID: 1064414560}
+  - 64: {fileID: 1064414559}
   m_Layer: 0
   m_Name: old house-2
   m_TagString: Untagged
@@ -24704,6 +26430,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1064414559
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fa65e23dd1efae3438935312514a2ccc,
+    type: 2}
+  m_PrefabInternal: {fileID: 477836445}
+  m_GameObject: {fileID: 1064414558}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f0cf5ecc7edf97b439bde8b3070073c2, type: 3}
 --- !u!23 &1064414560
 Renderer:
   m_ObjectHideFlags: 0
@@ -24755,6 +26495,7 @@ GameObject:
   - 4: {fileID: 1065987817}
   - 33: {fileID: 1065987816}
   - 23: {fileID: 1065987815}
+  - 64: {fileID: 1065987814}
   m_Layer: 0
   m_Name: street light
   m_TagString: Untagged
@@ -24762,6 +26503,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1065987814
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: bc2e6c09e57fb0b42b307b81d6b193e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 660193888}
+  m_GameObject: {fileID: 1065987813}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 718d33f9c45198a4b81d7398a831ebec, type: 3}
 --- !u!23 &1065987815
 Renderer:
   m_ObjectHideFlags: 0
@@ -24911,6 +26666,7 @@ GameObject:
   - 4: {fileID: 1071342769}
   - 33: {fileID: 1071342768}
   - 23: {fileID: 1071342767}
+  - 64: {fileID: 1071342766}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -24918,6 +26674,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1071342766
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 2096317209}
+  m_GameObject: {fileID: 1071342765}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &1071342767
 Renderer:
   m_ObjectHideFlags: 0
@@ -25010,6 +26780,7 @@ GameObject:
   - 4: {fileID: 1075688770}
   - 33: {fileID: 1075688769}
   - 23: {fileID: 1075688768}
+  - 64: {fileID: 1075688767}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -25017,6 +26788,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1075688767
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1894335478}
+  m_GameObject: {fileID: 1075688766}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1075688768
 Renderer:
   m_ObjectHideFlags: 0
@@ -25206,6 +26991,7 @@ GameObject:
   - 4: {fileID: 1084562376}
   - 33: {fileID: 1084562375}
   - 23: {fileID: 1084562374}
+  - 64: {fileID: 1084562373}
   m_Layer: 0
   m_Name: road sign-2
   m_TagString: Untagged
@@ -25213,6 +26999,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1084562373
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fa39b0af07288ea41a333a8e2755b2cb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1691556727}
+  m_GameObject: {fileID: 1084562372}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300002, guid: abf761b7bf1c5a049bed2c8c36a07c34, type: 3}
 --- !u!23 &1084562374
 Renderer:
   m_ObjectHideFlags: 0
@@ -25435,6 +27235,7 @@ GameObject:
   - 4: {fileID: 1104747873}
   - 33: {fileID: 1104747872}
   - 23: {fileID: 1104747871}
+  - 64: {fileID: 1104747870}
   m_Layer: 0
   m_Name: tree-2
   m_TagString: Untagged
@@ -25442,6 +27243,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1104747870
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: c3a35d9e0fbc992459c26d4bdde72a30,
+    type: 2}
+  m_PrefabInternal: {fileID: 1279214951}
+  m_GameObject: {fileID: 1104747869}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: dd4f250322ef16c47a7457c793a0c9e6, type: 3}
 --- !u!23 &1104747871
 Renderer:
   m_ObjectHideFlags: 0
@@ -25978,6 +27793,7 @@ GameObject:
   - 4: {fileID: 1139920866}
   - 33: {fileID: 1139920865}
   - 23: {fileID: 1139920864}
+  - 64: {fileID: 1139920863}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -25985,6 +27801,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1139920863
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 621795497}
+  m_GameObject: {fileID: 1139920862}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &1139920864
 Renderer:
   m_ObjectHideFlags: 0
@@ -26077,6 +27907,7 @@ GameObject:
   - 4: {fileID: 1143313701}
   - 33: {fileID: 1143313700}
   - 23: {fileID: 1143313699}
+  - 64: {fileID: 1143313698}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -26084,6 +27915,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1143313698
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1651145068}
+  m_GameObject: {fileID: 1143313697}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1143313699
 Renderer:
   m_ObjectHideFlags: 0
@@ -26291,6 +28136,7 @@ GameObject:
   - 4: {fileID: 1153434116}
   - 33: {fileID: 1153434115}
   - 23: {fileID: 1153434114}
+  - 64: {fileID: 1153434113}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -26298,6 +28144,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1153434113
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1998286691}
+  m_GameObject: {fileID: 1153434112}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &1153434114
 Renderer:
   m_ObjectHideFlags: 0
@@ -26349,6 +28209,7 @@ GameObject:
   - 4: {fileID: 1154127528}
   - 33: {fileID: 1154127527}
   - 23: {fileID: 1154127526}
+  - 64: {fileID: 1154127525}
   m_Layer: 0
   m_Name: wall-2
   m_TagString: Untagged
@@ -26356,6 +28217,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1154127525
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: d6f97d5fcd0540a4e8f2f08ed95cda64,
+    type: 2}
+  m_PrefabInternal: {fileID: 534768494}
+  m_GameObject: {fileID: 1154127524}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: a3561add214f86140a7c5f164f674872, type: 3}
 --- !u!23 &1154127526
 Renderer:
   m_ObjectHideFlags: 0
@@ -26785,6 +28660,7 @@ GameObject:
   - 4: {fileID: 1180787268}
   - 33: {fileID: 1180787267}
   - 23: {fileID: 1180787266}
+  - 64: {fileID: 1180787265}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -26792,6 +28668,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1180787265
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1673552590}
+  m_GameObject: {fileID: 1180787264}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &1180787266
 Renderer:
   m_ObjectHideFlags: 0
@@ -27616,6 +29506,7 @@ GameObject:
   - 4: {fileID: 1213103820}
   - 33: {fileID: 1213103819}
   - 23: {fileID: 1213103818}
+  - 64: {fileID: 1213103817}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -27623,6 +29514,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1213103817
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1234443910}
+  m_GameObject: {fileID: 1213103816}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1213103818
 Renderer:
   m_ObjectHideFlags: 0
@@ -28267,6 +30172,7 @@ GameObject:
   - 4: {fileID: 1247566970}
   - 33: {fileID: 1247566969}
   - 23: {fileID: 1247566968}
+  - 64: {fileID: 1247566967}
   m_Layer: 0
   m_Name: plant-2
   m_TagString: Untagged
@@ -28274,6 +30180,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1247566967
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 5c1d62a9c446ff44d9a15e0c78ee4924,
+    type: 2}
+  m_PrefabInternal: {fileID: 195397464}
+  m_GameObject: {fileID: 1247566966}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 6928ec5d6e3572c448deb5c8b7f7ced9, type: 3}
 --- !u!23 &1247566968
 Renderer:
   m_ObjectHideFlags: 0
@@ -28603,6 +30523,7 @@ GameObject:
   - 4: {fileID: 1263020539}
   - 33: {fileID: 1263020538}
   - 23: {fileID: 1263020537}
+  - 64: {fileID: 1263020536}
   m_Layer: 0
   m_Name: wall-2
   m_TagString: Untagged
@@ -28610,6 +30531,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1263020536
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: d6f97d5fcd0540a4e8f2f08ed95cda64,
+    type: 2}
+  m_PrefabInternal: {fileID: 1703798108}
+  m_GameObject: {fileID: 1263020535}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: a3561add214f86140a7c5f164f674872, type: 3}
 --- !u!23 &1263020537
 Renderer:
   m_ObjectHideFlags: 0
@@ -28759,6 +30694,7 @@ GameObject:
   - 4: {fileID: 1266131332}
   - 33: {fileID: 1266131331}
   - 23: {fileID: 1266131330}
+  - 64: {fileID: 1266131329}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -28766,6 +30702,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1266131329
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1295322506}
+  m_GameObject: {fileID: 1266131328}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &1266131330
 Renderer:
   m_ObjectHideFlags: 0
@@ -28959,6 +30909,7 @@ GameObject:
   - 4: {fileID: 1276462662}
   - 33: {fileID: 1276462661}
   - 23: {fileID: 1276462660}
+  - 64: {fileID: 1276462659}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -28966,6 +30917,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1276462659
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1902189441}
+  m_GameObject: {fileID: 1276462658}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &1276462660
 Renderer:
   m_ObjectHideFlags: 0
@@ -29344,6 +31309,7 @@ GameObject:
   - 4: {fileID: 1288696985}
   - 33: {fileID: 1288696987}
   - 23: {fileID: 1288696986}
+  - 64: {fileID: 1288696988}
   m_Layer: 0
   m_Name: Box348
   m_TagString: Untagged
@@ -29391,6 +31357,20 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 1754696701}
   m_GameObject: {fileID: 1288696984}
+  m_Mesh: {fileID: 4300000, guid: ac98879fdbdc69f4092f20fe648d7b44, type: 3}
+--- !u!64 &1288696988
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8e4fad997459a03498fe60f2183237e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1754696701}
+  m_GameObject: {fileID: 1288696984}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: ac98879fdbdc69f4092f20fe648d7b44, type: 3}
 --- !u!1 &1289119198
 GameObject:
@@ -29737,6 +31717,7 @@ GameObject:
   - 4: {fileID: 1302327708}
   - 33: {fileID: 1302327707}
   - 23: {fileID: 1302327706}
+  - 64: {fileID: 1302327705}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -29744,6 +31725,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1302327705
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 570412455}
+  m_GameObject: {fileID: 1302327704}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1302327706
 Renderer:
   m_ObjectHideFlags: 0
@@ -29933,6 +31928,7 @@ GameObject:
   - 4: {fileID: 1309104956}
   - 33: {fileID: 1309104955}
   - 23: {fileID: 1309104954}
+  - 64: {fileID: 1309104953}
   m_Layer: 0
   m_Name: modern house-4
   m_TagString: Untagged
@@ -29940,6 +31936,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1309104953
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 2cfc62548c4cc3b47ad34deb43e45295,
+    type: 2}
+  m_PrefabInternal: {fileID: 1233700084}
+  m_GameObject: {fileID: 1309104952}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 407847fea8574c347ad882bb793f3ba5, type: 3}
 --- !u!23 &1309104954
 Renderer:
   m_ObjectHideFlags: 0
@@ -30333,6 +32343,7 @@ GameObject:
   - 4: {fileID: 1326396619}
   - 33: {fileID: 1326396618}
   - 23: {fileID: 1326396617}
+  - 64: {fileID: 1326396616}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -30340,6 +32351,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1326396616
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 2040877132}
+  m_GameObject: {fileID: 1326396615}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &1326396617
 Renderer:
   m_ObjectHideFlags: 0
@@ -30908,6 +32933,7 @@ GameObject:
   - 4: {fileID: 1349923099}
   - 33: {fileID: 1349923098}
   - 23: {fileID: 1349923097}
+  - 64: {fileID: 1349923096}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -30915,6 +32941,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1349923096
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1115333256}
+  m_GameObject: {fileID: 1349923095}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1349923097
 Renderer:
   m_ObjectHideFlags: 0
@@ -31024,6 +33064,7 @@ GameObject:
   - 4: {fileID: 1355428113}
   - 33: {fileID: 1355428112}
   - 23: {fileID: 1355428111}
+  - 64: {fileID: 1355428110}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -31031,6 +33072,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1355428110
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1548759258}
+  m_GameObject: {fileID: 1355428109}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &1355428111
 Renderer:
   m_ObjectHideFlags: 0
@@ -31122,6 +33177,7 @@ GameObject:
   - 4: {fileID: 1358027303}
   - 33: {fileID: 1358027302}
   - 23: {fileID: 1358027301}
+  - 64: {fileID: 1358027300}
   m_Layer: 0
   m_Name: road sign-2
   m_TagString: Untagged
@@ -31129,6 +33185,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1358027300
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fa39b0af07288ea41a333a8e2755b2cb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1914271387}
+  m_GameObject: {fileID: 1358027299}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300002, guid: abf761b7bf1c5a049bed2c8c36a07c34, type: 3}
 --- !u!23 &1358027301
 Renderer:
   m_ObjectHideFlags: 0
@@ -31406,6 +33476,7 @@ GameObject:
   - 4: {fileID: 1369337557}
   - 33: {fileID: 1369337556}
   - 23: {fileID: 1369337555}
+  - 64: {fileID: 1369337554}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -31413,6 +33484,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1369337554
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1159806808}
+  m_GameObject: {fileID: 1369337553}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1369337555
 Renderer:
   m_ObjectHideFlags: 0
@@ -31660,6 +33745,7 @@ GameObject:
   - 4: {fileID: 1377203283}
   - 33: {fileID: 1377203282}
   - 23: {fileID: 1377203281}
+  - 64: {fileID: 1377203280}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -31667,6 +33753,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1377203280
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 669821058}
+  m_GameObject: {fileID: 1377203279}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &1377203281
 Renderer:
   m_ObjectHideFlags: 0
@@ -31719,6 +33819,7 @@ GameObject:
   - 4: {fileID: 1378310352}
   - 33: {fileID: 1378310351}
   - 23: {fileID: 1378310350}
+  - 64: {fileID: 1378310349}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -31726,6 +33827,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1378310349
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 717377992}
+  m_GameObject: {fileID: 1378310348}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &1378310350
 Renderer:
   m_ObjectHideFlags: 0
@@ -31817,6 +33932,7 @@ GameObject:
   - 4: {fileID: 1386899375}
   - 33: {fileID: 1386899374}
   - 23: {fileID: 1386899373}
+  - 64: {fileID: 1386899372}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -31824,6 +33940,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1386899372
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 77903544}
+  m_GameObject: {fileID: 1386899371}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1386899373
 Renderer:
   m_ObjectHideFlags: 0
@@ -31955,6 +34085,7 @@ GameObject:
   - 4: {fileID: 1396107973}
   - 33: {fileID: 1396107972}
   - 23: {fileID: 1396107971}
+  - 64: {fileID: 1396107970}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -31962,6 +34093,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1396107970
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 984113684}
+  m_GameObject: {fileID: 1396107969}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &1396107971
 Renderer:
   m_ObjectHideFlags: 0
@@ -32192,6 +34337,7 @@ GameObject:
   - 4: {fileID: 1404882112}
   - 33: {fileID: 1404882111}
   - 23: {fileID: 1404882110}
+  - 64: {fileID: 1404882109}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -32199,6 +34345,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1404882109
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 482210972}
+  m_GameObject: {fileID: 1404882108}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &1404882110
 Renderer:
   m_ObjectHideFlags: 0
@@ -32281,6 +34441,7 @@ GameObject:
   - 4: {fileID: 1417417582}
   - 33: {fileID: 1417417581}
   - 23: {fileID: 1417417580}
+  - 64: {fileID: 1417417579}
   m_Layer: 0
   m_Name: old house-3
   m_TagString: Untagged
@@ -32288,6 +34449,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1417417579
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 1fec6665d1196f946b5821303b70cce9,
+    type: 2}
+  m_PrefabInternal: {fileID: 2136345245}
+  m_GameObject: {fileID: 1417417578}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 0809094a7d5a8ed45af7764a798868ed, type: 3}
 --- !u!23 &1417417580
 Renderer:
   m_ObjectHideFlags: 0
@@ -32339,6 +34514,7 @@ GameObject:
   - 4: {fileID: 1423275696}
   - 33: {fileID: 1423275695}
   - 23: {fileID: 1423275694}
+  - 64: {fileID: 1423275693}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -32346,6 +34522,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1423275693
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1531287307}
+  m_GameObject: {fileID: 1423275692}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1423275694
 Renderer:
   m_ObjectHideFlags: 0
@@ -32597,6 +34787,7 @@ GameObject:
   - 4: {fileID: 1431983368}
   - 33: {fileID: 1431983367}
   - 23: {fileID: 1431983366}
+  - 64: {fileID: 1431983365}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -32604,6 +34795,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1431983365
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 745167125}
+  m_GameObject: {fileID: 1431983364}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &1431983366
 Renderer:
   m_ObjectHideFlags: 0
@@ -32656,6 +34861,7 @@ GameObject:
   - 4: {fileID: 1438897284}
   - 33: {fileID: 1438897283}
   - 23: {fileID: 1438897282}
+  - 64: {fileID: 1438897281}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -32663,6 +34869,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1438897281
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 2062942107}
+  m_GameObject: {fileID: 1438897280}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1438897282
 Renderer:
   m_ObjectHideFlags: 0
@@ -32794,6 +35014,7 @@ GameObject:
   - 4: {fileID: 1443712197}
   - 33: {fileID: 1443712196}
   - 23: {fileID: 1443712195}
+  - 64: {fileID: 1443712194}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -32801,6 +35022,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1443712194
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 554726186}
+  m_GameObject: {fileID: 1443712193}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &1443712195
 Renderer:
   m_ObjectHideFlags: 0
@@ -33104,6 +35339,7 @@ GameObject:
   - 4: {fileID: 1449271496}
   - 33: {fileID: 1449271495}
   - 23: {fileID: 1449271494}
+  - 64: {fileID: 1449271493}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -33111,6 +35347,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1449271493
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 92910353}
+  m_GameObject: {fileID: 1449271492}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &1449271494
 Renderer:
   m_ObjectHideFlags: 0
@@ -33242,6 +35492,7 @@ GameObject:
   - 4: {fileID: 1457112421}
   - 33: {fileID: 1457112420}
   - 23: {fileID: 1457112419}
+  - 64: {fileID: 1457112418}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -33249,6 +35500,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1457112418
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 2100964835}
+  m_GameObject: {fileID: 1457112417}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &1457112419
 Renderer:
   m_ObjectHideFlags: 0
@@ -33300,6 +35565,7 @@ GameObject:
   - 4: {fileID: 1459448266}
   - 33: {fileID: 1459448265}
   - 23: {fileID: 1459448264}
+  - 64: {fileID: 1459448263}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -33307,6 +35573,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1459448263
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 161797249}
+  m_GameObject: {fileID: 1459448262}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &1459448264
 Renderer:
   m_ObjectHideFlags: 0
@@ -33662,6 +35942,7 @@ GameObject:
   - 4: {fileID: 1467081078}
   - 33: {fileID: 1467081077}
   - 23: {fileID: 1467081076}
+  - 64: {fileID: 1467081075}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -33669,6 +35950,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1467081075
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1426294362}
+  m_GameObject: {fileID: 1467081074}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1467081076
 Renderer:
   m_ObjectHideFlags: 0
@@ -33778,6 +36073,7 @@ GameObject:
   - 4: {fileID: 1473142104}
   - 33: {fileID: 1473142103}
   - 23: {fileID: 1473142102}
+  - 64: {fileID: 1473142101}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -33785,6 +36081,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1473142101
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 2090553650}
+  m_GameObject: {fileID: 1473142100}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &1473142102
 Renderer:
   m_ObjectHideFlags: 0
@@ -34178,6 +36488,7 @@ GameObject:
   - 4: {fileID: 1487548562}
   - 33: {fileID: 1487548561}
   - 23: {fileID: 1487548560}
+  - 64: {fileID: 1487548559}
   m_Layer: 0
   m_Name: wall-1
   m_TagString: Untagged
@@ -34185,6 +36496,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1487548559
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: c4d4aa699a99c6d4981d3597c739c009,
+    type: 2}
+  m_PrefabInternal: {fileID: 219970014}
+  m_GameObject: {fileID: 1487548558}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 38bed6c53e88e6f4781e61328555e588, type: 3}
 --- !u!23 &1487548560
 Renderer:
   m_ObjectHideFlags: 0
@@ -34789,7 +37114,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1513571459}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b0923359e9e352a4b9b11c7b7161ad67, type: 3}
   m_Name: 
@@ -34809,7 +37134,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1513571459}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d1352984e3c6465088f6cc7c4ce6e22, type: 3}
   m_Name: 
@@ -34827,7 +37152,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1513571459}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9aaa3f5f2d574f228e4a21aa38b61e4, type: 3}
   m_Name: 
@@ -34853,7 +37178,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1513571459}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 237a7a10492cc4ae6a3adcc6419f4961, type: 3}
   m_Name: 
@@ -34890,7 +37215,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1513571459}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83b39678ff6aa4fec8d135d231ba9cde, type: 3}
   m_Name: 
@@ -35304,6 +37629,7 @@ GameObject:
   - 4: {fileID: 1533682320}
   - 33: {fileID: 1533682319}
   - 23: {fileID: 1533682318}
+  - 64: {fileID: 1533682317}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -35311,6 +37637,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1533682317
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 818171633}
+  m_GameObject: {fileID: 1533682316}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &1533682318
 Renderer:
   m_ObjectHideFlags: 0
@@ -36081,6 +38421,7 @@ GameObject:
   - 4: {fileID: 1563642927}
   - 33: {fileID: 1563642926}
   - 23: {fileID: 1563642925}
+  - 64: {fileID: 1563642924}
   m_Layer: 0
   m_Name: modern house-2
   m_TagString: Untagged
@@ -36088,6 +38429,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1563642924
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fc6f68e70a8add540ad243903a0221c0,
+    type: 2}
+  m_PrefabInternal: {fileID: 540903793}
+  m_GameObject: {fileID: 1563642923}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 040d3efa5f2cf474f853d99b2fe4d12f, type: 3}
 --- !u!23 &1563642925
 Renderer:
   m_ObjectHideFlags: 0
@@ -36317,6 +38672,7 @@ GameObject:
   - 4: {fileID: 1578528400}
   - 33: {fileID: 1578528399}
   - 23: {fileID: 1578528398}
+  - 64: {fileID: 1578528397}
   m_Layer: 0
   m_Name: wall-1
   m_TagString: Untagged
@@ -36324,6 +38680,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1578528397
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: c4d4aa699a99c6d4981d3597c739c009,
+    type: 2}
+  m_PrefabInternal: {fileID: 711553249}
+  m_GameObject: {fileID: 1578528396}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 38bed6c53e88e6f4781e61328555e588, type: 3}
 --- !u!23 &1578528398
 Renderer:
   m_ObjectHideFlags: 0
@@ -36568,6 +38938,7 @@ GameObject:
   - 4: {fileID: 1586185793}
   - 33: {fileID: 1586185792}
   - 23: {fileID: 1586185791}
+  - 64: {fileID: 1586185790}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -36575,6 +38946,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1586185790
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1337527279}
+  m_GameObject: {fileID: 1586185789}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &1586185791
 Renderer:
   m_ObjectHideFlags: 0
@@ -36626,6 +39011,7 @@ GameObject:
   - 4: {fileID: 1586439472}
   - 33: {fileID: 1586439471}
   - 23: {fileID: 1586439470}
+  - 64: {fileID: 1586439469}
   m_Layer: 0
   m_Name: wall-1
   m_TagString: Untagged
@@ -36633,6 +39019,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1586439469
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: c4d4aa699a99c6d4981d3597c739c009,
+    type: 2}
+  m_PrefabInternal: {fileID: 40311835}
+  m_GameObject: {fileID: 1586439468}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 38bed6c53e88e6f4781e61328555e588, type: 3}
 --- !u!23 &1586439470
 Renderer:
   m_ObjectHideFlags: 0
@@ -36764,6 +39164,7 @@ GameObject:
   - 4: {fileID: 1591944345}
   - 33: {fileID: 1591944344}
   - 23: {fileID: 1591944343}
+  - 64: {fileID: 1591944342}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -36771,6 +39172,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1591944342
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1893435310}
+  m_GameObject: {fileID: 1591944341}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1591944343
 Renderer:
   m_ObjectHideFlags: 0
@@ -37636,6 +40051,7 @@ GameObject:
   - 4: {fileID: 1621130686}
   - 33: {fileID: 1621130685}
   - 23: {fileID: 1621130684}
+  - 64: {fileID: 1621130683}
   m_Layer: 0
   m_Name: wall-3
   m_TagString: Untagged
@@ -37643,6 +40059,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1621130683
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 72973045cf2101e469626b19ed3ba2ee,
+    type: 2}
+  m_PrefabInternal: {fileID: 1304900432}
+  m_GameObject: {fileID: 1621130682}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f2613fc30b6d76d429fcaa171e499797, type: 3}
 --- !u!23 &1621130684
 Renderer:
   m_ObjectHideFlags: 0
@@ -37832,6 +40262,7 @@ GameObject:
   - 4: {fileID: 1628392403}
   - 33: {fileID: 1628392402}
   - 23: {fileID: 1628392401}
+  - 64: {fileID: 1628392400}
   m_Layer: 0
   m_Name: wall-2
   m_TagString: Untagged
@@ -37839,6 +40270,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1628392400
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: d6f97d5fcd0540a4e8f2f08ed95cda64,
+    type: 2}
+  m_PrefabInternal: {fileID: 1815333428}
+  m_GameObject: {fileID: 1628392399}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: a3561add214f86140a7c5f164f674872, type: 3}
 --- !u!23 &1628392401
 Renderer:
   m_ObjectHideFlags: 0
@@ -37970,6 +40415,7 @@ GameObject:
   - 4: {fileID: 1629686019}
   - 33: {fileID: 1629686018}
   - 23: {fileID: 1629686017}
+  - 64: {fileID: 1629686016}
   m_Layer: 0
   m_Name: street light
   m_TagString: Untagged
@@ -37977,6 +40423,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1629686016
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: bc2e6c09e57fb0b42b307b81d6b193e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 35266281}
+  m_GameObject: {fileID: 1629686015}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 718d33f9c45198a4b81d7398a831ebec, type: 3}
 --- !u!23 &1629686017
 Renderer:
   m_ObjectHideFlags: 0
@@ -38377,6 +40837,7 @@ GameObject:
   - 4: {fileID: 1640856266}
   - 33: {fileID: 1640856265}
   - 23: {fileID: 1640856264}
+  - 64: {fileID: 1640856263}
   m_Layer: 0
   m_Name: street light
   m_TagString: Untagged
@@ -38384,6 +40845,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1640856263
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: bc2e6c09e57fb0b42b307b81d6b193e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1769681532}
+  m_GameObject: {fileID: 1640856262}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 718d33f9c45198a4b81d7398a831ebec, type: 3}
 --- !u!23 &1640856264
 Renderer:
   m_ObjectHideFlags: 0
@@ -38475,6 +40950,7 @@ GameObject:
   - 4: {fileID: 1641970558}
   - 33: {fileID: 1641970557}
   - 23: {fileID: 1641970556}
+  - 64: {fileID: 1641970555}
   m_Layer: 0
   m_Name: street light
   m_TagString: Untagged
@@ -38482,6 +40958,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1641970555
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: bc2e6c09e57fb0b42b307b81d6b193e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 703205187}
+  m_GameObject: {fileID: 1641970554}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 718d33f9c45198a4b81d7398a831ebec, type: 3}
 --- !u!23 &1641970556
 Renderer:
   m_ObjectHideFlags: 0
@@ -39580,6 +42070,7 @@ GameObject:
   - 4: {fileID: 1679596109}
   - 33: {fileID: 1679596108}
   - 23: {fileID: 1679596107}
+  - 64: {fileID: 1679596106}
   m_Layer: 0
   m_Name: street light
   m_TagString: Untagged
@@ -39587,6 +42078,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1679596106
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: bc2e6c09e57fb0b42b307b81d6b193e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 2120471554}
+  m_GameObject: {fileID: 1679596105}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 718d33f9c45198a4b81d7398a831ebec, type: 3}
 --- !u!23 &1679596107
 Renderer:
   m_ObjectHideFlags: 0
@@ -39678,6 +42183,7 @@ GameObject:
   - 4: {fileID: 1680452237}
   - 33: {fileID: 1680452236}
   - 23: {fileID: 1680452235}
+  - 64: {fileID: 1680452234}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -39685,6 +42191,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1680452234
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 310233434}
+  m_GameObject: {fileID: 1680452233}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1680452235
 Renderer:
   m_ObjectHideFlags: 0
@@ -39849,6 +42369,7 @@ GameObject:
   - 4: {fileID: 1685957841}
   - 33: {fileID: 1685957840}
   - 23: {fileID: 1685957839}
+  - 64: {fileID: 1685957838}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -39856,6 +42377,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1685957838
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1323834316}
+  m_GameObject: {fileID: 1685957837}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &1685957839
 Renderer:
   m_ObjectHideFlags: 0
@@ -39965,6 +42500,7 @@ GameObject:
   - 4: {fileID: 1688102260}
   - 33: {fileID: 1688102259}
   - 23: {fileID: 1688102258}
+  - 64: {fileID: 1688102257}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -39972,6 +42508,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1688102257
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 2142000178}
+  m_GameObject: {fileID: 1688102256}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &1688102258
 Renderer:
   m_ObjectHideFlags: 0
@@ -40024,6 +42574,7 @@ GameObject:
   - 4: {fileID: 1690431320}
   - 33: {fileID: 1690431319}
   - 23: {fileID: 1690431318}
+  - 64: {fileID: 1690431317}
   m_Layer: 0
   m_Name: wall-1
   m_TagString: Untagged
@@ -40031,6 +42582,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1690431317
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: c4d4aa699a99c6d4981d3597c739c009,
+    type: 2}
+  m_PrefabInternal: {fileID: 1584721896}
+  m_GameObject: {fileID: 1690431316}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 38bed6c53e88e6f4781e61328555e588, type: 3}
 --- !u!23 &1690431318
 Renderer:
   m_ObjectHideFlags: 0
@@ -40438,6 +43003,7 @@ GameObject:
   - 4: {fileID: 1706371429}
   - 33: {fileID: 1706371428}
   - 23: {fileID: 1706371427}
+  - 64: {fileID: 1706371426}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -40445,6 +43011,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1706371426
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 80822076}
+  m_GameObject: {fileID: 1706371425}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &1706371427
 Renderer:
   m_ObjectHideFlags: 0
@@ -40628,6 +43208,7 @@ GameObject:
   - 4: {fileID: 1719286361}
   - 33: {fileID: 1719286360}
   - 23: {fileID: 1719286359}
+  - 64: {fileID: 1719286358}
   m_Layer: 0
   m_Name: street light
   m_TagString: Untagged
@@ -40635,6 +43216,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1719286358
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: bc2e6c09e57fb0b42b307b81d6b193e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 444989072}
+  m_GameObject: {fileID: 1719286357}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 718d33f9c45198a4b81d7398a831ebec, type: 3}
 --- !u!23 &1719286359
 Renderer:
   m_ObjectHideFlags: 0
@@ -40843,6 +43438,7 @@ GameObject:
   - 4: {fileID: 1724944057}
   - 33: {fileID: 1724944056}
   - 23: {fileID: 1724944055}
+  - 64: {fileID: 1724944054}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -40850,6 +43446,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1724944054
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 2110797613}
+  m_GameObject: {fileID: 1724944053}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &1724944055
 Renderer:
   m_ObjectHideFlags: 0
@@ -40902,6 +43512,7 @@ GameObject:
   - 4: {fileID: 1725495094}
   - 33: {fileID: 1725495093}
   - 23: {fileID: 1725495092}
+  - 64: {fileID: 1725495091}
   m_Layer: 0
   m_Name: street light
   m_TagString: Untagged
@@ -40909,6 +43520,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1725495091
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: bc2e6c09e57fb0b42b307b81d6b193e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1609639312}
+  m_GameObject: {fileID: 1725495090}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 718d33f9c45198a4b81d7398a831ebec, type: 3}
 --- !u!23 &1725495092
 Renderer:
   m_ObjectHideFlags: 0
@@ -41591,6 +44216,7 @@ GameObject:
   - 4: {fileID: 1757397546}
   - 33: {fileID: 1757397545}
   - 23: {fileID: 1757397544}
+  - 64: {fileID: 1757397543}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -41598,6 +44224,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1757397543
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 624973699}
+  m_GameObject: {fileID: 1757397542}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &1757397544
 Renderer:
   m_ObjectHideFlags: 0
@@ -41708,6 +44348,7 @@ GameObject:
   - 4: {fileID: 1759876320}
   - 33: {fileID: 1759876319}
   - 23: {fileID: 1759876318}
+  - 64: {fileID: 1759876317}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -41715,6 +44356,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1759876317
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 103551587}
+  m_GameObject: {fileID: 1759876316}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &1759876318
 Renderer:
   m_ObjectHideFlags: 0
@@ -41993,6 +44648,7 @@ GameObject:
   - 4: {fileID: 1774779666}
   - 33: {fileID: 1774779665}
   - 23: {fileID: 1774779664}
+  - 64: {fileID: 1774779663}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -42000,6 +44656,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1774779663
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 478420311}
+  m_GameObject: {fileID: 1774779662}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1774779664
 Renderer:
   m_ObjectHideFlags: 0
@@ -42051,6 +44721,7 @@ GameObject:
   - 4: {fileID: 1775901200}
   - 33: {fileID: 1775901199}
   - 23: {fileID: 1775901198}
+  - 64: {fileID: 1775901197}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -42058,6 +44729,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1775901197
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 852914293}
+  m_GameObject: {fileID: 1775901196}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &1775901198
 Renderer:
   m_ObjectHideFlags: 0
@@ -42150,6 +44835,7 @@ GameObject:
   - 4: {fileID: 1778949563}
   - 33: {fileID: 1778949562}
   - 23: {fileID: 1778949561}
+  - 64: {fileID: 1778949560}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -42157,6 +44843,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1778949560
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1152005024}
+  m_GameObject: {fileID: 1778949559}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &1778949561
 Renderer:
   m_ObjectHideFlags: 0
@@ -42208,6 +44908,7 @@ GameObject:
   - 4: {fileID: 1780409270}
   - 33: {fileID: 1780409269}
   - 23: {fileID: 1780409268}
+  - 64: {fileID: 1780409267}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -42215,6 +44916,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1780409267
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1293418962}
+  m_GameObject: {fileID: 1780409266}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &1780409268
 Renderer:
   m_ObjectHideFlags: 0
@@ -42306,6 +45021,7 @@ GameObject:
   - 4: {fileID: 1783100515}
   - 33: {fileID: 1783100514}
   - 23: {fileID: 1783100513}
+  - 64: {fileID: 1783100512}
   m_Layer: 0
   m_Name: modern house-3
   m_TagString: Untagged
@@ -42313,6 +45029,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1783100512
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 901723c9f9ce07f49b5902005512f3ef,
+    type: 2}
+  m_PrefabInternal: {fileID: 1776099501}
+  m_GameObject: {fileID: 1783100511}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 5e4fe27dfd52aa540aaee1a49480b523, type: 3}
 --- !u!23 &1783100513
 Renderer:
   m_ObjectHideFlags: 0
@@ -42364,6 +45094,7 @@ GameObject:
   - 4: {fileID: 1783685742}
   - 33: {fileID: 1783685741}
   - 23: {fileID: 1783685740}
+  - 64: {fileID: 1783685739}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -42371,6 +45102,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1783685739
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 767233975}
+  m_GameObject: {fileID: 1783685738}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1783685740
 Renderer:
   m_ObjectHideFlags: 0
@@ -42753,6 +45498,7 @@ GameObject:
   - 4: {fileID: 1806468195}
   - 33: {fileID: 1806468194}
   - 23: {fileID: 1806468193}
+  - 64: {fileID: 1806468192}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -42760,6 +45506,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1806468192
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 231846269}
+  m_GameObject: {fileID: 1806468191}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &1806468193
 Renderer:
   m_ObjectHideFlags: 0
@@ -42811,6 +45571,7 @@ GameObject:
   - 4: {fileID: 1809184095}
   - 33: {fileID: 1809184094}
   - 23: {fileID: 1809184093}
+  - 64: {fileID: 1809184092}
   m_Layer: 0
   m_Name: plant-1
   m_TagString: Untagged
@@ -42818,6 +45579,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1809184092
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8efa198753b44d4408941745d52aca26,
+    type: 2}
+  m_PrefabInternal: {fileID: 2035998797}
+  m_GameObject: {fileID: 1809184091}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 0fdc4be7ccef13348bd096a059b86440, type: 3}
 --- !u!23 &1809184093
 Renderer:
   m_ObjectHideFlags: 0
@@ -42983,6 +45758,7 @@ GameObject:
   - 4: {fileID: 1816326650}
   - 33: {fileID: 1816326649}
   - 23: {fileID: 1816326648}
+  - 64: {fileID: 1816326647}
   m_Layer: 0
   m_Name: old house-3
   m_TagString: Untagged
@@ -42990,6 +45766,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1816326647
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 1fec6665d1196f946b5821303b70cce9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1628787197}
+  m_GameObject: {fileID: 1816326646}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 0809094a7d5a8ed45af7764a798868ed, type: 3}
 --- !u!23 &1816326648
 Renderer:
   m_ObjectHideFlags: 0
@@ -43255,6 +46045,7 @@ GameObject:
   - 4: {fileID: 1822729904}
   - 33: {fileID: 1822729903}
   - 23: {fileID: 1822729902}
+  - 64: {fileID: 1822729901}
   m_Layer: 0
   m_Name: road sign-2
   m_TagString: Untagged
@@ -43262,6 +46053,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1822729901
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fa39b0af07288ea41a333a8e2755b2cb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1111014644}
+  m_GameObject: {fileID: 1822729900}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300002, guid: abf761b7bf1c5a049bed2c8c36a07c34, type: 3}
 --- !u!23 &1822729902
 Renderer:
   m_ObjectHideFlags: 0
@@ -43662,6 +46467,7 @@ GameObject:
   - 4: {fileID: 1834397010}
   - 33: {fileID: 1834397009}
   - 23: {fileID: 1834397008}
+  - 64: {fileID: 1834397007}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -43669,6 +46475,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1834397007
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1582006960}
+  m_GameObject: {fileID: 1834397006}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1834397008
 Renderer:
   m_ObjectHideFlags: 0
@@ -43760,6 +46580,7 @@ GameObject:
   - 4: {fileID: 1843348059}
   - 33: {fileID: 1843348058}
   - 23: {fileID: 1843348057}
+  - 64: {fileID: 1843348056}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -43767,6 +46588,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1843348056
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1599268870}
+  m_GameObject: {fileID: 1843348055}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &1843348057
 Renderer:
   m_ObjectHideFlags: 0
@@ -43877,6 +46712,7 @@ GameObject:
   - 4: {fileID: 1844808750}
   - 33: {fileID: 1844808749}
   - 23: {fileID: 1844808748}
+  - 64: {fileID: 1844808747}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -43884,6 +46720,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1844808747
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1664114581}
+  m_GameObject: {fileID: 1844808746}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &1844808748
 Renderer:
   m_ObjectHideFlags: 0
@@ -44226,6 +47076,7 @@ GameObject:
   - 4: {fileID: 1848259277}
   - 33: {fileID: 1848259276}
   - 23: {fileID: 1848259275}
+  - 64: {fileID: 1848259274}
   m_Layer: 0
   m_Name: wall-3
   m_TagString: Untagged
@@ -44233,6 +47084,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1848259274
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 72973045cf2101e469626b19ed3ba2ee,
+    type: 2}
+  m_PrefabInternal: {fileID: 560745506}
+  m_GameObject: {fileID: 1848259273}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f2613fc30b6d76d429fcaa171e499797, type: 3}
 --- !u!23 &1848259275
 Renderer:
   m_ObjectHideFlags: 0
@@ -44284,6 +47149,7 @@ GameObject:
   - 4: {fileID: 1848397882}
   - 33: {fileID: 1848397881}
   - 23: {fileID: 1848397880}
+  - 64: {fileID: 1848397879}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -44291,6 +47157,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1848397879
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1461737862}
+  m_GameObject: {fileID: 1848397878}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &1848397880
 Renderer:
   m_ObjectHideFlags: 0
@@ -44342,6 +47222,7 @@ GameObject:
   - 4: {fileID: 1848611004}
   - 33: {fileID: 1848611003}
   - 23: {fileID: 1848611002}
+  - 64: {fileID: 1848611001}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -44349,6 +47230,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1848611001
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 1275734544}
+  m_GameObject: {fileID: 1848611000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &1848611002
 Renderer:
   m_ObjectHideFlags: 0
@@ -44517,6 +47412,7 @@ GameObject:
   - 4: {fileID: 1855628357}
   - 33: {fileID: 1855628356}
   - 23: {fileID: 1855628355}
+  - 64: {fileID: 1855628354}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -44524,6 +47420,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1855628354
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 568526060}
+  m_GameObject: {fileID: 1855628353}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &1855628355
 Renderer:
   m_ObjectHideFlags: 0
@@ -44576,6 +47486,7 @@ GameObject:
   - 4: {fileID: 1863881527}
   - 33: {fileID: 1863881526}
   - 23: {fileID: 1863881525}
+  - 64: {fileID: 1863881524}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -44583,6 +47494,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1863881524
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 138638807}
+  m_GameObject: {fileID: 1863881523}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &1863881525
 Renderer:
   m_ObjectHideFlags: 0
@@ -44675,6 +47600,7 @@ GameObject:
   - 4: {fileID: 1868317513}
   - 33: {fileID: 1868317512}
   - 23: {fileID: 1868317511}
+  - 64: {fileID: 1868317510}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -44682,6 +47608,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1868317510
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 191030844}
+  m_GameObject: {fileID: 1868317509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &1868317511
 Renderer:
   m_ObjectHideFlags: 0
@@ -44791,6 +47731,7 @@ GameObject:
   - 4: {fileID: 1869392233}
   - 33: {fileID: 1869392232}
   - 23: {fileID: 1869392231}
+  - 64: {fileID: 1869392230}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -44798,6 +47739,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1869392230
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1400634533}
+  m_GameObject: {fileID: 1869392229}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &1869392231
 Renderer:
   m_ObjectHideFlags: 0
@@ -44850,6 +47805,7 @@ GameObject:
   - 4: {fileID: 1874262526}
   - 33: {fileID: 1874262525}
   - 23: {fileID: 1874262524}
+  - 64: {fileID: 1874262523}
   m_Layer: 0
   m_Name: tree-2
   m_TagString: Untagged
@@ -44857,6 +47813,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1874262523
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: c3a35d9e0fbc992459c26d4bdde72a30,
+    type: 2}
+  m_PrefabInternal: {fileID: 225905960}
+  m_GameObject: {fileID: 1874262522}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: dd4f250322ef16c47a7457c793a0c9e6, type: 3}
 --- !u!23 &1874262524
 Renderer:
   m_ObjectHideFlags: 0
@@ -45370,6 +48340,7 @@ GameObject:
   - 4: {fileID: 1902471758}
   - 33: {fileID: 1902471757}
   - 23: {fileID: 1902471756}
+  - 64: {fileID: 1902471755}
   m_Layer: 0
   m_Name: street light
   m_TagString: Untagged
@@ -45377,6 +48348,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1902471755
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: bc2e6c09e57fb0b42b307b81d6b193e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 959856697}
+  m_GameObject: {fileID: 1902471754}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 718d33f9c45198a4b81d7398a831ebec, type: 3}
 --- !u!23 &1902471756
 Renderer:
   m_ObjectHideFlags: 0
@@ -45915,6 +48900,7 @@ GameObject:
   - 4: {fileID: 1917612921}
   - 33: {fileID: 1917612920}
   - 23: {fileID: 1917612919}
+  - 64: {fileID: 1917612918}
   m_Layer: 0
   m_Name: modern house-2
   m_TagString: Untagged
@@ -45922,6 +48908,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1917612918
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fc6f68e70a8add540ad243903a0221c0,
+    type: 2}
+  m_PrefabInternal: {fileID: 359357616}
+  m_GameObject: {fileID: 1917612917}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 040d3efa5f2cf474f853d99b2fe4d12f, type: 3}
 --- !u!23 &1917612919
 Renderer:
   m_ObjectHideFlags: 0
@@ -46003,6 +49003,7 @@ GameObject:
   - 4: {fileID: 1924021192}
   - 33: {fileID: 1924021191}
   - 23: {fileID: 1924021190}
+  - 64: {fileID: 1924021189}
   m_Layer: 0
   m_Name: modern house-3
   m_TagString: Untagged
@@ -46010,6 +49011,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1924021189
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 901723c9f9ce07f49b5902005512f3ef,
+    type: 2}
+  m_PrefabInternal: {fileID: 1358539535}
+  m_GameObject: {fileID: 1924021188}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 5e4fe27dfd52aa540aaee1a49480b523, type: 3}
 --- !u!23 &1924021190
 Renderer:
   m_ObjectHideFlags: 0
@@ -46101,6 +49116,7 @@ GameObject:
   - 4: {fileID: 1925072756}
   - 33: {fileID: 1925072755}
   - 23: {fileID: 1925072754}
+  - 64: {fileID: 1925072753}
   m_Layer: 0
   m_Name: old house-1
   m_TagString: Untagged
@@ -46108,6 +49124,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1925072753
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: e86124f624315224e9ef4cea24b9b7d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 390581624}
+  m_GameObject: {fileID: 1925072752}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 8225eb972e0a9804b9301939f1b16d63, type: 3}
 --- !u!23 &1925072754
 Renderer:
   m_ObjectHideFlags: 0
@@ -46257,6 +49287,7 @@ GameObject:
   - 4: {fileID: 1926661355}
   - 33: {fileID: 1926661354}
   - 23: {fileID: 1926661353}
+  - 64: {fileID: 1926661352}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -46264,6 +49295,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1926661352
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1538240445}
+  m_GameObject: {fileID: 1926661351}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1926661353
 Renderer:
   m_ObjectHideFlags: 0
@@ -46489,6 +49534,7 @@ GameObject:
   - 4: {fileID: 1934685641}
   - 33: {fileID: 1934685640}
   - 23: {fileID: 1934685639}
+  - 64: {fileID: 1934685638}
   m_Layer: 0
   m_Name: old house-2
   m_TagString: Untagged
@@ -46496,6 +49542,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1934685638
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fa65e23dd1efae3438935312514a2ccc,
+    type: 2}
+  m_PrefabInternal: {fileID: 353784742}
+  m_GameObject: {fileID: 1934685637}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f0cf5ecc7edf97b439bde8b3070073c2, type: 3}
 --- !u!23 &1934685639
 Renderer:
   m_ObjectHideFlags: 0
@@ -46547,6 +49607,7 @@ GameObject:
   - 4: {fileID: 1935151783}
   - 33: {fileID: 1935151782}
   - 23: {fileID: 1935151781}
+  - 64: {fileID: 1935151780}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -46554,6 +49615,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1935151780
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1527702897}
+  m_GameObject: {fileID: 1935151779}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &1935151781
 Renderer:
   m_ObjectHideFlags: 0
@@ -46605,6 +49680,7 @@ GameObject:
   - 4: {fileID: 1936152602}
   - 33: {fileID: 1936152601}
   - 23: {fileID: 1936152600}
+  - 64: {fileID: 1936152599}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -46612,6 +49688,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1936152599
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1143112556}
+  m_GameObject: {fileID: 1936152598}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &1936152600
 Renderer:
   m_ObjectHideFlags: 0
@@ -46663,6 +49753,7 @@ GameObject:
   - 4: {fileID: 1936548262}
   - 33: {fileID: 1936548261}
   - 23: {fileID: 1936548260}
+  - 64: {fileID: 1936548259}
   m_Layer: 0
   m_Name: street light
   m_TagString: Untagged
@@ -46670,6 +49761,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1936548259
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: bc2e6c09e57fb0b42b307b81d6b193e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 2098555368}
+  m_GameObject: {fileID: 1936548258}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 718d33f9c45198a4b81d7398a831ebec, type: 3}
 --- !u!23 &1936548260
 Renderer:
   m_ObjectHideFlags: 0
@@ -47125,6 +50230,7 @@ GameObject:
   - 4: {fileID: 1950465428}
   - 33: {fileID: 1950465427}
   - 23: {fileID: 1950465426}
+  - 64: {fileID: 1950465425}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -47132,6 +50238,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1950465425
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1912290349}
+  m_GameObject: {fileID: 1950465424}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &1950465426
 Renderer:
   m_ObjectHideFlags: 0
@@ -47282,6 +50402,7 @@ GameObject:
   - 4: {fileID: 1955020210}
   - 33: {fileID: 1955020209}
   - 23: {fileID: 1955020208}
+  - 64: {fileID: 1955020207}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -47289,6 +50410,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1955020207
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 705536966}
+  m_GameObject: {fileID: 1955020206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &1955020208
 Renderer:
   m_ObjectHideFlags: 0
@@ -47340,6 +50475,7 @@ GameObject:
   - 4: {fileID: 1961461052}
   - 33: {fileID: 1961461051}
   - 23: {fileID: 1961461050}
+  - 64: {fileID: 1961461049}
   m_Layer: 0
   m_Name: tree-2
   m_TagString: Untagged
@@ -47347,6 +50483,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1961461049
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: c3a35d9e0fbc992459c26d4bdde72a30,
+    type: 2}
+  m_PrefabInternal: {fileID: 378795377}
+  m_GameObject: {fileID: 1961461048}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: dd4f250322ef16c47a7457c793a0c9e6, type: 3}
 --- !u!23 &1961461050
 Renderer:
   m_ObjectHideFlags: 0
@@ -47496,6 +50646,7 @@ GameObject:
   - 4: {fileID: 1967358516}
   - 33: {fileID: 1967358515}
   - 23: {fileID: 1967358514}
+  - 64: {fileID: 1967358513}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -47503,6 +50654,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1967358513
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1797308535}
+  m_GameObject: {fileID: 1967358512}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &1967358514
 Renderer:
   m_ObjectHideFlags: 0
@@ -47780,6 +50945,7 @@ GameObject:
   - 4: {fileID: 1968248625}
   - 33: {fileID: 1968248624}
   - 23: {fileID: 1968248623}
+  - 64: {fileID: 1968248622}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -47787,6 +50953,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1968248622
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1347308000}
+  m_GameObject: {fileID: 1968248621}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &1968248623
 Renderer:
   m_ObjectHideFlags: 0
@@ -47838,6 +51018,7 @@ GameObject:
   - 4: {fileID: 1971263061}
   - 33: {fileID: 1971263060}
   - 23: {fileID: 1971263059}
+  - 64: {fileID: 1971263058}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -47845,6 +51026,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1971263058
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1017212542}
+  m_GameObject: {fileID: 1971263057}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1971263059
 Renderer:
   m_ObjectHideFlags: 0
@@ -47896,6 +51091,7 @@ GameObject:
   - 4: {fileID: 1975298224}
   - 33: {fileID: 1975298223}
   - 23: {fileID: 1975298222}
+  - 64: {fileID: 1975298221}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -47903,6 +51099,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1975298221
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 682262184}
+  m_GameObject: {fileID: 1975298220}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1975298222
 Renderer:
   m_ObjectHideFlags: 0
@@ -47954,6 +51164,7 @@ GameObject:
   - 4: {fileID: 1980554727}
   - 33: {fileID: 1980554726}
   - 23: {fileID: 1980554725}
+  - 64: {fileID: 1980554724}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -47961,6 +51172,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1980554724
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 661679811}
+  m_GameObject: {fileID: 1980554723}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &1980554725
 Renderer:
   m_ObjectHideFlags: 0
@@ -48118,6 +51343,7 @@ GameObject:
   - 4: {fileID: 1984419401}
   - 33: {fileID: 1984419400}
   - 23: {fileID: 1984419399}
+  - 64: {fileID: 1984419398}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -48125,6 +51351,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1984419398
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 1041784271}
+  m_GameObject: {fileID: 1984419397}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1984419399
 Renderer:
   m_ObjectHideFlags: 0
@@ -48216,6 +51456,7 @@ GameObject:
   - 4: {fileID: 1987598895}
   - 33: {fileID: 1987598894}
   - 23: {fileID: 1987598893}
+  - 64: {fileID: 1987598892}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -48223,6 +51464,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1987598892
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 835844462}
+  m_GameObject: {fileID: 1987598891}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &1987598893
 Renderer:
   m_ObjectHideFlags: 0
@@ -48332,6 +51587,7 @@ GameObject:
   - 4: {fileID: 1988548049}
   - 33: {fileID: 1988548048}
   - 23: {fileID: 1988548047}
+  - 64: {fileID: 1988548046}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -48339,6 +51595,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &1988548046
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 949611454}
+  m_GameObject: {fileID: 1988548045}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &1988548047
 Renderer:
   m_ObjectHideFlags: 0
@@ -48667,6 +51937,7 @@ GameObject:
   - 4: {fileID: 2002958358}
   - 33: {fileID: 2002958357}
   - 23: {fileID: 2002958356}
+  - 64: {fileID: 2002958355}
   m_Layer: 0
   m_Name: old house-1
   m_TagString: Untagged
@@ -48674,6 +51945,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &2002958355
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: e86124f624315224e9ef4cea24b9b7d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 549743289}
+  m_GameObject: {fileID: 2002958354}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 8225eb972e0a9804b9301939f1b16d63, type: 3}
 --- !u!23 &2002958356
 Renderer:
   m_ObjectHideFlags: 0
@@ -49209,6 +52494,7 @@ GameObject:
   - 4: {fileID: 2026879436}
   - 33: {fileID: 2026879435}
   - 23: {fileID: 2026879434}
+  - 64: {fileID: 2026879433}
   m_Layer: 0
   m_Name: wall-1
   m_TagString: Untagged
@@ -49216,6 +52502,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &2026879433
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: c4d4aa699a99c6d4981d3597c739c009,
+    type: 2}
+  m_PrefabInternal: {fileID: 947345493}
+  m_GameObject: {fileID: 2026879432}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 38bed6c53e88e6f4781e61328555e588, type: 3}
 --- !u!23 &2026879434
 Renderer:
   m_ObjectHideFlags: 0
@@ -49267,6 +52567,7 @@ GameObject:
   - 4: {fileID: 2027786662}
   - 33: {fileID: 2027786661}
   - 23: {fileID: 2027786660}
+  - 64: {fileID: 2027786659}
   m_Layer: 0
   m_Name: road sign-2
   m_TagString: Untagged
@@ -49274,6 +52575,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &2027786659
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fa39b0af07288ea41a333a8e2755b2cb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1835160535}
+  m_GameObject: {fileID: 2027786658}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300002, guid: abf761b7bf1c5a049bed2c8c36a07c34, type: 3}
 --- !u!23 &2027786660
 Renderer:
   m_ObjectHideFlags: 0
@@ -49503,6 +52818,7 @@ GameObject:
   - 4: {fileID: 2038579974}
   - 33: {fileID: 2038579973}
   - 23: {fileID: 2038579972}
+  - 64: {fileID: 2038579971}
   m_Layer: 0
   m_Name: pine-tree2
   m_TagString: Untagged
@@ -49510,6 +52826,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &2038579971
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8ff46b2543dadec43960ce8560421926,
+    type: 2}
+  m_PrefabInternal: {fileID: 526080639}
+  m_GameObject: {fileID: 2038579970}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: e78807b97548c204f92bcf9ae6256d93, type: 3}
 --- !u!23 &2038579972
 Renderer:
   m_ObjectHideFlags: 0
@@ -49757,6 +53087,7 @@ GameObject:
   - 4: {fileID: 2050365597}
   - 33: {fileID: 2050365596}
   - 23: {fileID: 2050365595}
+  - 64: {fileID: 2050365594}
   m_Layer: 0
   m_Name: plant-1
   m_TagString: Untagged
@@ -49764,6 +53095,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &2050365594
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 8efa198753b44d4408941745d52aca26,
+    type: 2}
+  m_PrefabInternal: {fileID: 10412519}
+  m_GameObject: {fileID: 2050365593}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 0fdc4be7ccef13348bd096a059b86440, type: 3}
 --- !u!23 &2050365595
 Renderer:
   m_ObjectHideFlags: 0
@@ -49914,6 +53259,7 @@ GameObject:
   - 4: {fileID: 2052652768}
   - 33: {fileID: 2052652767}
   - 23: {fileID: 2052652766}
+  - 64: {fileID: 2052652765}
   m_Layer: 0
   m_Name: sewer-2
   m_TagString: Untagged
@@ -49921,6 +53267,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &2052652765
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 514d663fd249f5a4dbb727e6282c9cd3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1335053506}
+  m_GameObject: {fileID: 2052652764}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 18eda7135bdfe6f419a758f35d34d43f, type: 3}
 --- !u!23 &2052652766
 Renderer:
   m_ObjectHideFlags: 0
@@ -49972,6 +53332,7 @@ GameObject:
   - 4: {fileID: 2052655290}
   - 33: {fileID: 2052655289}
   - 23: {fileID: 2052655288}
+  - 64: {fileID: 2052655287}
   m_Layer: 0
   m_Name: old house-3
   m_TagString: Untagged
@@ -49979,6 +53340,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &2052655287
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 1fec6665d1196f946b5821303b70cce9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1684566028}
+  m_GameObject: {fileID: 2052655286}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 0809094a7d5a8ed45af7764a798868ed, type: 3}
 --- !u!23 &2052655288
 Renderer:
   m_ObjectHideFlags: 0
@@ -50146,6 +53521,7 @@ GameObject:
   - 4: {fileID: 2059001416}
   - 33: {fileID: 2059001415}
   - 23: {fileID: 2059001414}
+  - 64: {fileID: 2059001413}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -50153,6 +53529,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &2059001413
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1453288342}
+  m_GameObject: {fileID: 2059001412}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &2059001414
 Renderer:
   m_ObjectHideFlags: 0
@@ -50404,6 +53794,7 @@ GameObject:
   - 4: {fileID: 2087309401}
   - 33: {fileID: 2087309400}
   - 23: {fileID: 2087309399}
+  - 64: {fileID: 2087309398}
   m_Layer: 0
   m_Name: plant-3
   m_TagString: Untagged
@@ -50411,6 +53802,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &2087309398
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 82f8d6b0587de12459adce01cf52d3e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1203220701}
+  m_GameObject: {fileID: 2087309397}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: f8b9a85c573fd1747bc38a59ee24b083, type: 3}
 --- !u!23 &2087309399
 Renderer:
   m_ObjectHideFlags: 0
@@ -51448,6 +54853,7 @@ GameObject:
   - 4: {fileID: 2121322742}
   - 33: {fileID: 2121322741}
   - 23: {fileID: 2121322740}
+  - 64: {fileID: 2121322739}
   m_Layer: 0
   m_Name: plant-4
   m_TagString: Untagged
@@ -51455,6 +54861,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &2121322739
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: effc1cc9bea113d498a49ef0a86d1115,
+    type: 2}
+  m_PrefabInternal: {fileID: 1066696445}
+  m_GameObject: {fileID: 2121322738}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: eacf0fd13b538284199dff4169c22221, type: 3}
 --- !u!23 &2121322740
 Renderer:
   m_ObjectHideFlags: 0
@@ -51507,6 +54927,7 @@ GameObject:
   - 4: {fileID: 2125069555}
   - 33: {fileID: 2125069554}
   - 23: {fileID: 2125069553}
+  - 64: {fileID: 2125069552}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -51514,6 +54935,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &2125069552
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1986282361}
+  m_GameObject: {fileID: 2125069551}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &2125069553
 Renderer:
   m_ObjectHideFlags: 0
@@ -51896,6 +55331,7 @@ GameObject:
   - 4: {fileID: 2132495610}
   - 33: {fileID: 2132495609}
   - 23: {fileID: 2132495608}
+  - 64: {fileID: 2132495607}
   m_Layer: 0
   m_Name: road sign-2
   m_TagString: Untagged
@@ -51903,6 +55339,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &2132495607
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: fa39b0af07288ea41a333a8e2755b2cb,
+    type: 2}
+  m_PrefabInternal: {fileID: 92105780}
+  m_GameObject: {fileID: 2132495606}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300002, guid: abf761b7bf1c5a049bed2c8c36a07c34, type: 3}
 --- !u!23 &2132495608
 Renderer:
   m_ObjectHideFlags: 0
@@ -52324,6 +55774,7 @@ GameObject:
   - 4: {fileID: 2142325348}
   - 33: {fileID: 2142325347}
   - 23: {fileID: 2142325346}
+  - 64: {fileID: 2142325345}
   m_Layer: 0
   m_Name: pine-tree
   m_TagString: Untagged
@@ -52331,6 +55782,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &2142325345
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: ebcdb99613a78a4448bf454af262e3b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 103822717}
+  m_GameObject: {fileID: 2142325344}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300004, guid: 413f6b716fb9d0d46926b628f295872b, type: 3}
 --- !u!23 &2142325346
 Renderer:
   m_ObjectHideFlags: 0

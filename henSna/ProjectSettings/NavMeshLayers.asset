@@ -20,8 +20,8 @@ NavMeshLayers:
     cost: 1
     editType: 3
   User Layer 1:
-    name: 
-    cost: 1
+    name: AVOID
+    cost: 1000
     editType: 3
   User Layer 2:
     name: 
