@@ -16,6 +16,7 @@ public class homeGameController : MonoBehaviour {
 			PlayerPrefs.SetInt ("valuationChief",0);
 			PlayerPrefs.SetInt ("userLevel",1);
 			PlayerPrefs.SetInt("gotCoinNum",0);
+			PlayerPrefs.SetInt("playerUIController",0);
 			PlayerPrefs.SetInt("tookPictureNum",0);
 			lastFilmUpTimeStr = DateTime.Now.ToString ("yyyy/MM/dd HH:mm:ss");
 			PlayerPrefs.SetString ("lastFilmUpTime",lastFilmUpTimeStr);
