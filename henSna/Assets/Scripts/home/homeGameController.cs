@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
+
 public class homeGameController : MonoBehaviour {
 
 	// Use this for initialization
 	string lastFilmUpTimeStr;
 	void Start () {
-		if (PlayerPrefs.GetInt ("firstLaunch2") == 0) {
+		if (PlayerPrefs.GetInt("firstLaunch3") == 0) {
 				//初回起動
 			Debug.Log ("come first launch!!!");
 			PlayerPrefs.SetInt ("filmMax",50);
@@ -20,7 +21,7 @@ public class homeGameController : MonoBehaviour {
 			PlayerPrefs.SetInt("tookPictureNum",0);
 			lastFilmUpTimeStr = DateTime.Now.ToString ("yyyy/MM/dd HH:mm:ss");
 			PlayerPrefs.SetString ("lastFilmUpTime",lastFilmUpTimeStr);
-			PlayerPrefs.SetInt ("firstLaunch2",1);
+			PlayerPrefs.SetInt ("firstLaunch3",1);
 		}
 	}
 	

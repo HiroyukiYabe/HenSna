@@ -13,26 +13,29 @@ using System.Collections;
 public class CharacterAI : MonoBehaviour
 {
 	
-	public float animSpeed = 1.5f;				// a public setting for overall animator animation speed
-	public float lookSmoother = 3f;				// a smoothing setting for camera motion
+	//public float animSpeed = 1.5f;				// a public setting for overall animator animation speed
+	//public float lookSmoother = 3f;				// a smoothing setting for camera motion
 	
 	private Animator anim;							// a reference to the animator on the character
 	private AnimatorStateInfo currentBaseState;			// a reference to the current state of the animator, used for base layer
 	private AnimatorStateInfo layer2CurrentState;	// a reference to the current state of the animator, used for layer 2
 	private CapsuleCollider col;					// a reference to the capsule collider of the character
-	
-	
+
 	static int idleState = Animator.StringToHash("Base Layer.Idle");	
 	static int locoState = Animator.StringToHash("Base Layer.Locomotion");			// these integers are references to our animator's states
 	static int backState = Animator.StringToHash("Base Layer.WalkBack");				// and are used to check state for various actions to occur
 
 	NavMeshAgent nav;					// Reference to the nav mesh agent.
 	public float speedDampTime = 0.1f;				// Damping time for the Speed parameter.
-	public float angularSpeedDampTime = 0.7f;		// Damping time for the AngularSpeed parameter
-	public float angleResponseTime = 0.6f;			// Response time for turning an angle into angularSpeed.
-	public float deadZone = 5f;					// The number of degrees for which the rotation isn't controlled by Mecanim.
+	//public float angularSpeedDampTime = 0.7f;		// Damping time for the AngularSpeed parameter
+	//public float angleResponseTime = 0.6f;			// Response time for turning an angle into angularSpeed.
+	public float deadZone = 3f;					// The number of degrees for which the rotation isn't controlled by Mecanim.
 
-	public Transform[] WayPoints;
+	Vector3 center;
+	float timer=0f;
+	bool lestFlag= false;
+	float lestTimer=0f;
+	bool invokeFlag=false;
 
 
 	void Start ()
@@ -42,31 +45,60 @@ public class CharacterAI : MonoBehaviour
 		//col = gameObject.GetComponent<CapsuleCollider>();				
 		if(anim.layerCount ==2)
 			anim.SetLayerWeight(1, 1);
-		nav = GetComponent<NavMeshAgent>();
-		// Making sure the rotation is controlled by Mecanim.
-		nav.updateRotation = false;
 
-		// We need to convert the angle for the deadzone from degrees to radians.
-		deadZone *= Mathf.Deg2Rad;
-		SetDestination ();
-		//WayPoints = GameObject.Find ("Waypoints").GetComponentsInChildren<Transform> ();
-	}
-
-	void Update () 
-	{
-		// Calculate the parameters that need to be passed to the animator component.
-		NavAnimSetup();
-	}
-	
-	
-	void OnAnimatorMove()
-	{
-		// Set the NavMeshAgent's velocity to the change in position since the last frame, by the time it took for the last frame.
-		nav.velocity = anim.deltaPosition / Time.deltaTime;
+		center = new Vector3 (100f, 0f, 100f);
 		
-		// The gameobject's rotation is driven by the animation's rotation.
-		transform.rotation = anim.rootRotation;
+		nav = GetComponent<NavMeshAgent> ();
+		nav.updateRotation = false;	// Making sure the rotation is controlled by Mecanim.
+		nav.updatePosition = false;	// Making sure the position is controlled by Mecanim.
+		nav.SetDestination(RandomPosition());
+		nav.speed=Random.Range(2f,5f);
+		Debug.Log ("Destination: "+nav.destination+",    Speed: "+nav.speed);
 	}
+
+
+	// Update is called once per frame
+	void Update () {
+		timer += Time.deltaTime;
+		//Debug.Log ("Timer:  "+timer);
+		
+		if ((transform.position - nav.destination).sqrMagnitude <= nav.stoppingDistance || timer>20f) {
+			if(!invokeFlag){
+				Invoke("SetNav",Random.Range(2f,7f));
+				invokeFlag=true;
+			}
+		}
+
+		NavAnimSetup ();
+	}
+
+
+	void SetNav(){
+		nav.SetDestination(RandomPosition());
+		nav.speed=Random.Range(0.3f,1.3f);
+		if (nav.destination == transform.position) {
+			nav.SetDestination(RandomPosition());
+			Debug.Log ("Re:SetDestination");
+		}
+		Debug.Log ("Destination: "+nav.destination+",    Speed: "+nav.speed);
+
+		//if(nav.speed>5.0f) nav.updatePosition = true;
+		//else nav.updatePosition = false;
+		
+		timer=0f;
+		invokeFlag = false;
+	}
+	
+
+	Vector3 RandomPosition(){
+		float x = Random.Range (-20f,20f);
+		float z = Random.Range (-20f,20f);
+		Vector3 toCenter = (center - transform.position).normalized;
+		return transform.position + new Vector3 (x, 0f, z);  // +toCenter*Random.Range(3f,10f);
+	}
+	
+	
+
 	
 	
 	void NavAnimSetup ()
@@ -110,61 +142,16 @@ public class CharacterAI : MonoBehaviour
 		
 		// The dot product of the normal with the upVector will be positive if they point in the same direction.
 		angle *= Mathf.Sign(Vector3.Dot(normal, upVector));
-		
-		// We need to convert the angle we've found from degrees to radians.
-		angle *= Mathf.Deg2Rad;
-		
+
 		return angle;
 	}
-	
+
+
 	public void Setup(float speed, float angle)
 	{
-		// Angular speed is the number of degrees per second.
-		float angularSpeed = angle / angleResponseTime;
-		
 		// Set the mecanim parameters and apply the appropriate damping to them.
 		anim.SetFloat("Speed", speed, speedDampTime, Time.deltaTime);
-		anim.SetFloat("Direction", angularSpeed, angularSpeedDampTime, Time.deltaTime);
+		anim.SetFloat ("Direction", angle / 90f);//, angularSpeedDampTime, Time.deltaTime);
 	}	
-
-	void SetDestination(){
-		nav.SetDestination(WayPoints[Random.Range(0,WayPoints.Length)].position);
-	}
-
-	/*void FixedUpdate ()
-	{	
-
-		timer+=Time.fixedDeltaTime;
-		if (timer > interval) {
-			timer=0;
-			dir = Random.Range(-1.0f,1.0f);
-			speed = Random.Range(0.0f,1.0f);
-		}
-
-		//float h = Input.GetAxis("Horizontal");				// setup h variable as our horizontal input axis
-		//float v = Input.GetAxis("Vertical");				// setup v variables as our vertical input axis
-		anim.SetFloat("Speed", speed);							// set our animator's float parameter 'Speed' equal to the vertical input axis				
-		anim.SetFloat("Direction", dir); 						// set our animator's float parameter 'Direction' equal to the horizontal input axis		
-		anim.speed = animSpeed;								// set the speed of our animator to the public variable 'animSpeed'
-		currentBaseState = anim.GetCurrentAnimatorStateInfo(0);	// set our currentState variable to the current state of the Base Layer (0) of animation
-		
-		if(anim.layerCount ==2)		
-			layer2CurrentState = anim.GetCurrentAnimatorStateInfo(1);	// set our layer2CurrentState variable to the current state of the second Layer (1) of animation
-
-		
-		// IDLE
-		// check if we are at idle, if so, let us Wave!
-		else if (currentBaseState.nameHash == idleState)
-		{
-			if(Input.GetButtonUp("Jump"))
-			{
-				anim.SetBool("Wave", true);
-			}
-		}
-		// if we enter the waving state, reset the bool to let us wave again in future
-		if(layer2CurrentState.nameHash == waveState)
-		{
-			anim.SetBool("Wave", false);
-		}
-	}*/
+	
 }

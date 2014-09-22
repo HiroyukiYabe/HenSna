@@ -2254,7 +2254,7 @@ GameObject:
   - 4: {fileID: 522414516}
   - 114: {fileID: 522414517}
   m_Layer: 8
-  m_Name: contentNameLabel
+  m_Name: nameLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8242,7 +8242,7 @@ Prefab:
       objectReference: {fileID: 19336655}
     - target: {fileID: 100006, guid: ef1d430f17e364abfbc2d2378db2185e, type: 2}
       propertyPath: m_Name
-      value: contentNameLabel
+      value: nameLabel
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: ef1d430f17e364abfbc2d2378db2185e, type: 2}
       propertyPath: m_Name
@@ -8259,6 +8259,14 @@ Prefab:
     - target: {fileID: 11400006, guid: ef1d430f17e364abfbc2d2378db2185e, type: 2}
       propertyPath: mText
       value: 'NO.1 : Chief'
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: ef1d430f17e364abfbc2d2378db2185e, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400008, guid: ef1d430f17e364abfbc2d2378db2185e, type: 2}
+      propertyPath: mSpriteName
+      value: chiefImage2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef1d430f17e364abfbc2d2378db2185e, type: 2}

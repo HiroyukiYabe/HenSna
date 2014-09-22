@@ -19,7 +19,17 @@ public class collectionContent : MonoBehaviour {
 			break;
 		case (int)Types.Pumpkin:
 			nameLabel.text = "Pumpkin";
-			contentImage.spriteName = "chiefImage";
+			if(PlayerPrefs.GetInt("GotPumpkin")==1){
+				contentImage.spriteName = "chiefImage";
+				if(PlayerPrefs.GetInt("PumpkinNew")==0){
+
+				}else{
+
+				}
+			}else{
+				contentImage.spriteName = "chiefImage2";
+			}
+
 			break;
 		case (int)Types.Skelton:
 			nameLabel.text = "Skelton";
