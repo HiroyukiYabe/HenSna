@@ -14,7 +14,7 @@ public class PrefsManager : MonoBehaviour {
 		SetTakenPicNum (0);
 		score = 0;
 		SetScore (0);
-		remainFilmNum = 5;//PlayerPrefs.GetInt("filmNum");
+		remainFilmNum = PlayerPrefs.GetInt("filmNum");
 	}
 	
 	// Update is called once per frame
