@@ -722,11 +722,11 @@ GameObject:
   m_Component:
   - 4: {fileID: 400090}
   - 95: {fileID: 9500000}
-  - 114: {fileID: 11400004}
   - 54: {fileID: 5400022}
   - 136: {fileID: 13600016}
-  - 114: {fileID: 11400002}
+  - 195: {fileID: 19500000}
   - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
   m_Layer: 8
   m_Name: myPumki v1.2
   m_TagString: Player
@@ -1557,20 +1557,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 100090}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbfdcad1a1020c243b2ca574daa4a3b5, type: 3}
+  m_Script: {fileID: 11500000, guid: 1ef23fa7f08ac4ff194ab1724e5c0c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projector: {fileID: 400088}
-  root: {fileID: 400084}
-  _bloodColor: {r: .400000006, g: .564705908, b: .0235294122, a: 1}
-  _model: {fileID: 100086}
-  _bodyMesh: {fileID: 4300008, guid: e88f3d051335eea419d1f5bcf6667269, type: 3}
-  _explodeHeadPS: {fileID: 19800000, guid: 8c9a961c8ce3ad24fa261648befb0c26, type: 2}
-  _head: {fileID: 100002, guid: ba548c2b4dfe62d4d9b60de511556bd3, type: 2}
-  _headBone: {fileID: 400074}
-  _disableWhenDecapitated:
-  - {fileID: 100026}
-  _bodyPS: {fileID: 19800002}
+  animSpeed: 1.5
+  lookSmoother: 3
+  speedDampTime: .100000001
+  angularSpeedDampTime: .699999988
+  angleResponseTime: .600000024
+  deadZone: 5
+  WayPoints: []
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1579,22 +1575,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 100090}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c91cd894c6cb144e92b40de9575f3e3, type: 3}
+  m_Script: {fileID: 11500000, guid: b2ce0979729774ef885bec3d51b0b848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11400004
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26c3a724a5a92664b9654eaa09ca4243, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animSpeed: 1.5
-  lookSmoother: 3
+  OffSet: .850000024
+  ThisScore: 0
+  Near: 3
+  Far: 10
 --- !u!119 &11900000
 Projector:
   m_ObjectHideFlags: 1
@@ -2164,6 +2151,26 @@ CharacterJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
+--- !u!195 &19500000
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100090}
+  m_Enabled: 1
+  m_Radius: .5
+  m_Speed: 1
+  m_Acceleration: 4
+  avoidancePriority: 50
+  m_AngularSpeed: 30
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!198 &19800000
 ParticleSystem:
   m_ObjectHideFlags: 1

@@ -36,7 +36,7 @@ public class TapDetect : MonoBehaviour {
 		downMove = Vector2.zero;
 		upMove = Vector2.zero;
 
-		upAndDown = true;
+		ChangeUIController ();
 
 		rect = new Rect (Screen.width*9/10,0,Screen.width/10,Screen.width/10); 
 		stat = status.None;
@@ -118,6 +118,25 @@ public class TapDetect : MonoBehaviour {
 	bool IsInUpperArea(Vector2 _pos){
 		if (upAndDown)	return _pos.y > Screen.height / 2;
 		else			return _pos.x > Screen.width / 2;
+	}
+
+
+	public void ChangeUIController(){
+		PrefsManager prefs = GetComponent<PrefsManager> ();
+		switch (prefs.GetUIController ()) {
+		case "UpDown":
+			upAndDown = true;
+			Debug.Log("UpAndDown");
+			break;
+		case "RightLeft":
+			upAndDown = false;
+			Debug.Log("RightAndLeft");
+			break;
+		default :
+			upAndDown = true;
+			Debug.Log("Error");
+			break;
+		}
 	}
 
 

@@ -8,6 +8,7 @@
 using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(AudioSource))]
 public class TakePicture : MonoBehaviour {
 
 	PrefsManager Prefs;
@@ -17,6 +18,8 @@ public class TakePicture : MonoBehaviour {
 
 	Rect center;
 	public Texture CenterMark;
+	public AudioClip ShutterClip;
+	AudioSource shutterSE;
 
 
 	// Use this for initialization
@@ -25,6 +28,8 @@ public class TakePicture : MonoBehaviour {
 		isTakingPicture = false;
 		float markSize = Screen.height / 10;
 		center = new Rect(Screen.width/2-markSize,Screen.height/2-markSize,markSize*2,markSize*2);
+		shutterSE = GetComponent<AudioSource>();
+		shutterSE.clip = ShutterClip;
 	}
 
 
@@ -53,7 +58,7 @@ public class TakePicture : MonoBehaviour {
 			Prefs.StorePhoto();
 			FadeInOut fade = GameObject.Find ("FadeInOut").GetComponent<FadeInOut> ();
 			fade.flag = true;
-			//sound
+			shutterSE.Play();
 		}
 	}
 

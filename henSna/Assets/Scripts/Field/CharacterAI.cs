@@ -49,6 +49,7 @@ public class CharacterAI : MonoBehaviour
 		// We need to convert the angle for the deadzone from degrees to radians.
 		deadZone *= Mathf.Deg2Rad;
 		SetDestination ();
+		//WayPoints = GameObject.Find ("Waypoints").GetComponentsInChildren<Transform> ();
 	}
 
 	void Update () 

@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿//Attach to GameController
+
+using UnityEngine;
 using System.Collections;
 
 public class PrefsManager : MonoBehaviour {
@@ -9,7 +11,7 @@ public class PrefsManager : MonoBehaviour {
 	int totalScore;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		takenPicNum = 0;
 		SetTakenPicNum (0);
 		score = 0;
@@ -50,6 +52,14 @@ public class PrefsManager : MonoBehaviour {
 	public void AddTotalScore(int _score){
 		int _total = PlayerPrefs.GetInt ("havingCoin")+_score;
 		PlayerPrefs.SetInt ("havingCoin", _total);
+	}
+
+	public string GetUIController(){
+		//0 is UpDown,  1 is RightLeft
+		int setting = PlayerPrefs.GetInt("playerUIController");
+		if(setting==0) return "UpDown";
+		else if(setting==1) return "RightLeft";
+		else return "Error";
 	}
 
 	public void StorePhoto(){
