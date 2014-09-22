@@ -762,7 +762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tweenTarget: {fileID: 862474561}
-  hover: {r: .600000024, g: 1, b: .200000003, a: 1}
+  hover: {r: .485456347, g: .490056396, b: .536764741, a: 1}
   pressed: {r: .5, g: .5, b: .5, a: 1}
   duration: .200000003
   disabledColor: {r: .5, g: .5, b: .5, a: 1}
@@ -885,7 +885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tweenTarget: {fileID: 639551108}
-  hover: {r: .600000024, g: 1, b: .200000003, a: 1}
+  hover: {r: .425605506, g: .440806538, b: .470588207, a: 1}
   pressed: {r: .5, g: .5, b: .5, a: 1}
   duration: .200000003
   disabledColor: {r: .5, g: .5, b: .5, a: 1}

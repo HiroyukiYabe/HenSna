@@ -9,8 +9,8 @@ public class homeGameController : MonoBehaviour {
 		if (PlayerPrefs.GetInt ("firstLaunch2") == 0) {
 				//初回起動
 			Debug.Log ("come first launch!!!");
-			PlayerPrefs.SetInt ("filmMax",30);
-			PlayerPrefs.SetInt ("filmNum",20);
+			PlayerPrefs.SetInt ("filmMax",50);
+			PlayerPrefs.SetInt ("filmNum",50);
 			PlayerPrefs.SetInt ("havingCoin",300);
 			PlayerPrefs.SetInt ("releaseHalloweenDungeon",0);
 			PlayerPrefs.SetInt ("valuationChief",0);
