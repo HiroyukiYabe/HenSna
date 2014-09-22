@@ -4,22 +4,24 @@ using System;
 public class homeGameController : MonoBehaviour {
 
 	// Use this for initialization
-		string lastFilmUpTimeStr;
-		void Start () {
-				if (PlayerPrefs.GetInt ("firstLaunch2") == 0) {
-						//初回起動
-						Debug.Log ("come first launch!!!");
-						PlayerPrefs.SetInt ("filmMax",20);
-						PlayerPrefs.SetInt ("filmNum",5);
-						PlayerPrefs.SetInt ("havingCoin",300);
-						PlayerPrefs.SetInt ("releaseHalloweenDungeon",0);
-						PlayerPrefs.SetInt ("valuationChief",0);
-						PlayerPrefs.SetInt ("userLevel",1);
-						lastFilmUpTimeStr = DateTime.Now.ToString ("yyyy/MM/dd HH:mm:ss");
-						PlayerPrefs.SetString ("lastFilmUpTime",lastFilmUpTimeStr);
-						PlayerPrefs.SetInt ("firstLaunch2",1);
-				}
+	string lastFilmUpTimeStr;
+	void Start () {
+		if (PlayerPrefs.GetInt ("firstLaunch2") == 0) {
+				//初回起動
+			Debug.Log ("come first launch!!!");
+			PlayerPrefs.SetInt ("filmMax",20);
+			PlayerPrefs.SetInt ("filmNum",5);
+			PlayerPrefs.SetInt ("havingCoin",300);
+			PlayerPrefs.SetInt ("releaseHalloweenDungeon",0);
+			PlayerPrefs.SetInt ("valuationChief",0);
+			PlayerPrefs.SetInt ("userLevel",1);
+			PlayerPrefs.SetInt("gotCoinNum",0);
+			PlayerPrefs.SetInt("tookPictureNum",0);
+			lastFilmUpTimeStr = DateTime.Now.ToString ("yyyy/MM/dd HH:mm:ss");
+			PlayerPrefs.SetString ("lastFilmUpTime",lastFilmUpTimeStr);
+			PlayerPrefs.SetInt ("firstLaunch2",1);
 		}
+	}
 	
 	// Update is called once per frame
 		void Update () {
