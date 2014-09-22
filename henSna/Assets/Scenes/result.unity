@@ -97,7 +97,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 412552909}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -.282195032, y: .28219223, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2068897547}
@@ -622,6 +622,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1824895181}
   - 114: {fileID: 1824895182}
+  - 114: {fileID: 1824895183}
   m_Layer: 5
   m_Name: getCoinNumLabel
   m_TagString: Untagged
@@ -670,6 +671,17 @@ MonoBehaviour:
   mShrinkToFit: 0
   mLineWidth: 0
   mMultiline: 1
+--- !u!114 &1824895183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1824895180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4225e51255da44a5dbb98128762d6a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1825337696
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,6 +748,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1887295359}
   - 114: {fileID: 1887295360}
+  - 114: {fileID: 1887295361}
   m_Layer: 5
   m_Name: tookPictureNumLabel
   m_TagString: Untagged
@@ -784,6 +797,17 @@ MonoBehaviour:
   mShrinkToFit: 0
   mLineWidth: 0
   mMultiline: 1
+--- !u!114 &1887295361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1887295358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6972230ac80254ea0a581d423e3ddff0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1913196971
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,11 +961,11 @@ MonoBehaviour:
     e00: 160
     e01: 0
     e02: 0
-    e03: 0
+    e03: .282195032
     e10: 0
     e11: 160
     e12: 0
-    e13: 0
+    e13: -.28219223
     e20: 0
     e21: 0
     e22: 160
