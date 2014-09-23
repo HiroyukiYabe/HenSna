@@ -2,6 +2,7 @@
 
 using UnityEngine;
 using System.Collections;
+using System.IO;
 
 public class PrefsManager : MonoBehaviour {
 	
@@ -9,6 +10,7 @@ public class PrefsManager : MonoBehaviour {
 	int takenPicNum;
 	int score;
 	int totalScore;
+	int screenshotIndex;
 
 	// Use this for initialization
 	void Awake () {
@@ -16,7 +18,7 @@ public class PrefsManager : MonoBehaviour {
 		SetTakenPicNum (0);
 		score = 0;
 		SetScore (0);
-		remainFilmNum = PlayerPrefs.GetInt("filmNum");
+		remainFilmNum = 10;//PlayerPrefs.GetInt("filmNum");
 	}
 	
 	// Update is called once per frame
@@ -62,8 +64,49 @@ public class PrefsManager : MonoBehaviour {
 		else return "Error";
 	}
 
-	public void StorePhoto(){
 
+	public void SetGotCharacter(string name, bool isGotten=true){
+		if (isGotten && PlayerPrefs.GetInt ("got"+name) == 0)
+						PlayerPrefs.SetInt ("got"+name, 1);
+	}
+
+
+	public void CaptureScreenshot(){
+		// Screenshot を撮る
+		string screenshotName = "Screenshot" + screenshotIndex + ".png";
+		Application.CaptureScreenshot (screenshotName);
+		
+		// プラットフォームごとに保存位置変わる？
+		/*string path = "";
+		switch (Application.platform) {
+		case RuntimePlatform.IPhonePlayer:
+			path = Application.persistentDataPath + "/" + screenshotName;
+			break;
+		case RuntimePlatform.Android:
+			path = Application.persistentDataPath + "/" + screenshotName;
+			break;
+		default:
+			path = screenshotName;
+			break;
+		}
+		Debug.Log("path:"+path);
+
+		while (!System.IO.File.Exists (path) ) {
+			//Debug.Log(">>>>> Temporary Screenshot have not been written yet.");
+		}
+
+		// スクリーンショットの読み込み
+		byte[] image = File.ReadAllBytes(path);
+		
+		// Texture2D を作成して読み込み
+		Texture2D tex = new Texture2D(0, 0);
+		tex.LoadImage(image);
+		
+		// NGUI の UITexture に表示するとき
+		UITexture target = GameObject.Find("Screenshot").GetComponent<UITexture>();
+		target.mainTexture = tex;*/
+
+		screenshotIndex++;
 	}
 
 }

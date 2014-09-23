@@ -52,10 +52,11 @@ public class TakePicture : MonoBehaviour {
 
 	void TakePic(){
 		if (Prefs.GetRemainFilmNum() > 0) {
+			Prefs.CaptureScreenshot();
 			Prefs.SetRemainFilmNum(Prefs.GetRemainFilmNum()-1);
 			Prefs.SetTakenPicNum(Prefs.GetTakenPicNum()+1);
 
-			Prefs.StorePhoto();
+
 			FadeInOut fade = GameObject.Find ("FadeInOut").GetComponent<FadeInOut> ();
 			fade.flag = true;
 			shutterSE.Play();

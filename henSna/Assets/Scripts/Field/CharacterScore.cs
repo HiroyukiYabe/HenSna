@@ -9,6 +9,8 @@ using System.Collections;
 
 public class CharacterScore : MonoBehaviour {
 
+	PrefsManager prefs;
+
 	TakePicture pic;
 	Score _score;
 	Transform player;
@@ -37,6 +39,7 @@ public class CharacterScore : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		prefs = GameObject.FindWithTag ("GameController").GetComponent<PrefsManager> ();
 		pic = GameObject.FindWithTag ("GameController").GetComponent<TakePicture> ();
 		_score = GameObject.FindWithTag ("GameController").GetComponent<Score> ();
 		player = GameObject.FindWithTag ("Player").transform;
@@ -58,6 +61,7 @@ public class CharacterScore : MonoBehaviour {
 
 		if (doubleTap) {	
 			if(IsInScreen ()){
+				prefs.SetGotCharacter(gameObject.name);//To Do delete (Clone)
 				_score.score+=CalculateScore();
 			}
 		}

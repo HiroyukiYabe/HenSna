@@ -18,7 +18,7 @@ public class LevelEnd : MonoBehaviour {
 	void Update () {
 		if (prefs.GetRemainFilmNum() == 0) {
 			end =true;
-			Invoke("levelEnd", 5);
+			//Invoke("levelEnd", 5);
 		}
 	}
 
@@ -30,7 +30,7 @@ public class LevelEnd : MonoBehaviour {
 
 	void OnGUI (){
 		if (end)
-		GUI.TextField(new Rect(Screen.width/2-100,Screen.height/2-50,200,100),"FINISHED!!");
+			if(GUI.Button(new Rect(Screen.width/2-100,Screen.height/2-50,200,100),"FINISHED!!")) Invoke("levelEnd", 3);
 	}
 
 }

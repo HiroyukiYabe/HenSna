@@ -21,9 +21,9 @@ public class CharacterAI : MonoBehaviour
 	private AnimatorStateInfo layer2CurrentState;	// a reference to the current state of the animator, used for layer 2
 	private CapsuleCollider col;					// a reference to the capsule collider of the character
 
-	static int idleState = Animator.StringToHash("Base Layer.Idle");	
-	static int locoState = Animator.StringToHash("Base Layer.Locomotion");			// these integers are references to our animator's states
-	static int backState = Animator.StringToHash("Base Layer.WalkBack");				// and are used to check state for various actions to occur
+	//static int idleState = Animator.StringToHash("Base Layer.Idle");	
+	//static int locoState = Animator.StringToHash("Base Layer.Locomotion");			// these integers are references to our animator's states
+	//static int backState = Animator.StringToHash("Base Layer.WalkBack");				// and are used to check state for various actions to occur
 
 	NavMeshAgent nav;					// Reference to the nav mesh agent.
 	public float speedDampTime = 0.1f;				// Damping time for the Speed parameter.
@@ -33,9 +33,9 @@ public class CharacterAI : MonoBehaviour
 
 	Vector3 center;
 	float timer=0f;
-	bool lestFlag= false;
-	float lestTimer=0f;
 	bool invokeFlag=false;
+	/*bool lestFlag= false;
+	float lestTimer=0f;*/
 
 
 	void Start ()
@@ -53,7 +53,7 @@ public class CharacterAI : MonoBehaviour
 		nav.updatePosition = false;	// Making sure the position is controlled by Mecanim.
 		nav.SetDestination(RandomPosition());
 		nav.speed=Random.Range(2f,5f);
-		Debug.Log ("Destination: "+nav.destination+",    Speed: "+nav.speed);
+		//Debug.Log ("Destination: "+nav.destination+",    Speed: "+nav.speed);
 	}
 
 
@@ -80,7 +80,7 @@ public class CharacterAI : MonoBehaviour
 			nav.SetDestination(RandomPosition());
 			Debug.Log ("Re:SetDestination");
 		}
-		Debug.Log ("Destination: "+nav.destination+",    Speed: "+nav.speed);
+		//Debug.Log ("Destination: "+nav.destination+",    Speed: "+nav.speed);
 
 		//if(nav.speed>5.0f) nav.updatePosition = true;
 		//else nav.updatePosition = false;
