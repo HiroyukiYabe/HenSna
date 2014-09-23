@@ -23,8 +23,9 @@ public class LevelEnd : MonoBehaviour {
 	}
 
 	void  levelEnd(){
-		//prefs.SetScore (_score.score);
-		//prefs.AddTotalScore (_score.score);
+		//To Do
+		prefs.SetTotalScore (_score.score);
+		prefs.AddCoin (_score.score);
 		Application.LoadLevel("pictureSubmit");
 	}
 

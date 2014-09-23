@@ -27,6 +27,7 @@ public class LightManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		//To Do
 		if (Input.GetKeyDown (KeyCode.Alpha1)) {
 			thisSky.material = DayLight;
 			light.SetActive(false);

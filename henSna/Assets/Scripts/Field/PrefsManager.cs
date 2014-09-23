@@ -8,25 +8,24 @@ public class PrefsManager : MonoBehaviour {
 	
 	int remainFilmNum;
 	int takenPicNum=0;
-	//int totalScore;
-
-	int oneShotScore=0;
+	
+	//int oneShotScore=0;
 	int oneShotIndex=0;
-
 	int screenshotIndex=0;
 
 	// Use this for initialization
 	void Awake () {
 		SetTakenPicNum (0);
-		//totalScore = 0;
-		//SetTotalScore (0);
-		remainFilmNum = 5;//PlayerPrefs.GetInt("filmNum");
+		SetTotalScore (0);
+		remainFilmNum = 10;//PlayerPrefs.GetInt("filmNum"); //For Debug
 		SetRemainFilmNum (remainFilmNum);
+		SetItemNum("Food",5);//For Debug
 	}
 	
 	// Update is called once per frame
 	void Update () {}
 
+	//フィルム残数
 	public int GetRemainFilmNum(){
 		return remainFilmNum;
 	}
@@ -36,6 +35,7 @@ public class PrefsManager : MonoBehaviour {
 		return remainFilmNum;
 	}
 
+	//現在の撮影枚数
 	public int GetTakenPicNum(){
 		return takenPicNum;
 	}
@@ -45,20 +45,22 @@ public class PrefsManager : MonoBehaviour {
 		return takenPicNum;
 	}
 
-	/*public int GetTotalScore(){
-		return totalScore;
+	//そのゲームでの獲得金額
+	public int GetTotalScore(){
+		return PlayerPrefs.GetInt ("gotCoinNum");
 	}
-	public int SetTotalScore(int num){
-		totalScore = num;
-		PlayerPrefs.SetInt ("gotCoinNum", totalScore);
-		return totalScore;
-	}*/
+	public int SetTotalScore(int _totalScore){
+		PlayerPrefs.SetInt ("gotCoinNum", _totalScore);
+		return _totalScore;
+	}
 
-	/*public void AddCoin(int _score){
-		int _total = PlayerPrefs.GetInt ("havingCoin")+_score;
-		PlayerPrefs.SetInt ("havingCoin", _total);
-	}*/
+	//所持金の追加
+	public void AddCoin(int  coin){
+		int totalCoin = PlayerPrefs.GetInt ("havingCoin")+coin;
+		PlayerPrefs.SetInt ("havingCoin", coin);
+	}
 
+	//操作UIの状態
 	public string GetUIController(){
 		//0 is UpDown,  1 is RightLeft
 		int setting = PlayerPrefs.GetInt("playerUIController");
@@ -67,19 +69,41 @@ public class PrefsManager : MonoBehaviour {
 		else return "Error";
 	}
 
-
+	//キャラクターが撮影されたことがあるか
 	public void SetGotCharacter(string name, bool isGotten=true){
 		if (isGotten && PlayerPrefs.GetInt ("got"+name) == 0)
 						PlayerPrefs.SetInt ("got"+name, 1);
 	}
 
-
+	//写真一枚ごとの点数
 	public void SetOneShotScore(int score){
 		PlayerPrefs.SetInt ("picturePoint" + oneShotIndex, score);
 		oneShotIndex++;
 	}
 
+	//アイテム所持数
+	public int GetItemNum(string itemName){
+		switch (itemName) {
+		case "Food":
+			return PlayerPrefs.GetInt("itemFoodNum");
+		default :
+			Debug.LogError("PrefsManager: Selected Item does not Exist!!");
+			return 0;
+		}
+	}
+	public void SetItemNum(string itemName,int num){
+		switch (itemName) {
+		case "Food":
+			PlayerPrefs.SetInt("itemFoodNum",num);
+			break;
+		default :
+			Debug.LogError("PrefsManager: Selected Item does not Exist!!");
+			break;
+		}
+	}
 
+
+	//スクリーンショットの保存
 	public void CaptureScreenshot(){
 		// Screenshot を撮る
 		string screenshotName = "Screenshot" + screenshotIndex + ".png";

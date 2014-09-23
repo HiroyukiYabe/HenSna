@@ -25,17 +25,16 @@ public class CharacterAI : MonoBehaviour
 	//static int locoState = Animator.StringToHash("Base Layer.Locomotion");			// these integers are references to our animator's states
 	//static int backState = Animator.StringToHash("Base Layer.WalkBack");				// and are used to check state for various actions to occur
 
-	NavMeshAgent nav;					// Reference to the nav mesh agent.
+	[HideInInspector]
+	public NavMeshAgent nav;					// Reference to the nav mesh agent.
 	public float speedDampTime = 0.1f;				// Damping time for the Speed parameter.
-	//public float angularSpeedDampTime = 0.7f;		// Damping time for the AngularSpeed parameter
-	//public float angleResponseTime = 0.6f;			// Response time for turning an angle into angularSpeed.
 	public float deadZone = 3f;					// The number of degrees for which the rotation isn't controlled by Mecanim.
 
 	Vector3 center;
 	float timer=0f;
 	bool invokeFlag=false;
-	/*bool lestFlag= false;
-	float lestTimer=0f;*/
+
+	public bool FoodFlag;
 
 
 	void Start ()
@@ -54,18 +53,22 @@ public class CharacterAI : MonoBehaviour
 		nav.SetDestination(RandomPosition());
 		nav.speed=Random.Range(2f,5f);
 		//Debug.Log ("Destination: "+nav.destination+",    Speed: "+nav.speed);
+
+		FoodFlag = false;
 	}
 
 
 	// Update is called once per frame
 	void Update () {
 		timer += Time.deltaTime;
-		//Debug.Log ("Timer:  "+timer);
-		
-		if ((transform.position - nav.destination).sqrMagnitude <= nav.stoppingDistance || timer>20f) {
-			if(!invokeFlag){
-				Invoke("SetNav",Random.Range(2f,7f));
-				invokeFlag=true;
+
+		//If Item is not Used
+		if (!FoodFlag) {
+			if ((transform.position - nav.destination).sqrMagnitude <= nav.stoppingDistance || timer > 20f) {
+				if (!invokeFlag) {
+					Invoke ("SetNav", Random.Range (2f, 5f));
+					invokeFlag = true;
+				}
 			}
 		}
 
@@ -74,22 +77,25 @@ public class CharacterAI : MonoBehaviour
 
 
 	void SetNav(){
-		nav.SetDestination(RandomPosition());
-		nav.speed=Random.Range(0.3f,1.3f);
-		if (nav.destination == transform.position) {
-			nav.SetDestination(RandomPosition());
-			Debug.Log ("Re:SetDestination");
-		}
-		//Debug.Log ("Destination: "+nav.destination+",    Speed: "+nav.speed);
+		if (!FoodFlag) {
+			nav.SetDestination (RandomPosition ());
+			nav.speed = Random.Range (0.3f, 1.3f);
+			if (nav.destination == transform.position) {
+				nav.SetDestination (RandomPosition ());
+				Debug.Log ("Re:SetDestination");
+			}
+			//Debug.Log ("Destination: "+nav.destination+",    Speed: "+nav.speed);
 
-		//if(nav.speed>5.0f) nav.updatePosition = true;
-		//else nav.updatePosition = false;
+			//if(nav.speed>5.0f) nav.updatePosition = true;
+			//else nav.updatePosition = false;
+		}
 		
 		timer=0f;
 		invokeFlag = false;
 	}
-	
 
+
+	//To Do  mottorandamu
 	Vector3 RandomPosition(){
 		float x = Random.Range (-20f,20f);
 		float z = Random.Range (-20f,20f);
