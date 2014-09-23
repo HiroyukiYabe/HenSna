@@ -23,9 +23,9 @@ public class LevelEnd : MonoBehaviour {
 	}
 
 	void  levelEnd(){
-		prefs.SetScore (_score.score);
-		prefs.AddTotalScore (_score.score);
-		Application.LoadLevel("result");
+		//prefs.SetScore (_score.score);
+		//prefs.AddTotalScore (_score.score);
+		Application.LoadLevel("pictureSubmit");
 	}
 
 	void OnGUI (){

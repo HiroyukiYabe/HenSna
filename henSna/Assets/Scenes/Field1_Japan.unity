@@ -3362,8 +3362,8 @@ GameObject:
   - 195: {fileID: 31310259}
   - 114: {fileID: 31310258}
   m_Layer: 8
-  m_Name: myChip Woodley v1.2
-  m_TagString: Player
+  m_Name: Mummy
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8672,8 +8672,8 @@ GameObject:
   - 195: {fileID: 161991498}
   - 114: {fileID: 161991497}
   m_Layer: 8
-  m_Name: myPumki v1.2
-  m_TagString: Player
+  m_Name: Pumpkin
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8980,8 +8980,8 @@ GameObject:
   - 195: {fileID: 164135939}
   - 114: {fileID: 164135938}
   m_Layer: 8
-  m_Name: mySkelly Mel v1.2
-  m_TagString: Player
+  m_Name: Skelton
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15726,8 +15726,8 @@ GameObject:
   - 195: {fileID: 251786981}
   - 114: {fileID: 251786980}
   m_Layer: 8
-  m_Name: myPumki v1.2
-  m_TagString: Player
+  m_Name: Pumpkin
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15987,8 +15987,8 @@ GameObject:
   - 195: {fileID: 253129970}
   - 114: {fileID: 253129969}
   m_Layer: 8
-  m_Name: mySkelly Mel v1.2
-  m_TagString: Player
+  m_Name: Skelton
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20206,8 +20206,8 @@ GameObject:
   - 195: {fileID: 321448999}
   - 114: {fileID: 321448998}
   m_Layer: 8
-  m_Name: mySkelly Mel v1.2
-  m_TagString: Player
+  m_Name: Skelton
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21827,8 +21827,8 @@ GameObject:
   - 195: {fileID: 339393342}
   - 114: {fileID: 339393341}
   m_Layer: 8
-  m_Name: myPumki v1.2
-  m_TagString: Player
+  m_Name: Pumpkin
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23309,8 +23309,8 @@ GameObject:
   - 195: {fileID: 362811352}
   - 114: {fileID: 362811351}
   m_Layer: 8
-  m_Name: myKnight Kato v1.5
-  m_TagString: Player
+  m_Name: Knight
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30638,7 +30638,7 @@ Prefab:
     - target: {fileID: 4500000, guid: d3f37dade87e94bb6b475d1441e1aa20, type: 2}
       propertyPath: m_CustomSkybox
       value: 
-      objectReference: {fileID: 2100000, guid: 5ba172cd3918d7c44aa6d04446119a00, type: 2}
+      objectReference: {fileID: 2100000, guid: da976b1a4f7ebb949b0f71341e4f1821, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d3f37dade87e94bb6b475d1441e1aa20, type: 2}
   m_RootGameObject: {fileID: 307898792}
@@ -32606,8 +32606,8 @@ GameObject:
   - 195: {fileID: 539472087}
   - 114: {fileID: 539472086}
   m_Layer: 8
-  m_Name: myPumki v1.2
-  m_TagString: Player
+  m_Name: Pumpkin
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45556,7 +45556,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &787520413
 Light:
   m_ObjectHideFlags: 0
@@ -52724,7 +52724,7 @@ Skybox:
   m_PrefabInternal: {fileID: 484458177}
   m_GameObject: {fileID: 920778422}
   m_Enabled: 1
-  m_CustomSkybox: {fileID: 2100000, guid: 5ba172cd3918d7c44aa6d04446119a00, type: 2}
+  m_CustomSkybox: {fileID: 2100000, guid: da976b1a4f7ebb949b0f71341e4f1821, type: 2}
 --- !u!1 &921206862
 GameObject:
   m_ObjectHideFlags: 0
@@ -57526,8 +57526,8 @@ GameObject:
   - 195: {fileID: 1029075282}
   - 114: {fileID: 1029075281}
   m_Layer: 8
-  m_Name: myChip Woodley v1.2
-  m_TagString: Player
+  m_Name: Mummy
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60730,6 +60730,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: e36df9370204147fcb5cb96e24985428, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e36df9370204147fcb5cb96e24985428, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e36df9370204147fcb5cb96e24985428, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e36df9370204147fcb5cb96e24985428, type: 2}
   m_RootGameObject: {fileID: 166136465}
@@ -63255,8 +63267,8 @@ GameObject:
   - 195: {fileID: 1143583346}
   - 114: {fileID: 1143583345}
   m_Layer: 8
-  m_Name: myChip Woodley v1.2
-  m_TagString: Player
+  m_Name: Mummy
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82522,8 +82534,8 @@ GameObject:
   - 195: {fileID: 1551343899}
   - 114: {fileID: 1551343898}
   m_Layer: 8
-  m_Name: myKnight Kato v1.5
-  m_TagString: Player
+  m_Name: Knight
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86634,8 +86646,8 @@ GameObject:
   - 195: {fileID: 1617397226}
   - 114: {fileID: 1617397225}
   m_Layer: 8
-  m_Name: myKnight Kato v1.5
-  m_TagString: Player
+  m_Name: Knight
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92544,7 +92556,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1681765188
 Light:
   m_ObjectHideFlags: 0
@@ -117313,8 +117325,8 @@ GameObject:
   - 195: {fileID: 2024334085}
   - 114: {fileID: 2024334084}
   m_Layer: 8
-  m_Name: myKnight Kato v1.5
-  m_TagString: Player
+  m_Name: Knight
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120746,7 +120758,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2114251421
 Transform:
   m_ObjectHideFlags: 0
@@ -122058,8 +122070,8 @@ GameObject:
   - 195: {fileID: 2132483341}
   - 114: {fileID: 2132483340}
   m_Layer: 8
-  m_Name: mySkelly Mel v1.2
-  m_TagString: Player
+  m_Name: Skelton
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

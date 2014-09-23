@@ -13,7 +13,7 @@ public class CharacterScore : MonoBehaviour {
 
 	TakePicture pic;
 	Score _score;
-	Transform player;
+	//Transform player;
 
 	public float OffSet = 0.85f;
 	public int ThisScore;
@@ -42,28 +42,27 @@ public class CharacterScore : MonoBehaviour {
 		prefs = GameObject.FindWithTag ("GameController").GetComponent<PrefsManager> ();
 		pic = GameObject.FindWithTag ("GameController").GetComponent<TakePicture> ();
 		_score = GameObject.FindWithTag ("GameController").GetComponent<Score> ();
-		player = GameObject.FindWithTag ("Player").transform;
+		//player = GameObject.FindWithTag ("Player").transform;
 	}
 
 
 	// Update is called once per frame
 	void Update () {
-		//if (pic.isTakingPicture)	PictureCheck();
+		bool photoflag = pic.isTakingPicture;
 
-		bool doubleTap = false;
-		if (Input.touchCount > 0){
+		/*if (Input.touchCount > 0){
 			foreach (Touch touch in Input.touches){
 				if(touch.phase == TouchPhase.Began){
 					if (touch.tapCount>1 && touch.tapCount%2==0) doubleTap = true;
 				}
 			}
-		}
+		}*/
 
-		if (doubleTap) {	
+		if (photoflag ) {	
 			if(IsInScreen ()){
 				prefs.SetGotCharacter(gameObject.name);//To Do delete (Clone)
-				_score.score+=CalculateScore();
-			}
+				_score.AddScore(CalculateScore());
+			}else _score.AddScore(0);
 		}
 
 		//For Debug

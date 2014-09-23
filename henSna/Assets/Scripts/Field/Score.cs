@@ -13,7 +13,7 @@ public class Score : MonoBehaviour {
 
 	int charNum;
 	int count;
-	int onePhotoScore;
+	int oneShotScore;
 
 	// Use this for initialization
 	void Start () {
@@ -22,20 +22,25 @@ public class Score : MonoBehaviour {
 		charNum = GameObject.FindGameObjectsWithTag ("Character").Length;
 		Debug.Log ("Character is " + charNum);
 		count = 0;
-		onePhotoScore = 0;
+		oneShotScore = 0;
 	}
-	
+
+
 	// Update is called once per frame
 	void Update () {
 		ScoreText.text = "Score: "+score;
 	}
 
-	void AddScore(int _score){
-		onePhotoScore += _score;
-		count++;
-		if (count == charNum) {
 
-			onePhotoScore=0;
+	public void AddScore(int _score){
+		oneShotScore += _score;
+		score += _score;
+		count++;
+		Debug.Log ("Score.AddScore called");
+		if (count == charNum) {
+			prefs.SetOneShotScore(oneShotScore);
+			Debug.Log("This Photo's Score is " + oneShotScore);
+			oneShotScore=0;
 			count=0;
 		} else if (count > charNum) {
 			Debug.LogError("Score Error!!");

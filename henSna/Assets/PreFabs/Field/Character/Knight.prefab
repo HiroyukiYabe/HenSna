@@ -710,8 +710,8 @@ GameObject:
   - 195: {fileID: 19500000}
   - 114: {fileID: 11400000}
   m_Layer: 8
-  m_Name: myKnight Kato v1.5
-  m_TagString: Player
+  m_Name: Knight
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

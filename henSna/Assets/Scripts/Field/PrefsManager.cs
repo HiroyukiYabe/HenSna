@@ -7,18 +7,21 @@ using System.IO;
 public class PrefsManager : MonoBehaviour {
 	
 	int remainFilmNum;
-	int takenPicNum;
-	int score;
-	int totalScore;
-	int screenshotIndex;
+	int takenPicNum=0;
+	//int totalScore;
+
+	int oneShotScore=0;
+	int oneShotIndex=0;
+
+	int screenshotIndex=0;
 
 	// Use this for initialization
 	void Awake () {
-		takenPicNum = 0;
 		SetTakenPicNum (0);
-		score = 0;
-		SetScore (0);
-		remainFilmNum = 10;//PlayerPrefs.GetInt("filmNum");
+		//totalScore = 0;
+		//SetTotalScore (0);
+		remainFilmNum = 5;//PlayerPrefs.GetInt("filmNum");
+		SetRemainFilmNum (remainFilmNum);
 	}
 	
 	// Update is called once per frame
@@ -42,19 +45,19 @@ public class PrefsManager : MonoBehaviour {
 		return takenPicNum;
 	}
 
-	public int GetScore(){
-		return score;
+	/*public int GetTotalScore(){
+		return totalScore;
 	}
-	public int SetScore(int num){
-		score = num;
-		PlayerPrefs.SetInt ("gotCoinNum", score);
-		return score;
-	}
+	public int SetTotalScore(int num){
+		totalScore = num;
+		PlayerPrefs.SetInt ("gotCoinNum", totalScore);
+		return totalScore;
+	}*/
 
-	public void AddTotalScore(int _score){
+	/*public void AddCoin(int _score){
 		int _total = PlayerPrefs.GetInt ("havingCoin")+_score;
 		PlayerPrefs.SetInt ("havingCoin", _total);
-	}
+	}*/
 
 	public string GetUIController(){
 		//0 is UpDown,  1 is RightLeft
@@ -68,6 +71,12 @@ public class PrefsManager : MonoBehaviour {
 	public void SetGotCharacter(string name, bool isGotten=true){
 		if (isGotten && PlayerPrefs.GetInt ("got"+name) == 0)
 						PlayerPrefs.SetInt ("got"+name, 1);
+	}
+
+
+	public void SetOneShotScore(int score){
+		PlayerPrefs.SetInt ("picturePoint" + oneShotIndex, score);
+		oneShotIndex++;
 	}
 
 

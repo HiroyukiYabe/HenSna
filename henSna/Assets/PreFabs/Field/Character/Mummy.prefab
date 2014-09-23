@@ -710,8 +710,8 @@ GameObject:
   - 195: {fileID: 19500000}
   - 114: {fileID: 11400000}
   m_Layer: 8
-  m_Name: myChip Woodley v1.2
-  m_TagString: Player
+  m_Name: Mummy
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

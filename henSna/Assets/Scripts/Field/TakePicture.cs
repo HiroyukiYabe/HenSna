@@ -13,6 +13,7 @@ public class TakePicture : MonoBehaviour {
 
 	PrefsManager Prefs;
 
+	bool doubleTap;
 	[HideInInspector]
 	public bool isTakingPicture;
 
@@ -25,6 +26,7 @@ public class TakePicture : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Prefs = GameObject.FindWithTag ("GameController").GetComponent<PrefsManager> ();
+		doubleTap = false;
 		isTakingPicture = false;
 		float markSize = Screen.height / 10;
 		center = new Rect(Screen.width/2-markSize,Screen.height/2-markSize,markSize*2,markSize*2);
@@ -35,32 +37,34 @@ public class TakePicture : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		doubleTap = false;
 		isTakingPicture = false;
 
 		if (Input.touchCount > 0){
 			foreach (Touch touch in Input.touches){
 				if (touch.phase==TouchPhase.Began){
-					if (touch.tapCount > 1)	isTakingPicture = true;
+					if (touch.tapCount > 1)	doubleTap = true;
 				}
 			}
 		}
-		if (Input.GetKeyDown (KeyCode.Space))	isTakingPicture = true;
+		if (Input.GetKeyDown (KeyCode.Space))	doubleTap = true;
 
-		if (isTakingPicture)	TakePic ();
+		if (doubleTap && Prefs.GetRemainFilmNum () > 0) {
+			isTakingPicture = true;
+			TakePhoto ();
+		}
 	}
 
 
-	void TakePic(){
-		if (Prefs.GetRemainFilmNum() > 0) {
-			Prefs.CaptureScreenshot();
-			Prefs.SetRemainFilmNum(Prefs.GetRemainFilmNum()-1);
-			Prefs.SetTakenPicNum(Prefs.GetTakenPicNum()+1);
+	void TakePhoto(){
+		Prefs.CaptureScreenshot();
+		Prefs.SetRemainFilmNum(Prefs.GetRemainFilmNum()-1);
+		Prefs.SetTakenPicNum(Prefs.GetTakenPicNum()+1);
 
 
-			FadeInOut fade = GameObject.Find ("FadeInOut").GetComponent<FadeInOut> ();
-			fade.flag = true;
-			shutterSE.Play();
-		}
+		FadeInOut fade = GameObject.Find ("FadeInOut").GetComponent<FadeInOut> ();
+		fade.flag = true;
+		shutterSE.Play();
 	}
 
 
