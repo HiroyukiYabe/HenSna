@@ -1292,7 +1292,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100088}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.07785034, y: .0568271689, z: 3.01221466}
+  m_LocalPosition: {x: 91.6890488, y: 0, z: 100}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400086}
@@ -1514,8 +1514,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ef23fa7f08ac4ff194ab1724e5c0c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedDampTime: .100000001
-  deadZone: 5
+  nav: {fileID: 0}
+  MinSpeed: .100000001
+  MaxSpeed: 1
+  FoodFlag: 0
+  dest: {x: 0, y: 0, z: 0}
+  remain: 0
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1935,7 +1939,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: .00108337402, y: .156282961, z: -.0278480724}
+  m_ConnectedAnchor: {x: .00109100342, y: .156282961, z: -.0278480724}
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_LowTwistLimit:
     limit: -20
@@ -1970,7 +1974,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -1.60767013e-06, y: .159518406, z: -3.10037285e-06}
+  m_ConnectedAnchor: {x: -1.60813579e-06, y: .159518391, z: -3.10130417e-06}
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_LowTwistLimit:
     limit: -80

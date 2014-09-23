@@ -27,14 +27,22 @@ public class CharacterAI : MonoBehaviour
 
 	[HideInInspector]
 	public NavMeshAgent nav;					// Reference to the nav mesh agent.
-	public float speedDampTime = 0.1f;				// Damping time for the Speed parameter.
-	public float deadZone = 3f;					// The number of degrees for which the rotation isn't controlled by Mecanim.
+	float speedDampTime = 0.1f;				// Damping time for the Speed parameter.
+	float deadZone = 3f;					// The number of degrees for which the rotation isn't controlled by Mecanim.
+	public float MinSpeed = 0.1f;
+	public float MaxSpeed = 1.0f;
 
 	Vector3 center;
 	float timer=0f;
 	bool invokeFlag=false;
 
 	public bool FoodFlag;
+	float happyInterval;
+	float happyTimer;
+
+	//For Debug
+	public Vector3 dest;
+	public float remain;
 
 
 	void Start ()
@@ -51,10 +59,12 @@ public class CharacterAI : MonoBehaviour
 		nav.updateRotation = false;	// Making sure the rotation is controlled by Mecanim.
 		nav.updatePosition = false;	// Making sure the position is controlled by Mecanim.
 		nav.SetDestination(RandomPosition());
-		nav.speed=Random.Range(2f,5f);
-		//Debug.Log ("Destination: "+nav.destination+",    Speed: "+nav.speed);
+		nav.speed=Random.Range(MinSpeed,MaxSpeed);
+		dest = nav.destination;
 
 		FoodFlag = false;
+		happyInterval = Random.Range (5f,13f);
+		happyTimer = happyInterval;
 	}
 
 
@@ -64,27 +74,36 @@ public class CharacterAI : MonoBehaviour
 
 		//If Item is not Used
 		if (!FoodFlag) {
-			if ((transform.position - nav.destination).sqrMagnitude <= nav.stoppingDistance || timer > 20f) {
+			if ((transform.position - nav.destination).sqrMagnitude <= nav.stoppingDistance*nav.stoppingDistance || timer > 20f) {
 				if (!invokeFlag) {
 					Invoke ("SetNav", Random.Range (2f, 5f));
 					invokeFlag = true;
 				}
 			}
+		} else{ 
+			happyTimer+=Time.deltaTime;
+			if(happyTimer>happyInterval){ 
+				if ((transform.position - nav.destination).sqrMagnitude <= nav.stoppingDistance) {
+					anim.SetTrigger ("Happy");
+					happyTimer=0f;
+				}
+			}
 		}
 
 		NavAnimSetup ();
+		remain = nav.remainingDistance;
 	}
 
 
 	void SetNav(){
 		if (!FoodFlag) {
 			nav.SetDestination (RandomPosition ());
-			nav.speed = Random.Range (0.3f, 1.3f);
+			nav.speed = Random.Range (MinSpeed, MaxSpeed);
 			if (nav.destination == transform.position) {
 				nav.SetDestination (RandomPosition ());
 				Debug.Log ("Re:SetDestination");
 			}
-			//Debug.Log ("Destination: "+nav.destination+",    Speed: "+nav.speed);
+			dest = nav.destination;
 
 			//if(nav.speed>5.0f) nav.updatePosition = true;
 			//else nav.updatePosition = false;

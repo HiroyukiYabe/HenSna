@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FoodPrefab: {fileID: 100000, guid: 2d434559430d5e54183217ebf67f2bba, type: 2}
-  ThrowSpeed: {x: 0, y: 5, z: 5}
+  ThrowSpeed: {x: 0, y: 10, z: 10}
 --- !u!124 &12400000
 Behaviour:
   m_ObjectHideFlags: 1

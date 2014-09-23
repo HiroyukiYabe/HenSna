@@ -1322,7 +1322,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100090}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -57.1557961, y: .0568254627, z: -10.2104111}
+  m_LocalPosition: {x: 91.8517532, y: .0568270758, z: 92.5970764}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400088}
@@ -1544,8 +1544,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ef23fa7f08ac4ff194ab1724e5c0c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedDampTime: .100000001
-  deadZone: 5
+  nav: {fileID: 0}
+  MinSpeed: .100000001
+  MaxSpeed: 1
+  FoodFlag: 0
+  dest: {x: 0, y: 0, z: 0}
+  remain: 0
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1930,7 +1934,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -.197205395, y: .155723795, z: -.00860089809}
+  m_ConnectedAnchor: {x: -.19720158, y: .155723825, z: -.00860089064}
   m_SwingAxis: {x: 1, y: 0, z: 0}
   m_LowTwistLimit:
     limit: -70
@@ -1965,7 +1969,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: .00108718872, y: .156282961, z: -.0278480724}
+  m_ConnectedAnchor: {x: .00109100342, y: .156282961, z: -.0278480724}
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_LowTwistLimit:
     limit: -20
@@ -2035,7 +2039,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: .101642609, y: -.0400725603, z: .00147169083}
+  m_ConnectedAnchor: {x: .101638794, y: -.0400725603, z: .00147169083}
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_LowTwistLimit:
     limit: -20
@@ -2070,7 +2074,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -1.47261198e-06, y: .158777878, z: -1.11362897e-06}
+  m_ConnectedAnchor: {x: 2.33975697e-06, y: .158777997, z: -1.06520019e-06}
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_LowTwistLimit:
     limit: -80
@@ -2105,7 +2109,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -.0970573425, y: -.0400725603, z: -.0051811412}
+  m_ConnectedAnchor: {x: -.0970535278, y: -.0400725603, z: -.0051811412}
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_LowTwistLimit:
     limit: -20
