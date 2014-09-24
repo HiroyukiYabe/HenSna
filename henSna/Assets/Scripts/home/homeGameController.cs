@@ -1,16 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
+
 public class homeGameController : MonoBehaviour {
 
 	// Use this for initialization
 	string lastFilmUpTimeStr;
 	void Start () {
-		if (PlayerPrefs.GetInt ("firstLaunch3") == 0) {
+		if (PlayerPrefs.GetInt("firstLaunch3") == 0) {
 				//初回起動
 			Debug.Log ("come first launch!!!");
-			PlayerPrefs.SetInt ("filmMax",30);
-			PlayerPrefs.SetInt ("filmNum",20);
+			PlayerPrefs.SetInt ("filmMax",50);
+			PlayerPrefs.SetInt ("filmNum",50);
 			PlayerPrefs.SetInt ("havingCoin",300);
 			PlayerPrefs.SetInt ("releaseHalloweenDungeon",0);
 			PlayerPrefs.SetInt ("valuationChief",0);
