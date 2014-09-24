@@ -48,8 +48,11 @@ public class picSubmitGameController : MonoBehaviour {
 			this.prevButton.SetActive (false);
 
 		}
-		for (int i = (nowPage-1)*Constants.perPagePicNum; i <(nowPage-1)*Constants.perPagePicNum + Constants.perPagePicNum ; i++) {
+		for (int i = 0; i < Constants.perPagePicNum; i++) {
 			int index = i + 1;
+			int screenshotindex = (nowPage-1)*Constants.perPagePicNum + i;
+			int price;
+
 			tookPictureImage = gameObject.transform.FindChild ("tookPictureImage" + index).gameObject.GetComponent<UITexture> ();
 			priceLabel = gameObject.transform.FindChild ("priceLabel" + index).gameObject.GetComponent<UILabel> ();
 			if (i < nowPagePicNum) {
@@ -59,15 +62,16 @@ public class picSubmitGameController : MonoBehaviour {
 				string path = "";
 				switch (Application.platform) {
 				case RuntimePlatform.IPhonePlayer:
-					path = Application.persistentDataPath + "/Screenshot" + i + ".png";
+					path = Application.persistentDataPath + "/Screenshot" + screenshotindex + ".png";
 					break;
 				case RuntimePlatform.Android:
-					path = Application.persistentDataPath + "/Screenshot" + i + ".png";
+					path = Application.persistentDataPath + "/Screenshot" + screenshotindex + ".png";
 					break;
 				default:
-					path = "Screenshot" + i + ".png";
+					path = "Screenshot" + screenshotindex + ".png";
 					break;
 				}
+
 				Debug.Log ("path:" + path);
 
 				// スクリーンショットの読み込み
@@ -79,6 +83,9 @@ public class picSubmitGameController : MonoBehaviour {
 
 				// NGUI の UITexture に表示する
 				tookPictureImage.mainTexture = tex;
+
+				price = PlayerPrefs.GetInt ("picturePoint" + screenshotindex);
+				priceLabel.text = price + "円";
 			
 			} else {
 				tookPictureImage.alpha = 0;
