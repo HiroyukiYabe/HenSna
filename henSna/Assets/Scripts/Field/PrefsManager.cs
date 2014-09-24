@@ -1,5 +1,8 @@
 ﻿//Attach to GameController
 
+//ポーズ対応
+
+
 using UnityEngine;
 using System.Collections;
 using System.IO;
@@ -25,7 +28,7 @@ public class PrefsManager : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {}
+	//void Update () {}
 
 	//フィルム残数
 	public int GetRemainFilmNum(){
@@ -101,6 +104,30 @@ public class PrefsManager : MonoBehaviour {
 	public void SetGotCharacter(string name, bool isGotten=true){
 		if (isGotten && PlayerPrefs.GetInt ("got"+name) == 0)
 						PlayerPrefs.SetInt ("got"+name, 1);
+	}
+
+	//To Do
+	//最初に撮影されたキャラクター
+	public void SetThisTimeGotType(string name){
+		if (PlayerPrefs.GetInt ("thisTimeGotType") == 0) {
+			switch(name){
+			case "Pumpkin":
+				PlayerPrefs.SetInt ("thisTimeGotType",1);
+				break;
+			case "Skelton":
+				PlayerPrefs.SetInt ("thisTimeGotType",2);
+				break;
+			case "Knight":
+				PlayerPrefs.SetInt ("thisTimeGotType",3);
+				break;
+			case "Mummy":
+				PlayerPrefs.SetInt ("thisTimeGotType",4);
+				break;
+			default :
+				Debug.LogError("PrefsManager.SetThisTimeGotType:  Not Defined Character");
+				break;
+			}
+		}
 	}
 
 	//写真一枚ごとの点数

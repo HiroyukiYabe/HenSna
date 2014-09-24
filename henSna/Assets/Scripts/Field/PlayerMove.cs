@@ -1,6 +1,11 @@
 ﻿//スワイプ量を取得し、カメラを移動・回転
 //Attach to Player
 
+//ポーズ対応
+
+//To Do
+
+
 using UnityEngine;
 using System.Collections;
 
@@ -23,6 +28,8 @@ public class PlayerMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+	if (!Pauser.isPause){
+
 		Vector2 rot = tapDetect.UpDrag ();
 		Vector2 move = tapDetect.DownDrag ();
 
@@ -43,6 +50,7 @@ public class PlayerMove : MonoBehaviour {
 		//回転
 		transform.rotation = Quaternion.Euler(_rotX,_rotY,transform.eulerAngles.z);
 		
+	}
 	}
 
 }

@@ -1,13 +1,14 @@
 ﻿//現在の得点を保持、表示
 //Attach to GameController
 
+//ポーズ対応必要なし
+
 using UnityEngine;
 using System.Collections;
 
 public class Score : MonoBehaviour {
 
 	public int score;
-	public GUIText ScoreText;
 
 	PrefsManager prefs;
 
@@ -27,9 +28,7 @@ public class Score : MonoBehaviour {
 
 
 	// Update is called once per frame
-	void Update () {
-		ScoreText.text = "Score: "+score;
-	}
+	//void Update () {}
 
 
 	public void AddScore(int _score){

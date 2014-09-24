@@ -1,5 +1,6 @@
 ﻿//Attach to LightManager
 
+//ポーズ対応
 
 using UnityEngine;
 using System.Collections;
@@ -26,25 +27,25 @@ public class LightManager : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		//To Do
-		if (Input.GetKeyDown (KeyCode.Alpha1)) {
-			thisSky.material = DayLight;
-			light.SetActive(false);
-			light=transform.FindChild ("DayLight").gameObject;
-			light.SetActive(true);
-		}
-		if (Input.GetKeyDown (KeyCode.Alpha2)) {
-			thisSky.material = Sunset;
-			light.SetActive(false);
-			light=transform.FindChild ("Sunset").gameObject;
-			light.SetActive(true);
-		}
-		if (Input.GetKeyDown (KeyCode.Alpha3)) {
-			thisSky.material = Night;
-			light.SetActive(false);
-			light=transform.FindChild ("Night").gameObject;
-			light.SetActive(true);
-		}
+	//void Update () {}
+
+	public void ChangeDayLight(){
+		thisSky.material = DayLight;
+		light.SetActive(false);
+		light=transform.FindChild ("DayLight").gameObject;
+		light.SetActive(true);
 	}
+	public void ChangeSunset(){
+		thisSky.material = Sunset;
+		light.SetActive(false);
+		light=transform.FindChild ("Sunset").gameObject;
+		light.SetActive(true);
+	}
+	public void ChangeNight(){
+		thisSky.material = Night;
+		light.SetActive(false);
+		light=transform.FindChild ("Night").gameObject;
+		light.SetActive(true);
+	}
+
 }

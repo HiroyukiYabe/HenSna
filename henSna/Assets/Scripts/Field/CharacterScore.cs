@@ -1,6 +1,8 @@
 ﻿//各キャラクタごとに撮影されたか判定、得点を計算してスコアを増加させる
 //Attach to Characers
 
+//ポーズ対応必要なし
+
 //To Do:撮影された状況によって得点を変化させる
 
 
@@ -61,6 +63,7 @@ public class CharacterScore : MonoBehaviour {
 		if (photoflag ) {	
 			if(IsInScreen ()){
 				prefs.SetGotCharacter(gameObject.name);//To Do delete (Clone)
+				prefs.SetThisTimeGotType(gameObject.name);
 				_score.AddScore(CalculateScore());
 			}else _score.AddScore(0);
 		}

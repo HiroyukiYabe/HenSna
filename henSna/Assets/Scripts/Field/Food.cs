@@ -1,5 +1,7 @@
 ﻿//Attach to Food
 
+//ポーズ対応必要なし
+
 using UnityEngine;
 using System.Collections;
 

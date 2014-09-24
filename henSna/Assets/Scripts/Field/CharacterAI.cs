@@ -1,6 +1,7 @@
 ﻿//単純なキャラクタ移動
 //Attach to Character
 
+//ポーズ対応必要なし
 
 using UnityEngine;
 using System.Collections;

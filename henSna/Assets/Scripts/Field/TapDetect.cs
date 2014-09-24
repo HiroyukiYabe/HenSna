@@ -1,7 +1,7 @@
 ﻿// タップ位置、スワイプ量を取得 
 //Attach to GameController
 
-//To Do: ポーズ時の例外処理
+//ポーズ対応
 
 
 
@@ -28,6 +28,7 @@ public class TapDetect : MonoBehaviour {
 	status stat;
 	float statTimer;
 
+	PrefsManager prefs;
 
 	// Use this for initialization
 	void Start () {
@@ -36,16 +37,19 @@ public class TapDetect : MonoBehaviour {
 		downMove = Vector2.zero;
 		upMove = Vector2.zero;
 
-		ChangeUIController ();
-
 		rect = new Rect (Screen.width*9/10,0,Screen.width/10,Screen.width/10); 
 		stat = status.None;
 		statTimer = 0f;
+
+		prefs = GameObject.FindWithTag ("GameController").GetComponent<PrefsManager> ();
+		GetUIController ();
 	}
 
 
-	// Update is called once per frame
-	void Update () {
+// Update is called once per frame
+void Update () {
+
+	if(!Pauser.isPause){
 
 		if (Input.touchCount > 0) {
 			foreach(Touch touch in Input.touches){
@@ -75,16 +79,14 @@ public class TapDetect : MonoBehaviour {
 						isDownTouch = false;
 						downID = -1;
 						if(stat==status.Move) stat=status.None;
-			Debug.Log("Stat:Down Unpressed");
-						
+						Debug.Log("Stat:Down Unpressed");
 					}
 					else if (isUpTouch && touch.fingerId==upID){
 						upMove = Vector2.zero;
 						isUpTouch = false;
 						upID = -1;
 						if(stat==status.Rot) stat=status.None;
-			Debug.Log("Stat:Up Unpressed");
-						
+						Debug.Log("Stat:Up Unpressed");
 					}
 					break;
 				case TouchPhase.Canceled:
@@ -95,13 +97,11 @@ public class TapDetect : MonoBehaviour {
 					isUpTouch = false;
 					upID = -1;
 					stat=status.None;
-			Debug.Log("Stat:Canceled");
-					
+					Debug.Log("Stat:Canceled");	
 					break;
 				}
 			}
 		}
-
 
 		if (stat != status.None)	statTimer += Time.deltaTime;
 		else 						statTimer = 0f;
@@ -111,7 +111,18 @@ public class TapDetect : MonoBehaviour {
 			Debug.Log("Stat:Time Out");
 		}
 
+	}else{
+
+		downMove = Vector2.zero;
+		isDownTouch = false;
+		downID = -1;
+		upMove = Vector2.zero;
+		isUpTouch = false;
+		upID = -1;
+		stat=status.None;
+
 	}
+}
 
 
 	//return TRUE if tap_position is UP or RIGHT
@@ -121,8 +132,7 @@ public class TapDetect : MonoBehaviour {
 	}
 
 
-	public void ChangeUIController(){
-		PrefsManager prefs = GetComponent<PrefsManager> ();
+	public void GetUIController(){
 		switch (prefs.GetUIController ()) {
 		case "UpDown":
 			upAndDown = true;
@@ -134,7 +144,26 @@ public class TapDetect : MonoBehaviour {
 			break;
 		default :
 			upAndDown = true;
-			Debug.Log("Error");
+			Debug.LogError("Error");
+			break;
+		}
+	}
+	public void SetUIController(string type){
+		switch (type) {
+		case "UpDown":
+			upAndDown = true;
+			prefs.SetUIController("UpDown");
+			Debug.Log("UpAndDown");
+			break;
+		case "RightLeft":
+			upAndDown = false;
+			prefs.SetUIController("RightLeft");
+			Debug.Log("RightAndLeft");
+			break;
+		default :
+			upAndDown = true;
+			prefs.SetUIController("UpDown");
+			Debug.LogError("Error");
 			break;
 		}
 	}
@@ -165,8 +194,10 @@ public class TapDetect : MonoBehaviour {
 
 
 	void OnGUI (){
-		if(stat==status.Move) GUI.DrawTexture (rect,MoveTexture);
-		if(stat==status.Rot) GUI.DrawTexture (rect,RotTexture);
+		if(!Pauser.isPause){
+			if(stat==status.Move) GUI.DrawTexture (rect,MoveTexture);
+			if(stat==status.Rot) GUI.DrawTexture (rect,RotTexture);
+		}
 	}
 
 
