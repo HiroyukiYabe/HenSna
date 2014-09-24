@@ -33,13 +33,13 @@ public class homeGameController : MonoBehaviour {
 				TimeSpan timeSpan = nowTime - lastFilmUpTime;
 				int spanMinutes = timeSpan.Minutes;
 				if (spanMinutes >= 1) {
-
+						Debug.Log ("come film up!");
 						int filmNum = PlayerPrefs.GetInt ("filmNum");
 						int filmMax = PlayerPrefs.GetInt ("filmMax");
+						filmNum += spanMinutes;
+						if (filmNum > filmMax) {
 
-						if (filmNum < filmMax) {
-								Debug.Log ("come film up!");
-								filmNum++;
+								filmNum = filmMax;
 								PlayerPrefs.SetInt ("filmNum",filmNum);
 						}
 						PlayerPrefs.SetString ("lastFilmUpTime",DateTime.Now.ToString ("yyyy/MM/dd HH:mm:ss"));

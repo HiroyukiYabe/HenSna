@@ -4,6 +4,7 @@ using System;
 
 public class GameControllerCommon : MonoBehaviour {
 		TimeSpan timeSpan;
+		string lastFilmUpTimeStr;
 	// Use this for initialization
 	void Start () {
 				Debug.Log ("come Start GameControllerCommon");
@@ -11,7 +12,23 @@ public class GameControllerCommon : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+				DateTime nowTime = DateTime.Now;
+				lastFilmUpTimeStr = PlayerPrefs.GetString ("lastFilmUpTime");
+				DateTime lastFilmUpTime = DateTime.Parse (lastFilmUpTimeStr);
+				TimeSpan timeSpan = nowTime - lastFilmUpTime;
+				int spanMinutes = timeSpan.Minutes;
+				if (spanMinutes >= 1) {
+						//フィルム回復
+						Debug.Log ("come film up!");
+						int filmNum = PlayerPrefs.GetInt ("filmNum");
+						int filmMax = PlayerPrefs.GetInt ("filmMax");
+						filmNum += spanMinutes;
+						if (filmNum > filmMax) {
+								filmNum = filmMax;
+								PlayerPrefs.SetInt ("filmNum",filmNum);
+						}
+						PlayerPrefs.SetString ("lastFilmUpTime",DateTime.Now.ToString ("yyyy/MM/dd HH:mm:ss"));
+				}
 	}
 
 		void OnApplicationPause(bool pauseStatus){
@@ -32,12 +49,13 @@ public class GameControllerCommon : MonoBehaviour {
 								timeSpan = nowTime - lastFilmUpTime;
 								int spanMinutes = timeSpan.Minutes;
 								int filmMax = PlayerPrefs.GetInt ("filmMax");
-								filmNum += spanMinutes % 1;
+								filmNum += spanMinutes / 1;
 								if (filmNum > filmMax) {
 										filmNum = filmMax;
 								}
 								PlayerPrefs.SetInt ("filmNum",filmNum);
 								PlayerPrefs.SetInt ("pause",0);
+								PlayerPrefs.SetString ("lastFilmUpTime",DateTime.Now.ToString ("yyyy/MM/dd HH:mm:ss"));
 								Debug.Log ("timeSpan is : " + timeSpan);
 								Debug.Log ("spanMinutes is :"+spanMinutes);
 								Debug.Log ("application did become active or onresume");
