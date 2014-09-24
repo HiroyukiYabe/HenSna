@@ -44,14 +44,14 @@ MonoBehaviour:
   - name: prevButtonImage
     outer:
       serializedVersion: 2
-      x: 65
-      y: 192
+      x: 0
+      y: 180
       width: 64
       height: 64
     inner:
       serializedVersion: 2
-      x: 65
-      y: 192
+      x: 0
+      y: 180
       width: 64
       height: 64
     rotated: 0
@@ -62,14 +62,14 @@ MonoBehaviour:
   - name: nextButtonImage
     outer:
       serializedVersion: 2
-      x: 130
-      y: 192
+      x: 0
+      y: 115
       width: 64
       height: 64
     inner:
       serializedVersion: 2
-      x: 130
-      y: 192
+      x: 0
+      y: 115
       width: 64
       height: 64
     rotated: 0
@@ -81,13 +81,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 153
+      y: 349
       width: 64
       height: 103
     inner:
       serializedVersion: 2
       x: 0
-      y: 153
+      y: 349
       width: 64
       height: 103
     rotated: 0
@@ -99,15 +99,33 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 49
+      y: 245
       width: 64
       height: 103
     inner:
       serializedVersion: 2
       x: 0
-      y: 49
+      y: 245
       width: 64
       height: 103
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: backButton3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 453
+      width: 259
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 453
+      width: 259
+      height: 59
     rotated: 0
     paddingLeft: 0
     paddingRight: 0

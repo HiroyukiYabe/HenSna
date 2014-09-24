@@ -8,8 +8,9 @@ public class collectionContent : MonoBehaviour
 		Mummy=1,
 		Pumpkin,
 		Skelton,
-		Knight}
-	;
+		Knight
+	};
+
 	private float questionSize;
 	public int type;
 	UILabel nameLabel;
@@ -112,8 +113,9 @@ public class collectionContent : MonoBehaviour
 			break;
 		default:
 			monNumberLabel.text = "NO.??";
-			nameLabel.text = "Normal";
+			nameLabel.text = "????";
 			contentImage.spriteName = "question";
+			Destroy (newLabel);
 			contentImage.transform.localScale = new Vector3 (questionSize,questionSize,0);
 			break;
 		}

@@ -59,10 +59,10 @@ MonoBehaviour:
   mReplacement: {fileID: 0}
   mPixelSize: 1
   mSymbols: []
-  mDynamicFont: {fileID: 12800000, guid: aaa7f85a8fe6a4c1f9d5c17fa82c82f1, type: 3}
+  mDynamicFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   mDynamicFontSize: 30
   mDynamicFontStyle: 1
-  mDynamicFontOffset: 11.25
+  mDynamicFontOffset: 11.2314453
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

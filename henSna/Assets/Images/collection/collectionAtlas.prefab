@@ -44,14 +44,14 @@ MonoBehaviour:
   - name: question2
     outer:
       serializedVersion: 2
-      x: 1573
-      y: 1849
+      x: 1021
+      y: 1587
       width: 128
       height: 199
     inner:
       serializedVersion: 2
-      x: 1573
-      y: 1849
+      x: 1021
+      y: 1587
       width: 128
       height: 199
     rotated: 0
@@ -62,14 +62,14 @@ MonoBehaviour:
   - name: question
     outer:
       serializedVersion: 2
-      x: 1702
-      y: 1920
+      x: 1573
+      y: 1851
       width: 128
       height: 128
     inner:
       serializedVersion: 2
-      x: 1702
-      y: 1920
+      x: 1573
+      y: 1851
       width: 128
       height: 128
     rotated: 0
@@ -180,6 +180,42 @@ MonoBehaviour:
       y: 1831
       width: 139
       height: 217
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: backButton3
+    outer:
+      serializedVersion: 2
+      x: 1702
+      y: 1920
+      width: 259
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 1702
+      y: 1920
+      width: 259
+      height: 59
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: backButton4
+    outer:
+      serializedVersion: 2
+      x: 1573
+      y: 1980
+      width: 426
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 1573
+      y: 1980
+      width: 426
+      height: 68
     rotated: 0
     paddingLeft: 0
     paddingRight: 0
