@@ -15,12 +15,18 @@ public class ButtonManager : MonoBehaviour {
 
 	Pauser _pauser;
 	Transform PanelParent;
-	GameObject MainPanel;
-	GameObject ItemPanel;
-	GameObject SettingPanel;
-	GameObject _UIPanel;
-	GameObject LightPanel;
-	GameObject RetirePanel;
+	GameObject _Main;
+	UIPanel MainPanel;
+	GameObject _Item;
+	UIPanel ItemPanel;
+	GameObject _Setting;
+	UIPanel SettingPanel;
+	GameObject _UI;
+	UIPanel _UIPanel;
+	GameObject _Light;
+	UIPanel LightPanel;
+	GameObject _Retire;
+	UIPanel RetirePanel;
 	
 	// Use this for initialization
 	void Start () {
@@ -29,20 +35,28 @@ public class ButtonManager : MonoBehaviour {
 		lightManager = GameObject.Find ("LightManager").GetComponent<LightManager> ();
 		levelEnd = GameObject.FindWithTag ("GameController").GetComponent<LevelEnd> ();
 		_pauser = GetComponent<Pauser> ();
+		_pauser.Resume();
 
 		PanelParent = GameObject.Find ("Anchor").transform;
-		MainPanel = PanelParent.Find ("MainPanel").gameObject;
-		MainPanel.SetActive (true);
-		ItemPanel = PanelParent.Find("ItemPanel").gameObject;
-		ItemPanel.SetActive (false);
-		SettingPanel = PanelParent.Find ("SettingPanel").gameObject;
-		SettingPanel.SetActive (false);
-		_UIPanel = PanelParent.Find("UIPanel").gameObject;
-		_UIPanel.SetActive (false);
-		LightPanel = PanelParent.Find ("LightPanel").gameObject;
-		LightPanel.SetActive (false);
-		RetirePanel = PanelParent.Find ("RetirePanel").gameObject;
-		RetirePanel.SetActive (false);
+		_Main = PanelParent.Find ("MainPanel").gameObject;
+		_Main.SetActive (true);
+		MainPanel = _Main.GetComponent<UIPanel> ();
+		_Item = PanelParent.Find("ItemPanel").gameObject;
+		_Item.SetActive (true);
+		ItemPanel=_Item.GetComponent<UIPanel> ();
+		_Setting = PanelParent.Find ("SettingPanel").gameObject;
+		_Setting.SetActive (true);
+		SettingPanel=_Setting.GetComponent<UIPanel> ();
+		_UI = PanelParent.Find("UIPanel").gameObject;
+		_UI.SetActive (true);
+		_UIPanel=_UI.GetComponent<UIPanel> ();
+		_Light = PanelParent.Find ("LightPanel").gameObject;
+		_Light.SetActive (true);
+		LightPanel=_Light.GetComponent<UIPanel> ();
+		_Retire = PanelParent.Find ("RetirePanel").gameObject;
+		_Retire.SetActive (true);
+		RetirePanel=_Retire.GetComponent<UIPanel> ();
+		ResetAll ();
 	}
 	
 	// Update is called once per frame
@@ -51,14 +65,12 @@ public class ButtonManager : MonoBehaviour {
 
 	public void OnItemClick(){
 		_pauser.Pause ();
-		//SettingPanel.SetActive (false);
 		ResetAll ();
-		ItemPanel.SetActive (true);
+		ItemPanel.alpha=1.0f;
 	}
 		public void OnFoodClick(){
 			if (useFood.CanThrow ()) {	
 				useFood.ThrowFood();
-				//ItemPanel.SetActive (false);
 				ResetAll ();
 				_pauser.Resume ();
 			} else {
@@ -71,60 +83,53 @@ public class ButtonManager : MonoBehaviour {
 
 	public void OnSettingClick(){
 		_pauser.Pause ();
-		//ItemPanel.SetActive (false);
 		ResetAll ();
-		SettingPanel.SetActive (true);
+		SettingPanel.alpha=1.0f;
 	}
 	
 		public void OnUIClick(){
-			//SettingPanel.SetActive (false);
 			ResetAll ();
-			_UIPanel.SetActive (true);
+			_UIPanel.alpha=1.0f;
 		}
 			public void OnUDClick(){
 				tapDetect.SetUIController("UpDown");
-				//_UIPanel.SetActive (false);
 				ResetAll ();
 				_pauser.Resume();
 			}
 			public void OnLRClick(){
 				tapDetect.SetUIController("RightLeft");
-				//_UIPanel.SetActive (false);
 				ResetAll ();
 				_pauser.Resume();
 			}
 
 		public void OnLightClick(){
-			//SettingPanel.SetActive (false);
 			ResetAll ();
-			LightPanel.SetActive (true);
+			LightPanel.alpha=1.0f;
 		}
 			public void OnDayLightClick(){
 				lightManager.ChangeDayLight ();
-				//LightPanel.SetActive (false);
 				ResetAll ();
 				_pauser.Resume();
 			}
 			public void OnSunsetClick(){
 				lightManager.ChangeSunset ();
-				//LightPanel.SetActive (false);
 				ResetAll ();
 				_pauser.Resume();
 			}
 			public void OnNightClick(){
 				lightManager.ChangeNight ();
-				//LightPanel.SetActive (false);
 				ResetAll ();
 				_pauser.Resume();
 			}
 
 		public void OnRetireClick(){
-			//SettingPanel.SetActive (false);
 			ResetAll ();
-			RetirePanel.SetActive (true);
+			RetirePanel.alpha=1.0f;
 		}
 			public void OnYesClick(){
-				levelEnd.levelEnd ();
+				ResetAll ();
+				_pauser.Resume();
+				levelEnd.isend = true;
 			}
 			public void OnNoClick(){
 				ResetAll ();
@@ -138,11 +143,19 @@ public class ButtonManager : MonoBehaviour {
 	}
 
 	public void ResetAll(){	
-		ItemPanel.SetActive (false);
-		SettingPanel.SetActive (false);
-		_UIPanel.SetActive (false);
-		LightPanel.SetActive (false);
-		RetirePanel.SetActive (false);
+		ItemPanel.alpha=0.0f;
+		SettingPanel.alpha=0.0f;
+		_UIPanel.alpha=0.0f;
+		LightPanel.alpha=0.0f;
+		RetirePanel.alpha=0.0f;
+	}
+	public void InVisibleAll(){
+		MainPanel.alpha = 0.0f;
+		ItemPanel.alpha=0.0f;
+		SettingPanel.alpha=0.0f;
+		_UIPanel.alpha=0.0f;
+		LightPanel.alpha=0.0f;
+		RetirePanel.alpha=0.0f;
 	}
 
 }
