@@ -82,6 +82,20 @@ public class PrefsManager : MonoBehaviour {
 		else if(setting==1) return "RightLeft";
 		else return "Error";
 	}
+	public void SetUIController(string setting){
+		//0 is UpDown,  1 is RightLeft
+		switch(setting){
+		case "UpDown":
+			PlayerPrefs.SetInt("playerUIController",0);
+			break;
+		case "RightLeft":
+				PlayerPrefs.SetInt("playerUIController",1);
+			break;
+		default :
+			Debug.LogError("PrefsManager: SetUI Error");
+			break;
+		}
+	}
 
 	//キャラクターが撮影されたことがあるか
 	public void SetGotCharacter(string name, bool isGotten=true){

@@ -1322,7 +1322,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100090}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 93.9902878, y: -.200000003, z: 105}
+  m_LocalPosition: {x: 93.9902878, y: 0, z: 105}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400088}
@@ -1550,6 +1550,8 @@ MonoBehaviour:
   FoodFlag: 0
   dest: {x: 0, y: 0, z: 0}
   remain: 0
+  _speed: 0
+  _angle: 0
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1

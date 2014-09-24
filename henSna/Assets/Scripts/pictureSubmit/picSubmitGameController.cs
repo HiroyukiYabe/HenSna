@@ -48,7 +48,7 @@ public class picSubmitGameController : MonoBehaviour {
 			this.prevButton.SetActive (false);
 
 		}
-		for (int i = 0; i < Constants.perPagePicNum; i++) {
+		for (int i = (nowPage-1)*Constants.perPagePicNum; i <(nowPage-1)*Constants.perPagePicNum + Constants.perPagePicNum ; i++) {
 			int index = i + 1;
 			tookPictureImage = gameObject.transform.FindChild ("tookPictureImage" + index).gameObject.GetComponent<UITexture> ();
 			priceLabel = gameObject.transform.FindChild ("priceLabel" + index).gameObject.GetComponent<UILabel> ();
