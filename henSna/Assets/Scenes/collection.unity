@@ -315,7 +315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f02842fa4878db54f9587ff4de7d9f2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggablePanel: {fileID: 19336655}
+  draggablePanel: {fileID: 0}
   panel: {fileID: 0}
 --- !u!65 &22355677
 BoxCollider:
@@ -590,7 +590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f02842fa4878db54f9587ff4de7d9f2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggablePanel: {fileID: 19336655}
+  draggablePanel: {fileID: 0}
   panel: {fileID: 0}
 --- !u!65 &175084064
 BoxCollider:
@@ -867,7 +867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f02842fa4878db54f9587ff4de7d9f2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggablePanel: {fileID: 19336655}
+  draggablePanel: {fileID: 0}
   panel: {fileID: 0}
 --- !u!65 &234664162
 BoxCollider:
@@ -1439,7 +1439,7 @@ MonoBehaviour:
   mPivot: 4
   mDepth: 8
   mAtlas: {fileID: 11400000, guid: abb8aecc9b62d418483ea729350ba371, type: 2}
-  mSpriteName: backButton3
+  mSpriteName: backButton5
   mFillCenter: 1
   mType: 1
   mFillDirection: 4
@@ -1508,7 +1508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f02842fa4878db54f9587ff4de7d9f2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggablePanel: {fileID: 19336655}
+  draggablePanel: {fileID: 0}
   panel: {fileID: 0}
 --- !u!65 &475116918
 BoxCollider:
@@ -1612,63 +1612,6 @@ MonoBehaviour:
   mSymbols: 1
   mEffectDistance: {x: 1, y: 1}
   mShrinkToFit: 0
-  mLineWidth: 0
-  mMultiline: 1
---- !u!1 &501293873
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 501293874}
-  - 114: {fileID: 501293875}
-  m_Layer: 8
-  m_Name: backButtonLabel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &501293874
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 501293873}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
-  m_LocalScale: {x: 57, y: 57, z: 1}
-  m_Children: []
-  m_Father: {fileID: 575531443}
-  m_RootOrder: 1
---- !u!114 &501293875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 501293873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 9
-  mFont: {fileID: 11400000, guid: e56a6ac79cba747df9ed43421c766075, type: 2}
-  mText: "\u3082\u3069\u308B"
-  mMaxLineWidth: 0
-  mMaxLineHeight: 0
-  mEncoding: 1
-  mMaxLineCount: 0
-  mPassword: 0
-  mShowLastChar: 0
-  mEffectStyle: 0
-  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
-  mSymbols: 1
-  mEffectDistance: {x: 1, y: 1}
-  mShrinkToFit: 1
   mLineWidth: 0
   mMultiline: 1
 --- !u!1 &522414515
@@ -2039,7 +1982,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 437192599}
-  - {fileID: 501293874}
   m_Father: {fileID: 1353466096}
   m_RootOrder: 3
 --- !u!114 &575531444
@@ -2193,7 +2135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f02842fa4878db54f9587ff4de7d9f2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggablePanel: {fileID: 19336655}
+  draggablePanel: {fileID: 0}
   panel: {fileID: 0}
 --- !u!65 &593158077
 BoxCollider:
@@ -3618,7 +3560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f02842fa4878db54f9587ff4de7d9f2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggablePanel: {fileID: 19336655}
+  draggablePanel: {fileID: 0}
   panel: {fileID: 0}
 --- !u!65 &1066055653
 BoxCollider:
@@ -3836,7 +3778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f02842fa4878db54f9587ff4de7d9f2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggablePanel: {fileID: 19336655}
+  draggablePanel: {fileID: 0}
   panel: {fileID: 0}
 --- !u!65 &1103433172
 BoxCollider:
@@ -4200,7 +4142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f02842fa4878db54f9587ff4de7d9f2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggablePanel: {fileID: 19336655}
+  draggablePanel: {fileID: 0}
   panel: {fileID: 0}
 --- !u!65 &1268066777
 BoxCollider:
@@ -5442,7 +5384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f02842fa4878db54f9587ff4de7d9f2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggablePanel: {fileID: 19336655}
+  draggablePanel: {fileID: 0}
   panel: {fileID: 0}
 --- !u!65 &1569920959
 BoxCollider:
