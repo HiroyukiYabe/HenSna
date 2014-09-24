@@ -95,6 +95,24 @@ MonoBehaviour:
     paddingRight: .0239726026
     paddingTop: .0354430377
     paddingBottom: .045569621
+  - name: twitterButton
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 39
+      width: 248
+      height: 248
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 39
+      width: 248
+      height: 248
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: .0201612897
+    paddingBottom: .0120967738
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

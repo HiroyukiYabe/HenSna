@@ -9,7 +9,6 @@ public class collectionGameController : MonoBehaviour
 		Pumpkin,
 		Skelton,
 		Knight}
-
 	;
 
 	GameObject summeryPanel;
@@ -18,6 +17,7 @@ public class collectionGameController : MonoBehaviour
 	UILabel expLabel;
 	UISprite contentImage;
 	UISprite expImage;
+	int type;
 	// Use this for initialization
 	void Start ()
 	{
@@ -27,10 +27,10 @@ public class collectionGameController : MonoBehaviour
 
 	}
 	// Update is called once per frame
-	void Update ()
+	/*void Update ()
 	{
 	
-	}
+	}*/
 
 	public void clickImage (GameObject obj)
 	{
@@ -42,7 +42,7 @@ public class collectionGameController : MonoBehaviour
 		contentImage = GameObject.Find ("contentImage").gameObject.GetComponent<UISprite> ();
 		expImage = GameObject.Find ("expImage").gameObject.GetComponent<UISprite> ();
 		collectionContent script = obj.GetComponent<collectionContent> ();
-		int type = script.type;
+		this.type = script.type;
 		Debug.Log ("type is :" + type);
 		switch (type) {
 		case (int)Types.Mummy:
@@ -73,7 +73,7 @@ public class collectionGameController : MonoBehaviour
 			}
 			break;
 		case (int)Types.Knight:
-			if (PlayerPrefs.GetInt ("gotknight") == 1) {
+			if (PlayerPrefs.GetInt ("gotKnight") == 1) {
 				expImage.spriteName = "knightExp";
 				contentImage.spriteName = "knightImage";
 			} else {
@@ -95,7 +95,45 @@ public class collectionGameController : MonoBehaviour
 		this.detailPanel.SetActive (false);
 	}
 
-	public void clickBackButton(){
+	public void clickBackButton ()
+	{
 		Application.LoadLevel ("home");
+	}
+
+	public void clickTwitterButton ()
+	{
+		Debug.Log ("type is : " + this.type);
+		string twitterTitle = "へんスナやろうよ！";
+		string twitterBody;
+		string imageURL;
+		switch (this.type) {
+		case (int)Types.Mummy:
+			twitterBody = "わらのおばけ\n日本ホラー界のマスコット的キャラクターである。";
+			imageURL = "/mummyImage.png";
+			break;
+		case (int)Types.Pumpkin:
+			twitterBody = "かぼちゃおとこ\nかぼちゃおとこというネーミングのせいで女性はかなり肩身がせまいらしい。";
+			imageURL = "/pumpkinImage.png";
+			break;
+		case (int)Types.Skelton:
+			twitterBody = "たけし\nそんなことやってないで早く勉強しなさい。";
+			imageURL = "/skeltonImage.png";
+			break;
+		case (int)Types.Knight:
+			twitterBody = "最強マン\nおまいこそ早く勉強しなさい。";
+			imageURL = "knightImage.png";
+			break;
+		default:
+			twitterBody = "でふぉると";
+			imageURL = "/mummyImage.png";
+			break;
+		}
+		Debug.Log (twitterTitle);
+		Debug.Log (twitterBody);
+		SocialConnector.Share (
+			twitterTitle,
+			twitterBody, 
+			Application.persistentDataPath + imageURL
+		);
 	}
 }
