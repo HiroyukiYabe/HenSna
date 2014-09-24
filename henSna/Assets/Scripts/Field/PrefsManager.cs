@@ -8,7 +8,9 @@ public class PrefsManager : MonoBehaviour {
 	
 	int remainFilmNum;
 	int takenPicNum=0;
-	
+
+	int havingCoin;
+
 	//int oneShotScore=0;
 	int oneShotIndex=0;
 	int screenshotIndex=0;
@@ -19,7 +21,7 @@ public class PrefsManager : MonoBehaviour {
 		SetTotalScore (0);
 		remainFilmNum = 10;//PlayerPrefs.GetInt("filmNum"); //For Debug
 		SetRemainFilmNum (remainFilmNum);
-		SetItemNum("Food",5);//For Debug
+		havingCoin = PlayerPrefs.GetInt("havingCoin");
 	}
 	
 	// Update is called once per frame
@@ -54,10 +56,22 @@ public class PrefsManager : MonoBehaviour {
 		return _totalScore;
 	}
 
-	//所持金の追加
+	//所持金の増減
 	public void AddCoin(int  coin){
-		int totalCoin = PlayerPrefs.GetInt ("havingCoin")+coin;
-		PlayerPrefs.SetInt ("havingCoin", coin);
+		havingCoin = PlayerPrefs.GetInt ("havingCoin")+coin;
+		PlayerPrefs.SetInt ("havingCoin", havingCoin);
+	}
+	public bool SubtractCoin(int coin){
+		int now = PlayerPrefs.GetInt ("havingCoin");
+		if (now >= coin) {
+			havingCoin = now - coin;
+			PlayerPrefs.SetInt ("havingCoin", havingCoin);
+			return true;
+		} else
+			return false;
+	}
+	public int GetHavingCoin(){
+		return havingCoin;
 	}
 
 	//操作UIの状態
@@ -82,7 +96,7 @@ public class PrefsManager : MonoBehaviour {
 	}
 
 	//アイテム所持数
-	public int GetItemNum(string itemName){
+	/*public int GetItemNum(string itemName){
 		switch (itemName) {
 		case "Food":
 			return PlayerPrefs.GetInt("itemFoodNum");
@@ -100,7 +114,7 @@ public class PrefsManager : MonoBehaviour {
 			Debug.LogError("PrefsManager: Selected Item does not Exist!!");
 			break;
 		}
-	}
+	}*/
 
 
 	//スクリーンショットの保存

@@ -29,7 +29,7 @@ public class CharacterAI : MonoBehaviour
 	public NavMeshAgent nav;					// Reference to the nav mesh agent.
 	float speedDampTime = 0.1f;				// Damping time for the Speed parameter.
 	float deadZone = 3f;					// The number of degrees for which the rotation isn't controlled by Mecanim.
-	public float MinSpeed = 0.1f;
+	public float MinSpeed = 0.2f;
 	public float MaxSpeed = 1.0f;
 
 	Vector3 center;
@@ -43,6 +43,8 @@ public class CharacterAI : MonoBehaviour
 	//For Debug
 	public Vector3 dest;
 	public float remain;
+	public float _speed;
+	public float _angle;
 
 
 	void Start ()
@@ -78,12 +80,13 @@ public class CharacterAI : MonoBehaviour
 				if (!invokeFlag) {
 					Invoke ("SetNav", Random.Range (2f, 5f));
 					invokeFlag = true;
+					nav.speed=0f;
 				}
 			}
 		} else{ 
 			happyTimer+=Time.deltaTime;
 			if(happyTimer>happyInterval){ 
-				if ((transform.position - nav.destination).sqrMagnitude <= nav.stoppingDistance) {
+				if ((transform.position - nav.destination).sqrMagnitude <= nav.stoppingDistance*nav.stoppingDistance) {
 					anim.SetTrigger ("Happy");
 					happyTimer=0f;
 				}
@@ -132,12 +135,15 @@ public class CharacterAI : MonoBehaviour
 		float speed;
 		float angle;
 		
-		
-		// Otherwise the speed is a projection of desired velocity on to the forward vector...
-		speed = Vector3.Project(nav.desiredVelocity, transform.forward).magnitude;
-		
 		// ... and the angle is the angle between forward and the desired velocity.
 		angle = FindAngle(transform.forward, nav.desiredVelocity, transform.up);
+
+		if (nav.remainingDistance > nav.stoppingDistance) {
+						// Otherwise the speed is a projection of desired velocity on to the forward vector...
+						speed = nav.speed;//Vector3.Project (nav.desiredVelocity, transform.forward).magnitude + 0.1f;
+				} else
+						speed = 0f;
+			
 		
 		// If the angle is within the deadZone...
 		if(Mathf.Abs(angle) < deadZone)
@@ -177,6 +183,8 @@ public class CharacterAI : MonoBehaviour
 		// Set the mecanim parameters and apply the appropriate damping to them.
 		anim.SetFloat("Speed", speed, speedDampTime, Time.deltaTime);
 		anim.SetFloat ("Direction", angle / 90f);//, angularSpeedDampTime, Time.deltaTime);
+		_angle = angle;
+		_speed = speed;
 	}	
 	
 }

@@ -40,6 +40,8 @@ public class TakePicture : MonoBehaviour {
 		doubleTap = false;
 		isTakingPicture = false;
 
+	if(!SettingManager.pause){
+
 		if (Input.touchCount > 0){
 			foreach (Touch touch in Input.touches){
 				if (touch.phase==TouchPhase.Began){
@@ -53,6 +55,7 @@ public class TakePicture : MonoBehaviour {
 			isTakingPicture = true;
 			TakePhoto ();
 		}
+	}
 	}
 
 

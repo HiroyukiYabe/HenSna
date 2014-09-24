@@ -11,7 +11,7 @@ public class Food : MonoBehaviour {
 	float deleteTimer;
 	public float Scope = 25f;
 	GameObject[] characters;
-	float charmInterval=1.0f;
+	float charmInterval=2.0f;
 	float charmTimer;
 
 	// Use this for initialization
