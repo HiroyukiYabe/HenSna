@@ -22,16 +22,18 @@ public class LevelEnd : MonoBehaviour {
 		}
 	}
 
-	void  levelEnd(){
-		//To Do
+	public void levelEnd(){
 		prefs.SetTotalScore (_score.score);
 		prefs.AddCoin (_score.score);
-		Application.LoadLevel("pictureSubmit");
+
+		if(prefs.GetTakenPicNum() > 0)
+			Application.LoadLevel("pictureSubmit");
+		else Application.LoadLevel("result");
 	}
 
 	void OnGUI (){
 		if (end)
-			if(GUI.Button(new Rect(Screen.width/2-100,Screen.height/2-50,200,100),"FINISHED!!")) Invoke("levelEnd", 3);
+			if(GUI.Button(new Rect(Screen.width/2-100,Screen.height/2-50,200,100),"FINISHED!!")) Invoke("levelEnd",2);
 	}
 
 }

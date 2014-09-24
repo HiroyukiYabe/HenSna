@@ -1,6 +1,7 @@
 ﻿//キャラクタを生成する
 //Attach to GameController
 
+//ポーズ対応
 
 using UnityEngine;
 using System.Collections;

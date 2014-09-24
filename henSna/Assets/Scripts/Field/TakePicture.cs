@@ -1,8 +1,11 @@
 ﻿//ダブルタップを検出して写真撮影フラグを管理
 //Attach to GameController
 
-//To Do:写真を撮れる間隔の設定 
+//ポーズ対応
+
+//To Do:写真を撮れる間隔の設定
 //写真撮影時のエフェクト
+//写真プレビュー
 
 
 using UnityEngine;
@@ -40,7 +43,7 @@ public class TakePicture : MonoBehaviour {
 		doubleTap = false;
 		isTakingPicture = false;
 
-	if(!SettingManager.pause){
+	if(!Pauser.isPause){
 
 		if (Input.touchCount > 0){
 			foreach (Touch touch in Input.touches){
@@ -63,7 +66,7 @@ public class TakePicture : MonoBehaviour {
 		Prefs.CaptureScreenshot();
 		Prefs.SetRemainFilmNum(Prefs.GetRemainFilmNum()-1);
 		Prefs.SetTakenPicNum(Prefs.GetTakenPicNum()+1);
-
+		//To Do
 
 		FadeInOut fade = GameObject.Find ("FadeInOut").GetComponent<FadeInOut> ();
 		fade.flag = true;
@@ -72,7 +75,8 @@ public class TakePicture : MonoBehaviour {
 
 
 	void OnGUI (){
-		GUI.DrawTexture (center, CenterMark);
+		if(!Pauser.isPause)
+			GUI.DrawTexture (center, CenterMark);
 	}
 
 }
