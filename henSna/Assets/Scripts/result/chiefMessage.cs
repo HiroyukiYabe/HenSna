@@ -32,21 +32,24 @@ public class chiefMessage : MonoBehaviour
 			}
 
 		} else {
-			messageType = rnd.Next (3);//PlayerPrefs.GetInt ("thisTimeGotType");
+			messageType = PlayerPrefs.GetInt ("thisTimeGotType");
 			switch (messageType) {
 			case 0:
+				chiefMessage = "何も撮れないなんて\nバカやろうだな！";
+				break;
+			case 1:
 				//pumpkin
 				chiefMessage = "かぼちゃの化け物を撮ったな！\n";
 				break;
-			case 1:
+			case 2:
 				//skelton
 				chiefMessage = "ガイコツを撮ったな！まじか！";
 				break;
-			case 2:
+			case 3:
 				//knight
 				chiefMessage = "騎士ってかっこいいよね。\n俺もあんな風になりたいぜ！";
 				break;
-			case 3:
+			case 4:
 				//mummy
 				chiefMessage = "ミイラ撮ったんだってな！\nこいつに出くわしたら夜も寝れないんじゃないか？";
 				break;

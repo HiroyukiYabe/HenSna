@@ -45,13 +45,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 315
-      y: 408
+      y: 1432
       width: 325
       height: 616
     inner:
       serializedVersion: 2
       x: 315
-      y: 408
+      y: 1432
       width: 325
       height: 616
     rotated: 0
@@ -63,13 +63,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 328
+      y: 1352
       width: 314
       height: 696
     inner:
       serializedVersion: 2
       x: 0
-      y: 328
+      y: 1352
       width: 314
       height: 696
     rotated: 0
@@ -77,6 +77,60 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: .0014367816
     paddingBottom: 0
+  - name: chiefMessage1
+    outer:
+      serializedVersion: 2
+      x: 471
+      y: 1165
+      width: 499
+      height: 186
+    inner:
+      serializedVersion: 2
+      x: 471
+      y: 1165
+      width: 499
+      height: 186
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00200400804
+    paddingTop: .172043011
+    paddingBottom: .172043011
+  - name: chiefMessage2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1115
+      width: 470
+      height: 236
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1115
+      width: 470
+      height: 236
+    rotated: 0
+    paddingLeft: .0361702144
+    paddingRight: .0276595745
+    paddingTop: 0
+    paddingBottom: .0593220331
+  - name: chiefMessage0
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 876
+      width: 453
+      height: 238
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 876
+      width: 453
+      height: 238
+    rotated: 0
+    paddingLeft: .0463576168
+    paddingRight: .0573951453
+    paddingTop: 0
+    paddingBottom: .0504201688
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

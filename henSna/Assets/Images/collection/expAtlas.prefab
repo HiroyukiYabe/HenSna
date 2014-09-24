@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: expAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 29f7d3135ed6c4f9a9a4dac5ff0d8d66, type: 2}
+  sprites:
+  - name: skeltonExp
+    outer:
+      serializedVersion: 2
+      x: 217
+      y: 143
+      width: 203
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 217
+      y: 143
+      width: 203
+      height: 152
+    rotated: 0
+    paddingLeft: .285714298
+    paddingRight: .290640384
+    paddingTop: .210526317
+    paddingBottom: 1.42105258
+  - name: mummyExp
+    outer:
+      serializedVersion: 2
+      x: 261
+      y: 306
+      width: 243
+      height: 206
+    inner:
+      serializedVersion: 2
+      x: 261
+      y: 306
+      width: 243
+      height: 206
+    rotated: 0
+    paddingLeft: .139917701
+    paddingRight: .176954731
+    paddingTop: .150485441
+    paddingBottom: .79126215
+  - name: pumpkinExp2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 296
+      width: 260
+      height: 216
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 296
+      width: 260
+      height: 216
+    rotated: 0
+    paddingLeft: .107692309
+    paddingRight: .123076923
+    paddingTop: .143518522
+    paddingBottom: .708333313
+  - name: knightExp
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 97
+      width: 216
+      height: 198
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 97
+      width: 216
+      height: 198
+    rotated: 0
+    paddingLeft: .236111104
+    paddingRight: .245370373
+    paddingTop: .075757578
+    paddingBottom: .944444418
+  - name: notYetExp
+    outer:
+      serializedVersion: 2
+      x: 217
+      y: 76
+      width: 243
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 217
+      y: 76
+      width: 243
+      height: 66
+    rotated: 0
+    paddingLeft: .197530866
+    paddingRight: .119341567
+    paddingTop: 2.530303
+    paddingBottom: 2.530303
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

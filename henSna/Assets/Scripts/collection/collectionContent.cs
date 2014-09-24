@@ -17,12 +17,14 @@ public class collectionContent : MonoBehaviour
 	UILabel newLabel;
 	UILabel monNumberLabel;
 	UISprite contentImage;
+	UISprite nameImage;
 	// Use this for initialization
 	void Start ()
 	{
 		nameLabel = gameObject.transform.FindChild ("nameLabel").gameObject.GetComponent<UILabel> ();
 		newLabel = gameObject.transform.FindChild ("newLabel").gameObject.GetComponent<UILabel> ();
 		contentImage = gameObject.transform.FindChild ("UISprite").gameObject.GetComponent<UISprite> ();
+		nameImage = gameObject.transform.FindChild ("nameImage").gameObject.GetComponent<UISprite> ();
 		monNumberLabel = gameObject.transform.FindChild ("MonNumberLabel").gameObject.GetComponent<UILabel> ();
 		questionSize = 100;
 		switch (type) {
@@ -30,7 +32,7 @@ public class collectionContent : MonoBehaviour
 			monNumberLabel.text = "NO." + type;
 			if (PlayerPrefs.GetInt ("gotMummy") == 1){
 				//すでに撮った
-				nameLabel.text = "Mummy";
+				nameImage.spriteName = "mummyNameImage";
 				contentImage.spriteName = "mummyImage";
 				if (PlayerPrefs.GetInt ("mummyNew") == 1) {
 					//New
@@ -41,7 +43,7 @@ public class collectionContent : MonoBehaviour
 				}
 			} else {
 				//まだ撮ってない
-				nameLabel.text = "???";
+				nameImage.spriteName = "notGetImage";
 				Destroy (newLabel);
 				contentImage.spriteName = "question";
 				contentImage.transform.localScale = new Vector3 (questionSize,questionSize,0);
@@ -51,7 +53,7 @@ public class collectionContent : MonoBehaviour
 			monNumberLabel.text = "NO." + type;
 			if (PlayerPrefs.GetInt ("gotPumpkin") == 1){
 				//すでに撮った
-				nameLabel.text = "Pumpkin";
+				nameImage.spriteName = "pumpkinNameImage";
 				contentImage.spriteName = "pumpkinImage";
 				if (PlayerPrefs.GetInt ("pumpkinNew") == 1) {
 					//New
@@ -62,7 +64,7 @@ public class collectionContent : MonoBehaviour
 				}
 			} else {
 				//まだ撮ってない
-				nameLabel.text = "???";
+				nameImage.spriteName = "notGetImage";
 				Destroy (newLabel);
 				contentImage.spriteName = "question";
 				contentImage.transform.localScale = new Vector3 (questionSize,questionSize,0);
@@ -73,7 +75,7 @@ public class collectionContent : MonoBehaviour
 			monNumberLabel.text = "NO." + type;
 			if (PlayerPrefs.GetInt ("gotSkelton") == 1){
 				//すでに撮った
-				nameLabel.text = "Skelton";
+				nameImage.spriteName = "skeltonNameImage2";
 				contentImage.spriteName = "skeltonImage";
 				if (PlayerPrefs.GetInt ("skeltonNew") == 1) {
 					//New
@@ -84,7 +86,7 @@ public class collectionContent : MonoBehaviour
 				}
 			} else {
 				//まだ撮ってない
-				nameLabel.text = "???";
+				nameImage.spriteName = "notGetImage";
 				Destroy (newLabel);
 				contentImage.spriteName = "question";
 				contentImage.transform.localScale = new Vector3 (questionSize,questionSize,0);
@@ -94,7 +96,7 @@ public class collectionContent : MonoBehaviour
 			monNumberLabel.text = "NO." + type;
 			if (PlayerPrefs.GetInt ("gotKnight") == 1){
 				//すでに撮った
-				nameLabel.text = "Knight";
+				nameImage.spriteName = "knightNameImage";
 				contentImage.spriteName = "knightImage";
 				if (PlayerPrefs.GetInt ("knightNew") == 1) {
 					//New
@@ -105,7 +107,7 @@ public class collectionContent : MonoBehaviour
 				}
 			} else {
 				//まだ撮ってない
-				nameLabel.text = "???";
+				nameImage.spriteName = "notGetImage";
 				Destroy (newLabel);
 				contentImage.spriteName = "question";
 				contentImage.transform.localScale = new Vector3 (questionSize,questionSize,0);
@@ -113,7 +115,7 @@ public class collectionContent : MonoBehaviour
 			break;
 		default:
 			monNumberLabel.text = "NO.??";
-			nameLabel.text = "????";
+			nameImage.spriteName = "notGetImage";
 			contentImage.spriteName = "question";
 			Destroy (newLabel);
 			contentImage.transform.localScale = new Vector3 (questionSize,questionSize,0);

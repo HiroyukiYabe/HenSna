@@ -6,7 +6,7 @@ public class homeGameController : MonoBehaviour
 {
 	// Use this for initialization
 	string lastFilmUpTimeStr;
-
+	UISprite chiefMessage;
 	void Start ()
 	{
 		if (PlayerPrefs.GetInt ("firstLaunch3") == 0) {
@@ -25,9 +25,29 @@ public class homeGameController : MonoBehaviour
 			PlayerPrefs.SetString ("lastFilmUpTime", lastFilmUpTimeStr);
 			PlayerPrefs.SetInt ("firstLaunch3", 1);
 		}
+		chiefMessage = GameObject.Find ("chiefMessage").gameObject.GetComponent<UISprite> ();
+		int seed = Environment.TickCount;
+		System.Random rnd = new System.Random(seed++);
+		int messageType = rnd.Next(3);
+
+
+		switch (messageType) {
+		case 0:
+			chiefMessage.spriteName = "chiefMessage0";
+			break;
+		case 1:
+			chiefMessage.spriteName = "chiefMessage1";
+			break;
+		case 2:
+			chiefMessage.spriteName = "chiefMessage2";
+			break;
+		default:
+			chiefMessage.spriteName = "chiefMessage0";
+			break;
+		}
 	}
 	// Update is called once per frame
-	void Update ()
+	/*void Update ()
 	{
 		DateTime nowTime = DateTime.Now;
 		lastFilmUpTimeStr = PlayerPrefs.GetString ("lastFilmUpTime");
@@ -45,7 +65,7 @@ public class homeGameController : MonoBehaviour
 			PlayerPrefs.SetInt ("filmNum", filmNum);
 			PlayerPrefs.SetString ("lastFilmUpTime", DateTime.Now.ToString ("yyyy/MM/dd HH:mm:ss"));
 		}
-	}
+	}*/
 
 	public void clickPlayButton ()
 	{

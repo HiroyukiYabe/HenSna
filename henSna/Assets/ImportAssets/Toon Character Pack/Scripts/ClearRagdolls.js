@@ -1,4 +1,4 @@
-//Unfinished script to remove ragdolls when they reach a max amount (not optimized)
+﻿//Unfinished script to remove ragdolls when they reach a max amount (not optimized)
 #pragma strict
 var maxRagdolls:int;
 var rag:GameObject;
