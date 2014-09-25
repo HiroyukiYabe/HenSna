@@ -136,6 +136,7 @@ MonoBehaviour:
   upAndDown: 0
   MoveTexture: {fileID: 2800000, guid: d8d7604477d6140ee95baf3bd6255644, type: 3}
   RotTexture: {fileID: 2800000, guid: 5af85a59f1d074e29bc11206b09e5c79, type: 3}
+  stat: 0
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -200,11 +201,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharacterPrefabs:
-  - {fileID: 100090, guid: f115fd3f8a6254243ab620a6c3677395, type: 2}
+  - {fileID: 100088, guid: 040a121c62fe14fdb8ed4ae5548928ca, type: 2}
   - {fileID: 100090, guid: f29ab701648304cab87095f08e977661, type: 2}
   - {fileID: 100088, guid: 6c574e093a12947309bb2e5bfdae29cf, type: 2}
-  - {fileID: 100088, guid: 040a121c62fe14fdb8ed4ae5548928ca, type: 2}
-  SpawnNum: 8
+  - {fileID: 100090, guid: f115fd3f8a6254243ab620a6c3677395, type: 2}
+  - {fileID: 100088, guid: 5248bb772d3c34bed89959586397d3c9, type: 2}
+  - {fileID: 100088, guid: b18dae9cbf4a94e1688c5610e7bdb307, type: 2}
+  - {fileID: 100088, guid: bf0e07e2f00b74737b54a82f178eb6ca, type: 2}
+  - {fileID: 100088, guid: 7877f7e5e93824125a719f38887f1abb, type: 2}
+  - {fileID: 100088, guid: 2f99c1edb8c9d4795a2ac506a119dc45, type: 2}
+  - {fileID: 100088, guid: 9d326f3dca6d34c7393b974af551800d, type: 2}
+  SpawnNum: 10
 --- !u!114 &11400012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -216,6 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8a32243ece3d454ba6b29bab3d97509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isend: 0
 --- !u!131 &13100000
 GUITexture:
   m_ObjectHideFlags: 1

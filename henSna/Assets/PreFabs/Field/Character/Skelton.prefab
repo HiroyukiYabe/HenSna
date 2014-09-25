@@ -1578,7 +1578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b7e46cd8a8bb46f0a285803aaa15241, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 2
+  id: 3
   name: Skelton
   baseScore: 1000
   spawnParcentage: 100

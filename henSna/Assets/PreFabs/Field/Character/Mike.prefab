@@ -708,11 +708,11 @@ GameObject:
   - 136: {fileID: 13600016}
   - 195: {fileID: 19500000}
   - 114: {fileID: 11400000}
-  - 114: {fileID: 11400004}
   - 114: {fileID: 11400002}
+  - 114: {fileID: 11400004}
   m_Layer: 8
-  m_Name: Knight
-  m_TagString: Character
+  m_Name: Mike
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -762,7 +762,7 @@ Transform:
   m_GameObject: {fileID: 100066}
   m_LocalRotation: {x: .56595093, y: -.040258538, z: .0198586266, w: .823215902}
   m_LocalPosition: {x: -6.08088788e-11, y: .126804113, z: -7.15224824e-11}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .382879704, y: .382879704, z: .382879704}
   m_Children:
   - {fileID: 400004}
   m_Father: {fileID: 400008}
@@ -775,7 +775,7 @@ Transform:
   m_GameObject: {fileID: 100068}
   m_LocalRotation: {x: -.0152253686, y: .0623061135, z: .000418642623, w: .997940898}
   m_LocalPosition: {x: 7.42277906e-11, y: .159517974, z: 3.71105369e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.08514214, y: 2.08514214, z: 2.08514214}
   m_Children:
   - {fileID: 400006}
   m_Father: {fileID: 400010}
@@ -788,7 +788,7 @@ Transform:
   m_GameObject: {fileID: 100070}
   m_LocalRotation: {x: .0019951642, y: -.0467207655, z: .99872905, w: -.0188027415}
   m_LocalPosition: {x: .10164199, y: -.0400725603, z: .00147323916}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .490392029, y: .490392029, z: .490392029}
   m_Children:
   - {fileID: 400008}
   m_Father: {fileID: 400082}
@@ -826,7 +826,7 @@ Transform:
   m_GameObject: {fileID: 100076}
   m_LocalRotation: {x: .598262072, y: .0399024896, z: -.0173502881, w: .800118268}
   m_LocalPosition: {x: -1.32956021e-10, y: .128313914, z: -7.59859467e-11}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .382879704, y: .382879704, z: .382879704}
   m_Children:
   - {fileID: 400014}
   m_Father: {fileID: 400018}
@@ -839,7 +839,7 @@ Transform:
   m_GameObject: {fileID: 100078}
   m_LocalRotation: {x: -.0910761207, y: -.064785175, z: -.00292955269, w: .993730068}
   m_LocalPosition: {x: -1.50887858e-10, y: .158777922, z: 5.70996687e-11}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.08514214, y: 2.08514214, z: 2.08514214}
   m_Children:
   - {fileID: 400016}
   m_Father: {fileID: 400020}
@@ -852,7 +852,7 @@ Transform:
   m_GameObject: {fileID: 100080}
   m_LocalRotation: {x: -.00625731004, y: -.00629076548, z: .999833703, w: .015933305}
   m_LocalPosition: {x: -.0970554873, y: -.0400725603, z: -.00518046785}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .490392029, y: .490392029, z: .490392029}
   m_Children:
   - {fileID: 400018}
   m_Father: {fileID: 400082}
@@ -967,7 +967,7 @@ Transform:
   m_GameObject: {fileID: 100016}
   m_LocalRotation: {x: .104223624, y: .0456717238, z: -.00479124859, w: .99349314}
   m_LocalPosition: {x: -2.09084888e-10, y: .142451122, z: -6.89590385e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .645147204, y: .645147204, z: .645147204}
   m_Children:
   - {fileID: 400028}
   - {fileID: 400036}
@@ -981,7 +981,7 @@ Transform:
   m_GameObject: {fileID: 100018}
   m_LocalRotation: {x: .127748549, y: .0119371079, z: .0922679603, w: .987433255}
   m_LocalPosition: {x: 2.85559094e-11, y: .213686094, z: 4.16617824e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.41672182, y: 1.41672182, z: 1.41672182}
   m_Children:
   - {fileID: 400038}
   m_Father: {fileID: 400042}
@@ -994,7 +994,7 @@ Transform:
   m_GameObject: {fileID: 100020}
   m_LocalRotation: {x: -.0829846859, y: .127142236, z: -.0255368501, w: .988077104}
   m_LocalPosition: {x: -1.56459737e-06, y: .136603385, z: 2.85930383e-07}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .82650286, y: .82650286, z: .82650286}
   m_Children:
   - {fileID: 400040}
   m_Father: {fileID: 400044}
@@ -1007,7 +1007,7 @@ Transform:
   m_GameObject: {fileID: 100022}
   m_LocalRotation: {x: -.53161937, y: -.455770016, z: .558780789, w: -.444318265}
   m_LocalPosition: {x: .0628858805, y: .0837030411, z: -.00488211121}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .829616904, y: .829616904, z: .829616904}
   m_Children:
   - {fileID: 400042}
   m_Father: {fileID: 400076}
@@ -1122,7 +1122,7 @@ Transform:
   m_GameObject: {fileID: 100048}
   m_LocalRotation: {x: .00460971007, y: -.0973342359, z: .000450828084, w: .995240986}
   m_LocalPosition: {x: -6.048263e-10, y: .14292714, z: -3.29814731e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .645147204, y: .645147204, z: .645147204}
   m_Children:
   - {fileID: 400052}
   - {fileID: 400060}
@@ -1136,7 +1136,7 @@ Transform:
   m_GameObject: {fileID: 100050}
   m_LocalRotation: {x: .121951662, y: -.0147697618, z: -.119322397, w: .98522681}
   m_LocalPosition: {x: 4.39586173e-10, y: .213964164, z: 1.47256596e-09}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.41672182, y: 1.41672182, z: 1.41672182}
   m_Children:
   - {fileID: 400062}
   m_Father: {fileID: 400066}
@@ -1149,7 +1149,7 @@ Transform:
   m_GameObject: {fileID: 100052}
   m_LocalRotation: {x: -.0594284832, y: -.141448066, z: .0398467854, w: .987356544}
   m_LocalPosition: {x: -9.07790536e-07, y: .13686426, z: 3.60934038e-08}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .82650286, y: .82650286, z: .82650286}
   m_Children:
   - {fileID: 400064}
   m_Father: {fileID: 400068}
@@ -1162,7 +1162,7 @@ Transform:
   m_GameObject: {fileID: 100054}
   m_LocalRotation: {x: .531853795, y: -.456485629, z: .554527283, w: .44861123}
   m_LocalPosition: {x: -.0626530647, y: .0827691853, z: -.00462052086}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .829616904, y: .829616904, z: .829616904}
   m_Children:
   - {fileID: 400066}
   m_Father: {fileID: 400076}
@@ -1187,7 +1187,7 @@ Transform:
   m_GameObject: {fileID: 100028}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 5.8791515e-15, y: .0873724967, z: .0054807323}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .628713191, y: .628713191, z: .628713191}
   m_Children:
   - {fileID: 400000}
   - {fileID: 400070}
@@ -1214,7 +1214,7 @@ Transform:
   m_GameObject: {fileID: 100056}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.24806784e-12, y: .097691223, z: -1.33431335e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.03628576, y: 1.03628576, z: 1.03628576}
   m_Children:
   - {fileID: 400068}
   - {fileID: 400074}
@@ -1294,7 +1294,7 @@ Transform:
   m_GameObject: {fileID: 100088}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .754718661, y: .754718661, z: .754718661}
   m_Children:
   - {fileID: 400086}
   - {fileID: 400084}
@@ -1534,9 +1534,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b7e46cd8a8bb46f0a285803aaa15241, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 4
-  name: Knight
-  baseScore: 1000
+  id: 8
+  name: Mike
+  baseScore: 2000
   spawnParcentage: 100
 --- !u!114 &11400004
 MonoBehaviour:
@@ -1563,9 +1563,9 @@ Projector:
   m_NearClipPlane: .100000001
   m_FarClipPlane: 50
   m_FieldOfView: 30
-  m_AspectRatio: .819999993
+  m_AspectRatio: 1
   m_Orthographic: 1
-  m_OrthographicSize: .449999988
+  m_OrthographicSize: .189999998
   m_Material: {fileID: 2100000, guid: 78c0a732ad112a541100162a44295342, type: 2}
   m_IgnoreLayers:
     serializedVersion: 2
@@ -1711,7 +1711,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 3ece627ae60545a4a85a4089705df6a8, type: 2}
+  - {fileID: 2100000, guid: 3ddfc0eed57cad544b45d64361ab4a08, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1781,7 +1781,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.58604234e-06, y: .213686839, z: 1.71363354e-07}
+  m_ConnectedAnchor: {x: -1.00850677e-07, y: .213686302, z: 1.57755249e-08}
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_LowTwistLimit:
     limit: -90
@@ -1816,7 +1816,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: .196915269, y: .155478492, z: -.00992318988}
+  m_ConnectedAnchor: {x: .180394143, y: .16215153, z: -.00939555839}
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_LowTwistLimit:
     limit: -70
@@ -1851,7 +1851,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -.000607379305, y: .29264763, z: .0207243338}
+  m_ConnectedAnchor: {x: -.000629961723, y: .299722254, z: .021473527}
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_LowTwistLimit:
     limit: -40
@@ -1886,7 +1886,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -1.93668529e-06, y: .213965729, z: 1.89989805e-07}
+  m_ConnectedAnchor: {x: 8.28215079e-08, y: .213964358, z: 1.01414088e-07}
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_LowTwistLimit:
     limit: -90
@@ -1921,7 +1921,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -.197209209, y: .155723765, z: -.00860090181}
+  m_ConnectedAnchor: {x: -.180603102, y: .162197277, z: -.00821021199}
   m_SwingAxis: {x: 1, y: 0, z: 0}
   m_LowTwistLimit:
     limit: -70
@@ -1956,7 +1956,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: .00109100342, y: .156282961, z: -.0278480724}
+  m_ConnectedAnchor: {x: .00108747487, y: .156282961, z: -.0278464779}
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_LowTwistLimit:
     limit: -20
@@ -1991,7 +1991,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -1.60906711e-06, y: .159518376, z: -3.10316682e-06}
+  m_ConnectedAnchor: {x: 5.93109961e-09, y: .159518033, z: 3.79827769e-09}
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_LowTwistLimit:
     limit: -80
@@ -2026,7 +2026,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: .101646423, y: -.0400725603, z: .00147169083}
+  m_ConnectedAnchor: {x: .10164199, y: -.0400725603, z: .00147324055}
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_LowTwistLimit:
     limit: -20
@@ -2061,7 +2061,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 2.33929131e-06, y: .158778012, z: -1.06496736e-06}
+  m_ConnectedAnchor: {x: 3.72409259e-09, y: .158777937, z: -2.3739235e-09}
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_LowTwistLimit:
     limit: -80
@@ -2096,7 +2096,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -.0970535278, y: -.0400725603, z: -.0051811412}
+  m_ConnectedAnchor: {x: -.0970554873, y: -.0400725603, z: -.00518046692}
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_LowTwistLimit:
     limit: -20
@@ -2133,7 +2133,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 1
+  m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1

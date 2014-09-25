@@ -66,7 +66,10 @@ public class TakePicture : MonoBehaviour {
 		GameObject ngui = GameObject.FindWithTag ("NGUI");
 		ngui.SetActive (false);
 
-		Prefs.CaptureScreenshot();
+		Debug.Log ("method calling");
+		StartCoroutine(Prefs.CaptureScreenshot());
+		Debug.Log ("method called");
+		
 		Prefs.SetRemainFilmNum(Prefs.GetRemainFilmNum()-1);
 		Prefs.SetTakenPicNum(Prefs.GetTakenPicNum()+1);
 

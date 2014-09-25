@@ -143,13 +143,25 @@ public class PrefsManager : MonoBehaviour {
 
 
 	//スクリーンショットの保存
-	public void CaptureScreenshot(){
+	public IEnumerator CaptureScreenshot(){
+		//yield return null;
+		Debug.Log ("before CS");
+		yield return StartCoroutine(CaptureScreenshotAsync());
+		Debug.Log ("after CS");
+		
+		screenshotIndex++;
+	}
+
+	IEnumerator CaptureScreenshotAsync(){
+		Debug.Log ("enter Async");
 		// Screenshot を撮る
 		string screenshotName = "Screenshot" + screenshotIndex + ".png";
 		Application.CaptureScreenshot (screenshotName);
-		
+
+		yield return null;
+
 		// プラットフォームごとに保存位置変わる？
-		/*string path = "";
+		string path = "";
 		switch (Application.platform) {
 		case RuntimePlatform.IPhonePlayer:
 			path = Application.persistentDataPath + "/" + screenshotName;
@@ -163,9 +175,13 @@ public class PrefsManager : MonoBehaviour {
 		}
 		Debug.Log("path: "+path);
 
+		Debug.Log ("enter while");
 		while (!System.IO.File.Exists (path) ) {
+			//yield return null;
 			//Debug.Log(">>>>> Temporary Screenshot have not been written yet.");
 		}
+		Debug.Log ("exit while");
+		
 
 		// スクリーンショットの読み込み
 		byte[] image = File.ReadAllBytes(path);
@@ -177,12 +193,13 @@ public class PrefsManager : MonoBehaviour {
 		target.mainTexture = tex;
 		NGUIScreenshot _shot = target.GetComponent<NGUIScreenshot> ();
 		_shot.ShowScreenshot ();*/
-		/*GUITexture target = GameObject.FindWithTag ("Screenshot").GetComponent<GUITexture>();
+		GUITexture target = GameObject.FindWithTag ("Screenshot").GetComponent<GUITexture>();
 		target.texture = tex;
 		NGUIScreenshot _shot = target.GetComponent<NGUIScreenshot> ();
 		_shot.ShowScreenshot ();
 
-		screenshotIndex++;*/
+		Debug.Log ("exit Async");
+		yield return null;
 	}
 
 }
