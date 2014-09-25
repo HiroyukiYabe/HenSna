@@ -50,6 +50,10 @@ public class Spawner : MonoBehaviour {
 			}
 				
 		}
+		Vector2 newPositionn = Random.insideUnitCircle * 50;
+		
+		Instantiate (CharacterPrefabs [6], new Vector3(newPositionn.x,0,newPositionn.y)+new Vector3(100,40,100), Quaternion.Euler (new Vector3 (0, Random.Range (0f, 360f), 0)));
+		
 	}
 
 	void Shuffle(GameObject[] ary){

@@ -149,10 +149,9 @@ public class PrefsManager : MonoBehaviour {
 		yield return StartCoroutine(CaptureScreenshotAsync());
 		Debug.Log ("after CS");
 		
-		screenshotIndex++;
 	}
 
-	IEnumerator CaptureScreenshotAsync(){
+	public IEnumerator CaptureScreenshotAsync(){
 		Debug.Log ("enter Async");
 		// Screenshot を撮る
 		string screenshotName = "Screenshot" + screenshotIndex + ".png";
@@ -176,18 +175,25 @@ public class PrefsManager : MonoBehaviour {
 		Debug.Log("path: "+path);
 
 		Debug.Log ("enter while");
-		while (!System.IO.File.Exists (path) ) {
-			//yield return null;
+		//while (!System.IO.File.Exists (path) ) {
+		int i=0;
+		while( i<5){
+		//yield return null;
 			//Debug.Log(">>>>> Temporary Screenshot have not been written yet.");
+			i++;
+			yield return null;
 		}
 		Debug.Log ("exit while");
 		
 
 		// スクリーンショットの読み込み
 		byte[] image = File.ReadAllBytes(path);
+			yield return null;
 		// Texture2D を作成して読み込み
 		Texture2D tex = new Texture2D(0, 0);
 		tex.LoadImage(image);
+			yield return null;
+		
 		// NGUI の UITexture に表示するとき
 		/*UITexture target = GameObject.FindWithTag ("Screenshot").GetComponent<UITexture>();
 		target.mainTexture = tex;
@@ -196,7 +202,12 @@ public class PrefsManager : MonoBehaviour {
 		GUITexture target = GameObject.FindWithTag ("Screenshot").GetComponent<GUITexture>();
 		target.texture = tex;
 		NGUIScreenshot _shot = target.GetComponent<NGUIScreenshot> ();
+			yield return null;
+		
 		_shot.ShowScreenshot ();
+
+		screenshotIndex++;
+		
 
 		Debug.Log ("exit Async");
 		yield return null;

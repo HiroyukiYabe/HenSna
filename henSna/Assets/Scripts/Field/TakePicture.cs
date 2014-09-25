@@ -71,7 +71,7 @@ public class TakePicture : MonoBehaviour {
 		prev.color = c;
 
 		Debug.Log ("method calling");
-		StartCoroutine(Prefs.CaptureScreenshot());
+		StartCoroutine(Prefs.CaptureScreenshotAsync());
 		Debug.Log ("method called");
 		
 		Prefs.SetRemainFilmNum(Prefs.GetRemainFilmNum()-1);

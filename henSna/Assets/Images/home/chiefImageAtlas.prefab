@@ -134,14 +134,14 @@ MonoBehaviour:
   - name: chiefMessage3
     outer:
       serializedVersion: 2
-      x: 454
-      y: 964
+      x: 0
+      y: 725
       width: 460
       height: 150
     inner:
       serializedVersion: 2
-      x: 454
-      y: 964
+      x: 0
+      y: 725
       width: 460
       height: 150
     rotated: 0
@@ -149,6 +149,24 @@ MonoBehaviour:
     paddingRight: .0347826071
     paddingTop: .273333341
     paddingBottom: .393333346
+  - name: chifExp1
+    outer:
+      serializedVersion: 2
+      x: 454
+      y: 972
+      width: 499
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 454
+      y: 972
+      width: 499
+      height: 142
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00200400804
+    paddingTop: .190140843
+    paddingBottom: 1.6267606
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
