@@ -20,7 +20,7 @@ public class Score : MonoBehaviour {
 	void Start () {
 		score = 0;
 		prefs = GameObject.FindWithTag ("GameController").GetComponent<PrefsManager> ();
-		charNum = GameObject.FindGameObjectsWithTag ("Character").Length;
+		charNum = GameObject.FindGameObjectsWithTag ("Character").Length + GameObject.FindGameObjectsWithTag ("NPC").Length;
 		Debug.Log ("Character is " + charNum);
 		count = 0;
 		oneShotScore = 0;

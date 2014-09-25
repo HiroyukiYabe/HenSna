@@ -706,13 +706,12 @@ GameObject:
   - 4: {fileID: 400088}
   - 95: {fileID: 9500000}
   - 136: {fileID: 13600016}
-  - 195: {fileID: 19500000}
-  - 114: {fileID: 11400000}
   - 114: {fileID: 11400002}
   - 114: {fileID: 11400004}
+  - 114: {fileID: 11400000}
   m_Layer: 8
   m_Name: Wizard
-  m_TagString: Character
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1499,12 +1498,11 @@ Animator:
   m_GameObject: {fileID: 100088}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: e88f3d051335eea419d1f5bcf6667269, type: 3}
-  m_Controller: {fileID: 9100000, guid: 5e122054eabe3664f9461424ed47522e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1721a2225c3cd4e3c9f9b9b09832025d, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 1
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1513,17 +1511,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 100088}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ef23fa7f08ac4ff194ab1724e5c0c37, type: 3}
+  m_Script: {fileID: 11500000, guid: 110b63e1a9f9e4cd9a629c7d31ef00bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nav: {fileID: 0}
-  MinSpeed: .200000003
-  MaxSpeed: 1
-  FoodFlag: 0
-  dest: {x: 0, y: 0, z: 0}
-  remain: 0
-  _speed: 0
-  _angle: 0
+  MinSpeed: .5
+  MaxSpeed: 2
+  direction: {x: 0, y: 0, z: 0}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1537,7 +1530,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 7
   name: Wizard
-  baseScore: 2000
+  baseScore: 10000
   spawnParcentage: 100
 --- !u!114 &11400004
 MonoBehaviour:
@@ -2122,26 +2115,6 @@ CharacterJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
---- !u!195 &19500000
-NavMeshAgent:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100088}
-  m_Enabled: 1
-  m_Radius: .5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!198 &19800000
 ParticleSystem:
   m_ObjectHideFlags: 1
