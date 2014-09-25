@@ -181,31 +181,31 @@ public class collectionGameController : MonoBehaviour
 			break;
 		case (int)Types.Knight:
 			twitterBody = "最強マン\nおまいこそ早く勉強しなさい。";
-			imageURL = "knightImage.png";
+			imageURL = "/knightImage.png";
 			break;
 		case (int)Types.Santa:
 			twitterBody = "サンタ\n街を徘徊してたら不良にプレゼントを全部持ってかれたよ！";
-			imageURL = "santaImage.png";
+			imageURL = "/santaImage.png";
 			break;
 		case (int)Types.Snowman:
 			twitterBody = "オラフぃ\nこんな可愛い顔してやることはやってるんだって！";
-			imageURL = "snowmanImage.png";
+			imageURL = "/snowmanImage.png";
 			break;
 		case (int)Types.Wizard:
 			twitterBody = "ブンダルドア\n魔法とかクソ。とか言うようになったらしい。";
-			imageURL = "wizardImage.png";
+			imageURL = "/wizardImage.png";
 			break;
 		case (int)Types.Mike:
 			twitterBody = "Mike\n工場長として重い責任感を持っている。";
-			imageURL = "mikeImage.png";
+			imageURL = "/mikeImage.png";
 			break;
 		case (int)Types.NormalGirl:
 			twitterBody = "かな子(一般人)\n小学生にして、「魔王」が読めるらしい。";
-			imageURL = "normalGirlImage.png";
+			imageURL = "/normalGirlImage.png";
 			break;
 		case (int)Types.NormalGlassWoman:
 			twitterBody = "マダム(一般人)\n頭の赤いバンドはメッシをイメージしてるらしい。";
-			imageURL = "normalGlassWomanImage.png";
+			imageURL = "/normalGlassWomanImage.png";
 			break;
 		default:
 			twitterBody = "でふぉると";
@@ -214,10 +214,12 @@ public class collectionGameController : MonoBehaviour
 		}
 		Debug.Log (twitterTitle);
 		Debug.Log (twitterBody);
+		Debug.Log (Application.persistentDataPath);
+		Debug.Log (Application.dataPath);
 		SocialConnector.Share (
 			twitterTitle,
 			twitterBody, 
-			Application.persistentDataPath + imageURL
+			Application.streamingAssetsPath + imageURL
 		);
 	}
 }

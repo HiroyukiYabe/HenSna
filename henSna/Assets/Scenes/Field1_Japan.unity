@@ -29120,6 +29120,7 @@ MonoBehaviour:
   m_LightmapIndex: -1
   m_LightmapSize: 1024
   m_DrawTreesAndFoliage: 1
+  m_CollectDetailPatches: 1
   m_MaterialTemplate: {fileID: 0}
 --- !u!4 &908807197
 Transform:
@@ -34959,8 +34960,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1145731132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -593.341553, y: -132.900848, z: .0568843}
-  m_LocalScale: {x: .383161992, y: 2.15857387, z: .747633338}
+  m_LocalPosition: {x: -593.341309, y: 144.123184, z: .0568842776}
+  m_LocalScale: {x: .411899149, y: 3.48070097, z: .747633338}
   m_Children:
   - {fileID: 311659076}
   m_Father: {fileID: 346735958}
@@ -37752,8 +37753,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1239546727}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -594.522888, y: -27.5304508, z: 1.56030178}
-  m_LocalScale: {x: .458964169, y: 1.32525885, z: .458964169}
+  m_LocalPosition: {x: -595.346619, y: 305.906616, z: 1.56030095}
+  m_LocalScale: {x: .573705196, y: 1.59031105, z: .458964169}
   m_Children:
   - {fileID: 17965535}
   m_Father: {fileID: 346735958}
@@ -47167,8 +47168,8 @@ GUITexture:
     serializedVersion: 2
     x: -64
     y: -29
-    width: 128
-    height: 58
+    width: 192
+    height: 87
   m_LeftBorder: 0
   m_RightBorder: 0
   m_TopBorder: 0
@@ -47180,7 +47181,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1535175782}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .5, y: .800000012, z: 0}
+  m_LocalPosition: {x: .172983706, y: .865403473, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
