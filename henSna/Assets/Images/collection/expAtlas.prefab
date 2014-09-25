@@ -44,14 +44,14 @@ MonoBehaviour:
   - name: skeltonExp
     outer:
       serializedVersion: 2
-      x: 217
-      y: 143
+      x: 813
+      y: 629
       width: 203
       height: 152
     inner:
       serializedVersion: 2
-      x: 217
-      y: 143
+      x: 813
+      y: 629
       width: 203
       height: 152
     rotated: 0
@@ -62,14 +62,14 @@ MonoBehaviour:
   - name: mummyExp
     outer:
       serializedVersion: 2
-      x: 261
-      y: 306
+      x: 569
+      y: 575
       width: 243
       height: 206
     inner:
       serializedVersion: 2
-      x: 261
-      y: 306
+      x: 569
+      y: 575
       width: 243
       height: 206
     rotated: 0
@@ -80,14 +80,14 @@ MonoBehaviour:
   - name: pumpkinExp2
     outer:
       serializedVersion: 2
-      x: 0
-      y: 296
+      x: 308
+      y: 565
       width: 260
       height: 216
     inner:
       serializedVersion: 2
-      x: 0
-      y: 296
+      x: 308
+      y: 565
       width: 260
       height: 216
     rotated: 0
@@ -98,14 +98,14 @@ MonoBehaviour:
   - name: knightExp
     outer:
       serializedVersion: 2
-      x: 0
-      y: 97
+      x: 308
+      y: 366
       width: 216
       height: 198
     inner:
       serializedVersion: 2
-      x: 0
-      y: 97
+      x: 308
+      y: 366
       width: 216
       height: 198
     rotated: 0
@@ -116,14 +116,14 @@ MonoBehaviour:
   - name: notYetExp
     outer:
       serializedVersion: 2
-      x: 217
-      y: 76
+      x: 0
+      y: 56
       width: 243
       height: 66
     inner:
       serializedVersion: 2
-      x: 217
-      y: 76
+      x: 0
+      y: 56
       width: 243
       height: 66
     rotated: 0
@@ -131,6 +131,114 @@ MonoBehaviour:
     paddingRight: .119341567
     paddingTop: 2.530303
     paddingBottom: 2.530303
+  - name: wizardExp
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 337
+      width: 291
+      height: 225
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 337
+      width: 291
+      height: 225
+    rotated: 0
+    paddingLeft: .0481099673
+    paddingRight: .0515463911
+    paddingTop: .0711111128
+    paddingBottom: .706666648
+  - name: mikeExp
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 123
+      width: 294
+      height: 213
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 123
+      width: 294
+      height: 213
+    rotated: 0
+    paddingLeft: .0408163257
+    paddingRight: .0476190485
+    paddingTop: .089201875
+    paddingBottom: .788732409
+  - name: normalGirlExp
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 563
+      width: 307
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 563
+      width: 307
+      height: 218
+    rotated: 0
+    paddingLeft: .0162866451
+    paddingRight: .026058631
+    paddingTop: .0688073412
+    paddingBottom: .766055048
+  - name: snowmanExp
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 782
+      width: 309
+      height: 242
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 782
+      width: 309
+      height: 242
+    rotated: 0
+    paddingLeft: .0226537213
+    paddingRight: .0129449842
+    paddingTop: .0743801668
+    paddingBottom: .578512371
+  - name: santaExp
+    outer:
+      serializedVersion: 2
+      x: 609
+      y: 800
+      width: 315
+      height: 224
+    inner:
+      serializedVersion: 2
+      x: 609
+      y: 800
+      width: 315
+      height: 224
+    rotated: 0
+    paddingLeft: .0158730168
+    paddingRight: 0
+    paddingTop: .0758928582
+    paddingBottom: .709821403
+  - name: normalGlassWomanExp
+    outer:
+      serializedVersion: 2
+      x: 310
+      y: 787
+      width: 298
+      height: 237
+    inner:
+      serializedVersion: 2
+      x: 310
+      y: 787
+      width: 298
+      height: 237
+    rotated: 0
+    paddingLeft: .030201342
+    paddingRight: .0436241627
+    paddingTop: .0590717308
+    paddingBottom: .628691971
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

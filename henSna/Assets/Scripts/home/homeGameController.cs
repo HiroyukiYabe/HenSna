@@ -41,6 +41,9 @@ public class homeGameController : MonoBehaviour
 		case 2:
 			chiefMessage.spriteName = "chiefMessage2";
 			break;
+		case 3:
+			chiefMessage.spriteName = "chiefMessage3";
+			break;
 		default:
 			chiefMessage.spriteName = "chiefMessage0";
 			break;

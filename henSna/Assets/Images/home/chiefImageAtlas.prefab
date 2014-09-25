@@ -131,6 +131,24 @@ MonoBehaviour:
     paddingRight: .0573951453
     paddingTop: 0
     paddingBottom: .0504201688
+  - name: chiefMessage3
+    outer:
+      serializedVersion: 2
+      x: 454
+      y: 964
+      width: 460
+      height: 150
+    inner:
+      serializedVersion: 2
+      x: 454
+      y: 964
+      width: 460
+      height: 150
+    rotated: 0
+    paddingLeft: .0521739125
+    paddingRight: .0347826071
+    paddingTop: .273333341
+    paddingBottom: .393333346
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

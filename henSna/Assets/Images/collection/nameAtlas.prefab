@@ -45,13 +45,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 261
-      y: 456
+      y: 350
       width: 225
       height: 56
     inner:
       serializedVersion: 2
       x: 261
-      y: 456
+      y: 350
       width: 225
       height: 56
     rotated: 0
@@ -62,14 +62,14 @@ MonoBehaviour:
   - name: skeltonNameImage2
     outer:
       serializedVersion: 2
-      x: 305
-      y: 399
+      x: 0
+      y: 52
       width: 108
       height: 54
     inner:
       serializedVersion: 2
-      x: 305
-      y: 399
+      x: 0
+      y: 52
       width: 108
       height: 54
     rotated: 0
@@ -81,13 +81,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 397
+      y: 107
       width: 149
       height: 56
     inner:
       serializedVersion: 2
       x: 0
-      y: 397
+      y: 107
       width: 149
       height: 56
     rotated: 0
@@ -99,13 +99,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 454
+      y: 348
       width: 260
       height: 58
     inner:
       serializedVersion: 2
       x: 0
-      y: 454
+      y: 348
       width: 260
       height: 58
     rotated: 0
@@ -116,14 +116,14 @@ MonoBehaviour:
   - name: notGetImage
     outer:
       serializedVersion: 2
-      x: 150
-      y: 403
+      x: 303
+      y: 462
       width: 154
       height: 50
     inner:
       serializedVersion: 2
-      x: 150
-      y: 403
+      x: 303
+      y: 462
       width: 154
       height: 50
     rotated: 0
@@ -131,6 +131,114 @@ MonoBehaviour:
     paddingRight: .545454562
     paddingTop: .300000012
     paddingBottom: .300000012
+  - name: wizardNameImage
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 299
+      width: 302
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 299
+      width: 302
+      height: 48
+    rotated: 0
+    paddingLeft: .029801324
+    paddingRight: .029801324
+    paddingTop: .333333343
+    paddingBottom: .333333343
+  - name: normalGlassWomanNameImage
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 460
+      width: 302
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 460
+      width: 302
+      height: 52
+    rotated: 0
+    paddingLeft: .0231788084
+    paddingRight: .0364238396
+    paddingTop: .269230783
+    paddingBottom: .269230783
+  - name: santaNameImage
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 252
+      width: 286
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 252
+      width: 286
+      height: 46
+    rotated: 0
+    paddingLeft: .0384615399
+    paddingRight: .0804195777
+    paddingTop: .369565219
+    paddingBottom: .369565219
+  - name: normalGirlNameImage
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 407
+      width: 298
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 407
+      width: 298
+      height: 52
+    rotated: 0
+    paddingLeft: .0369127505
+    paddingRight: .0369127505
+    paddingTop: .269230783
+    paddingBottom: .269230783
+  - name: mikeNameImage
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 164
+      width: 272
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 164
+      width: 272
+      height: 42
+    rotated: 0
+    paddingLeft: .0845588222
+    paddingRight: .091911763
+    paddingTop: .452380955
+    paddingBottom: .452380955
+  - name: snowmanNameImage
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 207
+      width: 295
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 207
+      width: 295
+      height: 44
+    rotated: 0
+    paddingLeft: .0305084754
+    paddingRight: .0542372875
+    paddingTop: .409090906
+    paddingBottom: .409090906
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

@@ -4013,7 +4013,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tweenTarget: {fileID: 0}
   hover: {x: 1.10000002, y: 1.10000002, z: 1.10000002}
-  pressed: {x: 1.04999995, y: 1.04999995, z: 1.04999995}
+  pressed: {x: .899999976, y: .899999976, z: .899999976}
   duration: .200000003
 --- !u!114 &991191166
 MonoBehaviour:
@@ -4027,7 +4027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tweenTarget: {fileID: 1153758196}
-  hover: {r: .600000024, g: 1, b: .200000003, a: 1}
+  hover: {r: .595588207, g: .595588207, b: .595588207, a: 1}
   pressed: {r: .5, g: .5, b: .5, a: 1}
   duration: .200000003
   disabledColor: {r: .5, g: .5, b: .5, a: 1}

@@ -8,7 +8,13 @@ public class collectionGameController : MonoBehaviour
 		Mummy = 1,
 		Pumpkin,
 		Skelton,
-		Knight}
+		Knight,
+		Santa,
+		Snowman,
+		Wizard,
+		Mike,
+		NormalGirl,
+		NormalGlassWoman}
 	;
 
 	GameObject summeryPanel;
@@ -81,6 +87,60 @@ public class collectionGameController : MonoBehaviour
 				contentImage.spriteName = "question";			
 			}
 			break;
+		case (int)Types.Santa:
+			if (PlayerPrefs.GetInt ("gotSanta") == 1) {
+				expImage.spriteName = "santaExp";
+				contentImage.spriteName = "santaImage";
+			} else {
+				expImage.spriteName = "notYetExp";
+				contentImage.spriteName = "question";			
+			}
+			break;
+		case (int)Types.Snowman:
+			if (PlayerPrefs.GetInt ("gotSnowman") == 1) {
+				expImage.spriteName = "snowmanExp";
+				contentImage.spriteName = "snowmanImage";
+			} else {
+				expImage.spriteName = "notYetExp";
+				contentImage.spriteName = "question";			
+			}
+			break;
+		case (int)Types.Wizard:
+			if (PlayerPrefs.GetInt ("gotWizard") == 1) {
+				expImage.spriteName = "wizardExp";
+				contentImage.spriteName = "wizardImage";
+			} else {
+				expImage.spriteName = "notYetExp";
+				contentImage.spriteName = "question";			
+			}
+			break;
+		case (int)Types.Mike:
+			if (PlayerPrefs.GetInt ("gotMike") == 1) {
+				expImage.spriteName = "mikeExp";
+				contentImage.spriteName = "mikeImage";
+			} else {
+				expImage.spriteName = "notYetExp";
+				contentImage.spriteName = "question";			
+			}
+			break;
+		case (int)Types.NormalGirl:
+			if (PlayerPrefs.GetInt ("gotNormalGirl") == 1) {
+				expImage.spriteName = "normalgirlExp";
+				contentImage.spriteName = "normalgirlImage";
+			} else {
+				expImage.spriteName = "notYetExp";
+				contentImage.spriteName = "question";			
+			}
+			break;
+		case (int)Types.NormalGlassWoman:
+			if (PlayerPrefs.GetInt ("gotNormalGlassWoman") == 1) {
+				expImage.spriteName = "normalGlassWomanExp";
+				contentImage.spriteName = "normalGlassWomanImage";
+			} else {
+				expImage.spriteName = "notYetExp";
+				contentImage.spriteName = "question";			
+			}
+			break;
 		default:
 			expImage.spriteName = "notYetExp";
 			contentImage.spriteName = "question";
@@ -122,6 +182,30 @@ public class collectionGameController : MonoBehaviour
 		case (int)Types.Knight:
 			twitterBody = "最強マン\nおまいこそ早く勉強しなさい。";
 			imageURL = "knightImage.png";
+			break;
+		case (int)Types.Santa:
+			twitterBody = "サンタ\n街を徘徊してたら不良にプレゼントを全部持ってかれたよ！";
+			imageURL = "santaImage.png";
+			break;
+		case (int)Types.Snowman:
+			twitterBody = "オラフぃ\nこんな可愛い顔してやることはやってるんだって！";
+			imageURL = "snowmanImage.png";
+			break;
+		case (int)Types.Wizard:
+			twitterBody = "ブンダルドア\n魔法とかクソ。とか言うようになったらしい。";
+			imageURL = "wizardImage.png";
+			break;
+		case (int)Types.Mike:
+			twitterBody = "Mike\n工場長として重い責任感を持っている。";
+			imageURL = "mikeImage.png";
+			break;
+		case (int)Types.NormalGirl:
+			twitterBody = "かな子(一般人)\n小学生にして、「魔王」が読めるらしい。";
+			imageURL = "normalGirlImage.png";
+			break;
+		case (int)Types.NormalGlassWoman:
+			twitterBody = "マダム(一般人)\n頭の赤いバンドはメッシをイメージしてるらしい。";
+			imageURL = "normalGlassWomanImage.png";
 			break;
 		default:
 			twitterBody = "でふぉると";

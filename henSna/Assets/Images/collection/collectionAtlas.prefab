@@ -44,14 +44,14 @@ MonoBehaviour:
   - name: question2
     outer:
       serializedVersion: 2
-      x: 1021
-      y: 1587
+      x: 1424
+      y: 1615
       width: 128
       height: 199
     inner:
       serializedVersion: 2
-      x: 1021
-      y: 1587
+      x: 1424
+      y: 1615
       width: 128
       height: 199
     rotated: 0
@@ -62,14 +62,14 @@ MonoBehaviour:
   - name: question
     outer:
       serializedVersion: 2
-      x: 1150
-      y: 1658
+      x: 1822
+      y: 1686
       width: 128
       height: 128
     inner:
       serializedVersion: 2
-      x: 1150
-      y: 1658
+      x: 1822
+      y: 1686
       width: 128
       height: 128
     rotated: 0
@@ -116,13 +116,13 @@ MonoBehaviour:
   - name: pumpkinImage
     outer:
       serializedVersion: 2
-      x: 1159
+      x: 1205
       y: 1830
       width: 139
       height: 218
     inner:
       serializedVersion: 2
-      x: 1159
+      x: 1205
       y: 1830
       width: 139
       height: 218
@@ -134,13 +134,13 @@ MonoBehaviour:
   - name: mummyImage
     outer:
       serializedVersion: 2
-      x: 1439
+      x: 1485
       y: 1826
       width: 133
       height: 222
     inner:
       serializedVersion: 2
-      x: 1439
+      x: 1485
       y: 1826
       width: 133
       height: 222
@@ -153,13 +153,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 1021
-      y: 1787
+      y: 1553
       width: 137
       height: 261
     inner:
       serializedVersion: 2
       x: 1021
-      y: 1787
+      y: 1553
       width: 137
       height: 261
     rotated: 0
@@ -170,13 +170,13 @@ MonoBehaviour:
   - name: skeltonImage
     outer:
       serializedVersion: 2
-      x: 1299
+      x: 1345
       y: 1831
       width: 139
       height: 217
     inner:
       serializedVersion: 2
-      x: 1299
+      x: 1345
       y: 1831
       width: 139
       height: 217
@@ -188,13 +188,13 @@ MonoBehaviour:
   - name: backButton3
     outer:
       serializedVersion: 2
-      x: 1573
+      x: 1619
       y: 1851
       width: 259
       height: 59
     inner:
       serializedVersion: 2
-      x: 1573
+      x: 1619
       y: 1851
       width: 259
       height: 59
@@ -206,13 +206,13 @@ MonoBehaviour:
   - name: backButton4
     outer:
       serializedVersion: 2
-      x: 1573
+      x: 1619
       y: 1911
       width: 426
       height: 68
     inner:
       serializedVersion: 2
-      x: 1573
+      x: 1619
       y: 1911
       width: 426
       height: 68
@@ -224,16 +224,124 @@ MonoBehaviour:
   - name: backButton5
     outer:
       serializedVersion: 2
-      x: 1573
+      x: 1619
       y: 1980
       width: 426
       height: 68
     inner:
       serializedVersion: 2
-      x: 1573
+      x: 1619
       y: 1980
       width: 426
       height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: normalGlassWomanImage
+    outer:
+      serializedVersion: 2
+      x: 1737
+      y: 1612
+      width: 84
+      height: 202
+    inner:
+      serializedVersion: 2
+      x: 1737
+      y: 1612
+      width: 84
+      height: 202
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: snowmanImage
+    outer:
+      serializedVersion: 2
+      x: 1293
+      y: 1612
+      width: 130
+      height: 202
+    inner:
+      serializedVersion: 2
+      x: 1293
+      y: 1612
+      width: 130
+      height: 202
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: santaImage
+    outer:
+      serializedVersion: 2
+      x: 1646
+      y: 1609
+      width: 90
+      height: 205
+    inner:
+      serializedVersion: 2
+      x: 1646
+      y: 1609
+      width: 90
+      height: 205
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .00487804879
+    paddingBottom: 0
+  - name: mikeImage
+    outer:
+      serializedVersion: 2
+      x: 1553
+      y: 1607
+      width: 92
+      height: 207
+    inner:
+      serializedVersion: 2
+      x: 1553
+      y: 1607
+      width: 92
+      height: 207
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wizardImage
+    outer:
+      serializedVersion: 2
+      x: 1021
+      y: 1815
+      width: 183
+      height: 233
+    inner:
+      serializedVersion: 2
+      x: 1021
+      y: 1815
+      width: 183
+      height: 233
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: normalgirlImage
+    outer:
+      serializedVersion: 2
+      x: 1159
+      y: 1615
+      width: 133
+      height: 199
+    inner:
+      serializedVersion: 2
+      x: 1159
+      y: 1615
+      width: 133
+      height: 199
     rotated: 0
     paddingLeft: 0
     paddingRight: 0

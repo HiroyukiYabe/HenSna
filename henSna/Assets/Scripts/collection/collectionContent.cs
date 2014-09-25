@@ -8,7 +8,13 @@ public class collectionContent : MonoBehaviour
 		Mummy=1,
 		Pumpkin,
 		Skelton,
-		Knight
+		Knight,
+		Santa,
+		Snowman,
+		Wizard,
+		Mike,
+		NormalGirl,
+		NormalGlassWoman
 	};
 
 	private float questionSize;
@@ -37,7 +43,7 @@ public class collectionContent : MonoBehaviour
 				if (PlayerPrefs.GetInt ("mummyNew") == 1) {
 					//New
 					newLabel.alpha = 1;
-
+					PlayerPrefs.SetInt ("mummyNew",0);
 				} else {
 					Destroy (newLabel);
 				}
@@ -58,7 +64,7 @@ public class collectionContent : MonoBehaviour
 				if (PlayerPrefs.GetInt ("pumpkinNew") == 1) {
 					//New
 					newLabel.alpha = 1;
-
+					PlayerPrefs.SetInt ("pumpkinNew",0);
 				} else {
 					Destroy (newLabel);
 				}
@@ -80,7 +86,7 @@ public class collectionContent : MonoBehaviour
 				if (PlayerPrefs.GetInt ("skeltonNew") == 1) {
 					//New
 					newLabel.alpha = 1;
-
+					PlayerPrefs.SetInt ("skeltonNew",0);
 				} else {
 					Destroy (newLabel);
 				}
@@ -101,7 +107,133 @@ public class collectionContent : MonoBehaviour
 				if (PlayerPrefs.GetInt ("knightNew") == 1) {
 					//New
 					newLabel.alpha = 1;
-
+					PlayerPrefs.SetInt ("knightNew",0);
+				} else {
+					Destroy (newLabel);
+				}
+			} else {
+				//まだ撮ってない
+				nameImage.spriteName = "notGetImage";
+				Destroy (newLabel);
+				contentImage.spriteName = "question";
+				contentImage.transform.localScale = new Vector3 (questionSize,questionSize,0);
+			}
+			break;
+		case (int)Types.Santa:
+			monNumberLabel.text = "NO." + type;
+			if (PlayerPrefs.GetInt ("gotSanta") == 1){
+				//すでに撮った
+				nameImage.spriteName = "santaNameImage";
+				contentImage.spriteName = "santaImage";
+				if (PlayerPrefs.GetInt ("santaNew") == 1) {
+					//New
+					newLabel.alpha = 1;
+					PlayerPrefs.SetInt ("santaNew",0);
+				} else {
+					Destroy (newLabel);
+				}
+			} else {
+				//まだ撮ってない
+				nameImage.spriteName = "notGetImage";
+				Destroy (newLabel);
+				contentImage.spriteName = "question";
+				contentImage.transform.localScale = new Vector3 (questionSize,questionSize,0);
+			}
+			break;
+		case (int)Types.Snowman:
+			monNumberLabel.text = "NO." + type;
+			if (PlayerPrefs.GetInt ("gotSnowman") == 1){
+				//すでに撮った
+				nameImage.spriteName = "snowmanNameImage";
+				contentImage.spriteName = "snowmanImage";
+				if (PlayerPrefs.GetInt ("snowmanNew") == 1) {
+					//New
+					newLabel.alpha = 1;
+					PlayerPrefs.SetInt ("snowmanNew",0);
+				} else {
+					Destroy (newLabel);
+				}
+			} else {
+				//まだ撮ってない
+				nameImage.spriteName = "notGetImage";
+				Destroy (newLabel);
+				contentImage.spriteName = "question";
+				contentImage.transform.localScale = new Vector3 (questionSize,questionSize,0);
+			}
+			break;
+		case (int)Types.Wizard:
+			monNumberLabel.text = "NO." + type;
+			if (PlayerPrefs.GetInt ("gotWizard") == 1){
+				//すでに撮った
+				nameImage.spriteName = "wizardNameImage";
+				contentImage.spriteName = "wizardImage";
+				if (PlayerPrefs.GetInt ("wizardNew") == 1) {
+					//New
+					newLabel.alpha = 1;
+					PlayerPrefs.SetInt ("wizardNew",0);
+				} else {
+					Destroy (newLabel);
+				}
+			} else {
+				//まだ撮ってない
+				nameImage.spriteName = "notGetImage";
+				Destroy (newLabel);
+				contentImage.spriteName = "question";
+				contentImage.transform.localScale = new Vector3 (questionSize,questionSize,0);
+			}
+			break;
+		case (int)Types.Mike:
+			monNumberLabel.text = "NO." + type;
+			if (PlayerPrefs.GetInt ("gotMike") == 1){
+				//すでに撮った
+				nameImage.spriteName = "mikeNameImage";
+				contentImage.spriteName = "mikeImage";
+				if (PlayerPrefs.GetInt ("mikeNew") == 1) {
+					//New
+					newLabel.alpha = 1;
+					PlayerPrefs.SetInt ("mikeNew",0);
+				} else {
+					Destroy (newLabel);
+				}
+			} else {
+				//まだ撮ってない
+				nameImage.spriteName = "notGetImage";
+				Destroy (newLabel);
+				contentImage.spriteName = "question";
+				contentImage.transform.localScale = new Vector3 (questionSize,questionSize,0);
+			}
+			break;
+		case (int)Types.NormalGirl:
+			monNumberLabel.text = "NO." + type;
+			if (PlayerPrefs.GetInt ("gotNormalGirl") == 1){
+				//すでに撮った
+				nameImage.spriteName = "normalGirlNameImage";
+				contentImage.spriteName = "normalGirlImage";
+				if (PlayerPrefs.GetInt ("normalGirlNew") == 1) {
+					//New
+					newLabel.alpha = 1;
+					PlayerPrefs.SetInt ("normalGirlNew",0);
+				} else {
+					Destroy (newLabel);
+				}
+			} else {
+				//まだ撮ってない
+				nameImage.spriteName = "notGetImage";
+				Destroy (newLabel);
+				contentImage.spriteName = "question";
+				contentImage.transform.localScale = new Vector3 (questionSize,questionSize,0);
+			}
+			break;
+		case (int)Types.NormalGlassWoman:
+			monNumberLabel.text = "NO." + type;
+			if (PlayerPrefs.GetInt ("gotNormalGlassWoman") == 1){
+				//すでに撮った
+				nameImage.spriteName = "normalGlassWomanNameImage";
+				contentImage.spriteName = "normalGlassWomanImage";
+				if (PlayerPrefs.GetInt ("normalGlassWomanNew") == 1) {
+					//New
+					newLabel.alpha = 1;
+					PlayerPrefs.SetInt ("normalGlassWomanNew",0);
 				} else {
 					Destroy (newLabel);
 				}
