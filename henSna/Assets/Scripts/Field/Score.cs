@@ -12,7 +12,7 @@ public class Score : MonoBehaviour {
 
 	PrefsManager prefs;
 
-	int charNum;
+	public int charNum;
 	int count;
 	int oneShotScore;
 

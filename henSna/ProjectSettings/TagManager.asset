@@ -4,6 +4,8 @@
 TagManager:
   tags:
   - Character
+  - NGUI
+  - Screenshot
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

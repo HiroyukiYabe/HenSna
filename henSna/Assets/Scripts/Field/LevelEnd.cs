@@ -3,7 +3,7 @@ using System.Collections;
 
 public class LevelEnd : MonoBehaviour {
 
-	bool end;
+	public bool isend;
 	PrefsManager prefs;
 	Score _score;
 
@@ -11,15 +11,13 @@ public class LevelEnd : MonoBehaviour {
 	void Start () {
 		prefs = GetComponent<PrefsManager> ();
 		_score = GetComponent<Score> ();
-		end = false;
+		isend = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (prefs.GetRemainFilmNum() == 0) {
-			end =true;
-			//Invoke("levelEnd", 5);
-		}
+		if (prefs.GetRemainFilmNum() == 0) {isend =true;}
+		if(isend) Invoke("levelEnd", 2);
 	}
 
 	public void levelEnd(){
@@ -29,11 +27,6 @@ public class LevelEnd : MonoBehaviour {
 		if(prefs.GetTakenPicNum() > 0)
 			Application.LoadLevel("pictureSubmit");
 		else Application.LoadLevel("result");
-	}
-
-	void OnGUI (){
-		if (end)
-			if(GUI.Button(new Rect(Screen.width/2-100,Screen.height/2-50,200,100),"FINISHED!!")) Invoke("levelEnd",2);
 	}
 
 }

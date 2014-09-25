@@ -100,35 +100,19 @@ public class PrefsManager : MonoBehaviour {
 		}
 	}
 
+
 	//キャラクターが撮影されたことがあるか
 	public void SetGotCharacter(string name, bool isGotten=true){
 		if (isGotten && PlayerPrefs.GetInt ("got"+name) == 0)
 						PlayerPrefs.SetInt ("got"+name, 1);
 	}
-
-	//To Do
+	
 	//最初に撮影されたキャラクター
-	public void SetThisTimeGotType(string name){
-		if (PlayerPrefs.GetInt ("thisTimeGotType") == 0) {
-			switch(name){
-			case "Pumpkin":
-				PlayerPrefs.SetInt ("thisTimeGotType",1);
-				break;
-			case "Skelton":
-				PlayerPrefs.SetInt ("thisTimeGotType",2);
-				break;
-			case "Knight":
-				PlayerPrefs.SetInt ("thisTimeGotType",3);
-				break;
-			case "Mummy":
-				PlayerPrefs.SetInt ("thisTimeGotType",4);
-				break;
-			default :
-				Debug.LogError("PrefsManager.SetThisTimeGotType:  Not Defined Character");
-				break;
-			}
-		}
+	public void SetThisTimeGotType(int id){
+		if (PlayerPrefs.GetInt ("thisTimeGotType") == 0)
+			PlayerPrefs.SetInt ("thisTimeGotType",id);
 	}
+
 
 	//写真一枚ごとの点数
 	public void SetOneShotScore(int score){
@@ -159,13 +143,25 @@ public class PrefsManager : MonoBehaviour {
 
 
 	//スクリーンショットの保存
-	public void CaptureScreenshot(){
+	public IEnumerator CaptureScreenshot(){
+		//yield return null;
+		Debug.Log ("before CS");
+		yield return StartCoroutine(CaptureScreenshotAsync());
+		Debug.Log ("after CS");
+		
+		screenshotIndex++;
+	}
+
+	IEnumerator CaptureScreenshotAsync(){
+		Debug.Log ("enter Async");
 		// Screenshot を撮る
 		string screenshotName = "Screenshot" + screenshotIndex + ".png";
 		Application.CaptureScreenshot (screenshotName);
-		
+
+		yield return null;
+
 		// プラットフォームごとに保存位置変わる？
-		/*string path = "";
+		string path = "";
 		switch (Application.platform) {
 		case RuntimePlatform.IPhonePlayer:
 			path = Application.persistentDataPath + "/" + screenshotName;
@@ -177,24 +173,33 @@ public class PrefsManager : MonoBehaviour {
 			path = screenshotName;
 			break;
 		}
-		Debug.Log("path:"+path);
+		Debug.Log("path: "+path);
 
+		Debug.Log ("enter while");
 		while (!System.IO.File.Exists (path) ) {
+			//yield return null;
 			//Debug.Log(">>>>> Temporary Screenshot have not been written yet.");
 		}
+		Debug.Log ("exit while");
+		
 
 		// スクリーンショットの読み込み
 		byte[] image = File.ReadAllBytes(path);
-		
 		// Texture2D を作成して読み込み
 		Texture2D tex = new Texture2D(0, 0);
 		tex.LoadImage(image);
-		
 		// NGUI の UITexture に表示するとき
-		UITexture target = GameObject.Find("Screenshot").GetComponent<UITexture>();
-		target.mainTexture = tex;*/
+		/*UITexture target = GameObject.FindWithTag ("Screenshot").GetComponent<UITexture>();
+		target.mainTexture = tex;
+		NGUIScreenshot _shot = target.GetComponent<NGUIScreenshot> ();
+		_shot.ShowScreenshot ();*/
+		GUITexture target = GameObject.FindWithTag ("Screenshot").GetComponent<GUITexture>();
+		target.texture = tex;
+		NGUIScreenshot _shot = target.GetComponent<NGUIScreenshot> ();
+		_shot.ShowScreenshot ();
 
-		screenshotIndex++;
+		Debug.Log ("exit Async");
+		yield return null;
 	}
 
 }

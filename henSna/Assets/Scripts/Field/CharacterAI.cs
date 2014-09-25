@@ -22,10 +22,6 @@ public class CharacterAI : MonoBehaviour
 	private AnimatorStateInfo layer2CurrentState;	// a reference to the current state of the animator, used for layer 2
 	private CapsuleCollider col;					// a reference to the capsule collider of the character
 
-	//static int idleState = Animator.StringToHash("Base Layer.Idle");	
-	//static int locoState = Animator.StringToHash("Base Layer.Locomotion");			// these integers are references to our animator's states
-	//static int backState = Animator.StringToHash("Base Layer.WalkBack");				// and are used to check state for various actions to occur
-
 	[HideInInspector]
 	public NavMeshAgent nav;					// Reference to the nav mesh agent.
 	float speedDampTime = 0.1f;				// Damping time for the Speed parameter.

@@ -9,16 +9,17 @@
 using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(CharInfo))]
 public class CharacterScore : MonoBehaviour {
 
 	PrefsManager prefs;
+	CharInfo info;
 
 	TakePicture pic;
 	Score _score;
-	//Transform player;
+	Camera cam;
 
 	public float OffSet = 0.85f;
-	public int ThisScore;
 	public float Near = 3.0f;
 	public float Far = 10.0f;
 
@@ -42,9 +43,10 @@ public class CharacterScore : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		prefs = GameObject.FindWithTag ("GameController").GetComponent<PrefsManager> ();
+		info = GetComponent<CharInfo> ();
 		pic = GameObject.FindWithTag ("GameController").GetComponent<TakePicture> ();
 		_score = GameObject.FindWithTag ("GameController").GetComponent<Score> ();
-		//player = GameObject.FindWithTag ("Player").transform;
+		cam = Camera.main;
 	}
 
 
@@ -62,11 +64,12 @@ public class CharacterScore : MonoBehaviour {
 
 		if (photoflag ) {	
 			if(IsInScreen ()){
-				prefs.SetGotCharacter(gameObject.name);//To Do delete (Clone)
-				prefs.SetThisTimeGotType(gameObject.name);
+				prefs.SetGotCharacter(info.name);
+				prefs.SetThisTimeGotType(info.id);
 				_score.AddScore(CalculateScore());
 			}else _score.AddScore(0);
 		}
+
 
 		//For Debug
 		Debug.DrawLine(ray.origin, hit.point, Color.black);
@@ -82,58 +85,58 @@ public class CharacterScore : MonoBehaviour {
 
 	//キャラクタがカメラの画面内かを判定する関数
 	bool IsInScreen(){
-		Vector3 pos = Camera.main.WorldToViewportPoint (transform.position+transform.up*OffSet);
-		Vector3 posUp = Camera.main.WorldToViewportPoint (transform.position+transform.up*OffSet+transform.up*0.45f);
-		Vector3 posDown = Camera.main.WorldToViewportPoint (transform.position+transform.up*OffSet-transform.up*0.45f);
-		Vector3 posRight = Camera.main.WorldToViewportPoint (transform.position+transform.up*OffSet+transform.right*0.25f);
-		Vector3 posLeft = Camera.main.WorldToViewportPoint (transform.position+transform.up*OffSet-transform.right*0.25f);
-		Vector3 posForward = Camera.main.WorldToViewportPoint (transform.position+transform.up*OffSet+transform.forward*0.25f);
-		Vector3 posBack = Camera.main.WorldToViewportPoint (transform.position+transform.up*OffSet-transform.forward*0.25f);
+		Vector3 pos = cam.WorldToViewportPoint (transform.position+transform.up*OffSet);
+		Vector3 posUp = cam.WorldToViewportPoint (transform.position+transform.up*OffSet+transform.up*0.45f);
+		Vector3 posDown = cam.WorldToViewportPoint (transform.position+transform.up*OffSet-transform.up*0.45f);
+		Vector3 posRight = cam.WorldToViewportPoint (transform.position+transform.up*OffSet+transform.right*0.25f);
+		Vector3 posLeft = cam.WorldToViewportPoint (transform.position+transform.up*OffSet-transform.right*0.25f);
+		Vector3 posForward = cam.WorldToViewportPoint (transform.position+transform.up*OffSet+transform.forward*0.25f);
+		Vector3 posBack = cam.WorldToViewportPoint (transform.position+transform.up*OffSet-transform.forward*0.25f);
 		if ((pos.x>=0 && pos.x<=1 && pos.y>=0 && pos.y<=1 && pos.z>=0) || (posUp.x>=0 && posUp.x<=1 && posUp.y>=0 && posUp.y<=1 && posUp.z>=0) || (posDown.x>=0 && posDown.x<=1 && posDown.y>=0 && posDown.y<=1 && posDown.z>=0) || (posRight.x>=0 && posRight.x<=1 && posRight.y>=0 && posRight.y<=1 && posRight.z>=0) || 
 		    (posLeft.x>=0 && posLeft.x<=1 && posLeft.y>=0 && posLeft.y<=1 && posLeft.z>=0) || (posForward.x>=0 && posForward.x<=1 && posForward.y>=0 && posForward.y<=1 && posForward.z>=0) || (posBack.x>=0 && posBack.x<=1 && posBack.y>=0 && posBack.y<=1 && posBack.z>=0)) {
 
-			/*Ray ray = Camera.main.ScreenPointToRay(Camera.main.WorldToScreenPoint(transform.position));
+			/*Ray ray = cam.ScreenPointToRay(cam.WorldToScreenPoint(transform.position));
 			RaycastHit hit = new RaycastHit();
 			Physics.Raycast(ray, out hit);
-			Ray rayUp = Camera.main.ScreenPointToRay(Camera.main.WorldToScreenPoint(transform.position+transform.up*0.4f));
+			Ray rayUp = cam.ScreenPointToRay(cam.WorldToScreenPoint(transform.position+transform.up*0.4f));
 			RaycastHit hitUp = new RaycastHit();
 			Physics.Raycast(rayUp, out hitUp);
-			Ray rayDown = Camera.main.ScreenPointToRay(Camera.main.WorldToScreenPoint(transform.position-transform.up*0.3f));
+			Ray rayDown = cam.ScreenPointToRay(cam.WorldToScreenPoint(transform.position-transform.up*0.3f));
 			RaycastHit hitDown = new RaycastHit();
 			Physics.Raycast(rayDown, out hitDown);
-			Ray rayRight = Camera.main.ScreenPointToRay(Camera.main.WorldToScreenPoint(transform.position+transform.right*0.3f));
+			Ray rayRight = cam.ScreenPointToRay(cam.WorldToScreenPoint(transform.position+transform.right*0.3f));
 			RaycastHit hitRight = new RaycastHit();
 			Physics.Raycast(rayRight, out hitRight);
-			Ray rayLeft = Camera.main.ScreenPointToRay(Camera.main.WorldToScreenPoint(transform.position-transform.right*0.3f));
+			Ray rayLeft = cam.ScreenPointToRay(cam.WorldToScreenPoint(transform.position-transform.right*0.3f));
 			RaycastHit hitLeft = new RaycastHit();
 			Physics.Raycast(rayLeft, out hitLeft);
-			Ray rayForward = Camera.main.ScreenPointToRay(Camera.main.WorldToScreenPoint(transform.position+transform.up*OffSet+transform.forward*0.25f));
+			Ray rayForward = cam.ScreenPointToRay(cam.WorldToScreenPoint(transform.position+transform.up*OffSet+transform.forward*0.25f));
 			RaycastHit hitForward = new RaycastHit();
 			Physics.Raycast(rayForward, out hitForward);
-			Ray rayBack = Camera.main.ScreenPointToRay(Camera.main.WorldToScreenPoint(transform.position+transform.up*OffSet-transform.forward*0.25f));
+			Ray rayBack = cam.ScreenPointToRay(cam.WorldToScreenPoint(transform.position+transform.up*OffSet-transform.forward*0.25f));
 			RaycastHit hitBack = new RaycastHit();
 			Physics.Raycast(rayBack, out hitBack);*/
 
 			//For Debug
-			ray = Camera.main.ScreenPointToRay(Camera.main.WorldToScreenPoint(transform.position+transform.up*OffSet));
+			ray = cam.ScreenPointToRay(cam.WorldToScreenPoint(transform.position+transform.up*OffSet));
 			hit = new RaycastHit();
 			Physics.Raycast(ray, out hit);
-			rayUp = Camera.main.ScreenPointToRay(Camera.main.WorldToScreenPoint(transform.position+transform.up*OffSet+transform.up*0.45f));
+			rayUp = cam.ScreenPointToRay(cam.WorldToScreenPoint(transform.position+transform.up*OffSet+transform.up*0.45f));
 			hitUp = new RaycastHit();
 			Physics.Raycast(rayUp, out hitUp);
-			rayDown = Camera.main.ScreenPointToRay(Camera.main.WorldToScreenPoint(transform.position+transform.up*OffSet-transform.up*0.45f));
+			rayDown = cam.ScreenPointToRay(cam.WorldToScreenPoint(transform.position+transform.up*OffSet-transform.up*0.45f));
 			hitDown = new RaycastHit();
 			Physics.Raycast(rayDown, out hitDown);
-			rayRight = Camera.main.ScreenPointToRay(Camera.main.WorldToScreenPoint(transform.position+transform.up*OffSet+transform.right*0.25f));
+			rayRight = cam.ScreenPointToRay(cam.WorldToScreenPoint(transform.position+transform.up*OffSet+transform.right*0.25f));
 			hitRight = new RaycastHit();
 			Physics.Raycast(rayRight, out hitRight);
-			rayLeft = Camera.main.ScreenPointToRay(Camera.main.WorldToScreenPoint(transform.position+transform.up*OffSet-transform.right*0.25f));
+			rayLeft = cam.ScreenPointToRay(cam.WorldToScreenPoint(transform.position+transform.up*OffSet-transform.right*0.25f));
 			hitLeft = new RaycastHit();
 			Physics.Raycast(rayLeft, out hitLeft);
-			rayForward = Camera.main.ScreenPointToRay(Camera.main.WorldToScreenPoint(transform.position+transform.up*OffSet+transform.forward*0.25f));
+			rayForward = cam.ScreenPointToRay(cam.WorldToScreenPoint(transform.position+transform.up*OffSet+transform.forward*0.25f));
 			hitForward = new RaycastHit();
 			Physics.Raycast(rayForward, out hitForward);
-			rayBack = Camera.main.ScreenPointToRay(Camera.main.WorldToScreenPoint(transform.position+transform.up*OffSet-transform.forward*0.25f));
+			rayBack = cam.ScreenPointToRay(cam.WorldToScreenPoint(transform.position+transform.up*OffSet-transform.forward*0.25f));
 			hitBack = new RaycastHit();
 			Physics.Raycast(rayBack, out hitBack);
 
@@ -148,11 +151,11 @@ public class CharacterScore : MonoBehaviour {
 
 	//得点を計算する関数
 	int CalculateScore(){
-		int _score = ThisScore;
+		int _score = info.baseScore;
 		//向きによる倍率
-		float magDir = 0.5f + 0.5f * (Vector3.Angle(transform.forward,Camera.main.transform.forward)/180.0f);
+		float magDir = 0.5f + 0.5f * (Vector3.Angle(transform.forward,cam.transform.forward)/180.0f);
 		//画面内位置による倍率
-		Vector3 _pos = Camera.main.WorldToViewportPoint (transform.position + transform.up * OffSet);
+		Vector3 _pos = cam.WorldToViewportPoint (transform.position + transform.up * OffSet);
 		float magPos = 0.25f + 0.75f * 2 * ((Mathf.Abs(0.5f-_pos.x) > Mathf.Abs(0.5f-_pos.y)) ? 0.5f-Mathf.Abs(0.5f-_pos.x) : 0.5f-Mathf.Abs(0.5f-_pos.y));
 		//距離による倍率
 		float magDis;

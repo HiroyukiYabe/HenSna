@@ -24,8 +24,8 @@ public class TapDetect : MonoBehaviour {
 	public Texture2D MoveTexture;
 	public Texture2D RotTexture;
 	Rect rect;
-	enum status{None,Move,Rot};
-	status stat;
+	public enum status{None,Move,Rot};
+	public status stat;
 	float statTimer;
 
 	PrefsManager prefs;
@@ -193,12 +193,12 @@ void Update () {
 	}
 
 
-	void OnGUI (){
+	/*void OnGUI (){
 		if(!Pauser.isPause){
 			if(stat==status.Move) GUI.DrawTexture (rect,MoveTexture);
 			if(stat==status.Rot) GUI.DrawTexture (rect,RotTexture);
 		}
-	}
+	}*/
 
 
 }

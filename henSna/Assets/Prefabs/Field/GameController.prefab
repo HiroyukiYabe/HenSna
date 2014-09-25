@@ -1,21 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &100000
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400000}
-  - 132: {fileID: 13200000}
-  m_Layer: 0
-  m_Name: Score
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
@@ -27,10 +11,10 @@ GameObject:
   - 114: {fileID: 11400006}
   - 114: {fileID: 11400002}
   - 114: {fileID: 11400000}
-  - 114: {fileID: 11400010}
   - 114: {fileID: 11400004}
   - 114: {fileID: 11400012}
   - 82: {fileID: 8200000}
+  - 114: {fileID: 11400010}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -55,18 +39,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &400000
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .100000001, y: .899999976, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400002}
-  m_RootOrder: 0
 --- !u!4 &400002
 Transform:
   m_ObjectHideFlags: 1
@@ -77,7 +49,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400000}
   - {fileID: 400004}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -92,7 +63,7 @@ Transform:
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 400002}
-  m_RootOrder: 1
+  m_RootOrder: 0
 --- !u!82 &8200000
 AudioSource:
   m_ObjectHideFlags: 1
@@ -165,6 +136,7 @@ MonoBehaviour:
   upAndDown: 0
   MoveTexture: {fileID: 2800000, guid: d8d7604477d6140ee95baf3bd6255644, type: 3}
   RotTexture: {fileID: 2800000, guid: 5af85a59f1d074e29bc11206b09e5c79, type: 3}
+  stat: 0
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -202,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  ScoreText: {fileID: 13200000}
+  charNum: 0
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -223,24 +195,23 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b5a79c84aba445c3a514c95823c928c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WayPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   CharacterPrefabs:
   - {fileID: 100088, guid: 040a121c62fe14fdb8ed4ae5548928ca, type: 2}
+  - {fileID: 100090, guid: f29ab701648304cab87095f08e977661, type: 2}
   - {fileID: 100088, guid: 6c574e093a12947309bb2e5bfdae29cf, type: 2}
   - {fileID: 100090, guid: f115fd3f8a6254243ab620a6c3677395, type: 2}
-  - {fileID: 100090, guid: f29ab701648304cab87095f08e977661, type: 2}
+  - {fileID: 100088, guid: 5248bb772d3c34bed89959586397d3c9, type: 2}
+  - {fileID: 100088, guid: b18dae9cbf4a94e1688c5610e7bdb307, type: 2}
+  - {fileID: 100088, guid: bf0e07e2f00b74737b54a82f178eb6ca, type: 2}
+  - {fileID: 100088, guid: 7877f7e5e93824125a719f38887f1abb, type: 2}
+  - {fileID: 100088, guid: 2f99c1edb8c9d4795a2ac506a119dc45, type: 2}
+  - {fileID: 100088, guid: 9d326f3dca6d34c7393b974af551800d, type: 2}
+  SpawnNum: 10
 --- !u!114 &11400012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -252,6 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8a32243ece3d454ba6b29bab3d97509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isend: 0
 --- !u!131 &13100000
 GUITexture:
   m_ObjectHideFlags: 1
@@ -271,29 +243,6 @@ GUITexture:
   m_RightBorder: 0
   m_TopBorder: 0
   m_BottomBorder: 0
---- !u!132 &13200000
-GUIText:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Text: Gui Text
-  m_Anchor: 4
-  m_Alignment: 1
-  m_PixelOffset: {x: 0, y: 0}
-  m_LineSpacing: 1
-  m_TabSize: 4
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-  m_Material: {fileID: 0}
-  m_FontSize: 0
-  m_FontStyle: 0
-  m_Color:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_PixelCorrect: 1
-  m_RichText: 1
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
