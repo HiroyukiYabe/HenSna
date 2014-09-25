@@ -712,7 +712,7 @@ GameObject:
   - 114: {fileID: 11400004}
   m_Layer: 8
   m_Name: NormalGlassWoman
-  m_TagString: Character
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1504,7 +1504,6 @@ Animator:
   m_UpdateMode: 1
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1538,7 +1537,7 @@ MonoBehaviour:
   id: 9
   name: NormalGlassWoman
   baseScore: -500
-  spawnParcentage: 600
+  spawnParcentage: 300
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -26,7 +26,7 @@ public class Spawner : MonoBehaviour {
 		RandomSpawn (SpawnNum);
 
 		score = GetComponent<Score> ();
-		score.charNum = GameObject.FindGameObjectsWithTag ("Character").Length;
+		score.charNum = GameObject.FindGameObjectsWithTag ("Character").Length + GameObject.FindGameObjectsWithTag ("NPC").Length;
 	}
 	
 	// Update is called once per frame
@@ -42,7 +42,13 @@ public class Spawner : MonoBehaviour {
 			int rand = GetRandom(CharacterPrefabs);
 			string s = "pos:" + WayPoints[i].name + ",  char:" + CharacterPrefabs [rand].name;
 			Debug.Log (s);
-			Instantiate (CharacterPrefabs [rand], WayPoints [i].transform.position + new Vector3 (0, 0, 0), Quaternion.Euler (new Vector3 (0, Random.Range (0f, 360f), 0)));
+			if(CharacterPrefabs [rand].name!="Wizard")
+				Instantiate (CharacterPrefabs [rand], WayPoints [i].transform.position + new Vector3 (0, 0, 0), Quaternion.Euler (new Vector3 (0, Random.Range (0f, 360f), 0)));
+			else{ 
+				Vector2 newPosition = Random.insideUnitCircle * 50;
+				Instantiate (CharacterPrefabs [rand], new Vector3(newPosition.x,0,newPosition.y)+new Vector3(100,40,100), Quaternion.Euler (new Vector3 (0, Random.Range (0f, 360f), 0)));
+			}
+				
 		}
 	}
 
