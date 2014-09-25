@@ -65,6 +65,10 @@ public class TakePicture : MonoBehaviour {
 	void TakePhoto(){
 		GameObject ngui = GameObject.FindWithTag ("NGUI");
 		ngui.SetActive (false);
+		GUITexture prev = GameObject.FindWithTag ("Screenshot").GetComponent<GUITexture> ();;
+		Color c = prev.color;
+		c.a = 0f;
+		prev.color = c;
 
 		Debug.Log ("method calling");
 		StartCoroutine(Prefs.CaptureScreenshot());
