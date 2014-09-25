@@ -39,9 +39,15 @@ public class PlayerMove : MonoBehaviour {
 		Vector3 _move = (nowRight * move.x + nowForward * move.y) * MoveSpeed * Time.deltaTime + Physics.gravity * Time.deltaTime;
 		charCon.Move(_move);
 
+			float mrx=move.x;
+			float mry=move.y;
+			float mr = 0;
+			if (mry > 0)
+				mr = mrx;
+
 		//スワイプ量を元に回転
 		float _rotX = transform.eulerAngles.x - rot.y * RotSpeed *Time.deltaTime;
-		float _rotY = transform.eulerAngles.y + rot.x * RotSpeed *Time.deltaTime;
+			float _rotY = transform.eulerAngles.y + (rot.x+mr) * RotSpeed *Time.deltaTime;
 		//x方向の回転を制限  回転可能角度外
 		if(_rotX > LimitRotX && _rotX < 360f - LimitRotX){
 			//下と上のどちらから可能角度を超えたか それに応じて制限
