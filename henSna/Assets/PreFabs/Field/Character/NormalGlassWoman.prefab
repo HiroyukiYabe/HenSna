@@ -712,7 +712,7 @@ GameObject:
   - 114: {fileID: 11400004}
   m_Layer: 8
   m_Name: NormalGlassWoman
-  m_TagString: Player
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1504,6 +1504,7 @@ Animator:
   m_UpdateMode: 1
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
